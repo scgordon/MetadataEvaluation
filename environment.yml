@@ -1,4 +1,12 @@
+name: widgets
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - appmode
+  - python=3.6
+  - pandas
+  
+  - pip
+  - nb_conda_kernels
+  - pip:
+    - appmode
