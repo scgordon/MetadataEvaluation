@@ -5,8 +5,8 @@ channels:
 dependencies:
   - python=3.6
   - pandas
-  
+  - appmode
   - pip
   - nb_conda_kernels
-  - pip:
-    - appmode
+  
+    
