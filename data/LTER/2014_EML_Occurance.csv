@@ -1,0 +1,75 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurancePerRecord,CollectionOccurance%
+Number of Records,2014_EML,250,250,1.00,100.00%
+Abstract,2014_EML,249,249,1.00,99.60%
+Attribute Constraints,2014_EML,112,7,0.45,2.80%
+Attribute Definition,2014_EML,6009,149,24.04,59.60%
+Attribute List,2014_EML,233,149,0.93,59.60%
+Author,2014_EML,473,250,1.89,100.00%
+Author / Originator,2014_EML,473,250,1.89,100.00%
+Author / Originator Email Address,2014_EML,146,84,0.58,33.60%
+Author / Originator Identifier,2014_EML,184,83,0.74,33.20%
+Author / Originator World Wide Web Address,2014_EML,302,174,1.21,69.60%
+Bounding Box,2014_EML,382,238,1.53,95.20%
+Contributor Name,2014_EML,321,116,1.28,46.40%
+Contributor Role,2014_EML,182,116,0.73,46.40%
+Distribution Format,2014_EML,150,149,0.60,59.60%
+Easternmost Longitude,2014_EML,382,238,1.53,95.20%
+End Time,2014_EML,237,237,0.95,94.80%
+Entity Type Definition,2014_EML,281,147,1.12,58.80%
+Entity and Attribute Information,2014_EML,281,147,1.12,58.80%
+Instrument,2014_EML,142,44,0.57,17.60%
+Keyword,2014_EML,2693,246,10.77,98.40%
+Keyword Type,2014_EML,238,115,0.95,46.00%
+Keyword Vocabulary,2014_EML,279,168,1.12,67.20%
+Maintenance,2014_EML,222,222,0.89,88.80%
+Metadata Access Constraints,2014_EML,250,250,1.00,100.00%
+Metadata Contact,2014_EML,227,227,0.91,90.80%
+Metadata Modified Date,2014_EML,53,26,0.21,10.40%
+Metadata Use Constraints,2014_EML,250,250,1.00,100.00%
+Northernmost Latitude,2014_EML,380,238,1.52,95.20%
+Organization Name,2014_EML,863,250,3.45,100.00%
+Originating Organization,2014_EML,189,165,0.76,66.00%
+Parent Identifier,2014_EML,16,16,0.06,6.40%
+Place Keyword,2014_EML,464,100,1.86,40.00%
+Process Step,2014_EML,198,198,0.79,79.20%
+Project Description,2014_EML,180,180,0.72,72.00%
+Project Name,2014_EML,302,174,1.21,69.60%
+Publication Date,2014_EML,246,246,0.98,98.40%
+Publisher,2014_EML,245,245,0.98,98.00%
+Publisher E-Mail,2014_EML,149,149,0.60,59.60%
+Publisher URL,2014_EML,149,149,0.60,59.60%
+Purpose,2014_EML,63,63,0.25,25.20%
+Related Resource Citation,2014_EML,180,180,0.72,72.00%
+Related Resource Identifier,2014_EML,16,16,0.06,6.40%
+Resource Access Constraints,2014_EML,250,250,1.00,100.00%
+Resource Contact,2014_EML,299,250,1.20,100.00%
+Resource Creation/Revision Date,2014_EML,299,246,1.20,98.40%
+Resource Distribution,2014_EML,225,225,0.90,90.00%
+Resource Format,2014_EML,150,149,0.60,59.60%
+Resource Identifier,2014_EML,250,250,1.00,100.00%
+Resource Identifier Type,2014_EML,250,250,1.00,100.00%
+Resource Language,2014_EML,37,37,0.15,14.80%
+Resource Lineage,2014_EML,198,198,0.79,79.20%
+Resource Long Name,2014_EML,250,250,1.00,100.00%
+Resource Quality Description,2014_EML,34,34,0.14,13.60%
+Resource Revision Date,2014_EML,53,26,0.21,10.40%
+Resource Status,2014_EML,250,250,1.00,100.00%
+Resource Title,2014_EML,250,250,1.00,100.00%
+Resource Update Frequency,2014_EML,85,85,0.34,34.00%
+Resource Use Constraints,2014_EML,248,248,0.99,99.20%
+Resource on-line Link,2014_EML,222,222,0.89,88.80%
+Responsible Party Identifier,2014_EML,8,6,0.03,2.40%
+Rights,2014_EML,248,248,0.99,99.20%
+Security Constraints,2014_EML,250,250,1.00,100.00%
+Southernmost Latitude,2014_EML,382,238,1.53,95.20%
+Spatial Extent,2014_EML,383,238,1.53,95.20%
+Start Time,2014_EML,237,237,0.95,94.80%
+Supplemental Information,2014_EML,71,71,0.28,28.40%
+Taxonomic Extent,2014_EML,37,37,0.15,14.80%
+Temporal Extent,2014_EML,255,245,1.02,98.00%
+Temporal Keyword,2014_EML,4,4,0.02,1.60%
+Unknown,2014_EML,69072,250,276.29,100.00%
+Vertical Maximum,2014_EML,31,15,0.12,6.00%
+Vertical Minimum,2014_EML,31,15,0.12,6.00%
+Vertical Resolution,2014_EML,15,15,0.06,6.00%
+Westernmost Longitude,2014_EML,377,238,1.51,95.20%
