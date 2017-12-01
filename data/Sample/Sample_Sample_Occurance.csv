@@ -1,104 +1,104 @@
 Concept,Collection,ConceptCount,RecordCount,AverageOccurancePerRecord,CollectionOccurance%
-Number of Records,Sample_Sample,117,117,1.00,100.00%
-Abstract,Sample_Sample,117,117,1.00,100.00%
-Acknowledgement,Sample_Sample,191,115,1.63,98.29%
-Address,Sample_Sample,592,117,5.06,100.00%
-AssociatedDIFs,Sample_Sample,261,117,2.23,100.00%
-Association,Sample_Sample,261,117,2.23,100.00%
-Attribute Definition,Sample_Sample,4132,117,35.32,100.00%
-Attribute Label,Sample_Sample,4385,117,37.48,100.00%
-Author / Originator,Sample_Sample,125,117,1.07,100.00%
-Bounding Box,Sample_Sample,88,88,0.75,75.21%
-Cited Resource Identifier,Sample_Sample,2,2,0.02,1.71%
-Cited Resource Title,Sample_Sample,1700,117,14.53,100.00%
-City,Sample_Sample,591,117,5.05,100.00%
-Contact Instructions,Sample_Sample,468,117,4.00,100.00%
-Country,Sample_Sample,579,117,4.95,100.00%
-Data Quality Scope,Sample_Sample,117,117,1.00,100.00%
-DataType,Sample_Sample,1954,117,16.70,100.00%
-DimensionsName,Sample_Sample,4385,117,37.48,100.00%
-Distribution Contact,Sample_Sample,117,117,1.00,100.00%
-Easternmost Longitude,Sample_Sample,88,88,0.75,75.21%
-Email,Sample_Sample,589,117,5.03,100.00%
-End Time,Sample_Sample,9,9,0.08,7.69%
-Enumerated Domain Value Definition Source,Sample_Sample,571,117,4.88,100.00%
-Fax,Sample_Sample,468,117,4.00,100.00%
-Feature Catalogue Citation,Sample_Sample,234,117,2.00,100.00%
-First Name,Sample_Sample,408,117,3.49,100.00%
-Geographic Description,Sample_Sample,117,117,1.00,100.00%
-Hours of Service,Sample_Sample,468,117,4.00,100.00%
-Instrument,Sample_Sample,268,103,2.29,88.03%
-Instrument Keyword,Sample_Sample,268,103,2.29,88.03%
-Instrument Keyword Vocabulary,Sample_Sample,103,103,0.88,88.03%
-Instrument Short Name,Sample_Sample,242,103,2.07,88.03%
-Instrument Type,Sample_Sample,242,103,2.07,88.03%
-Keyword,Sample_Sample,4230,117,36.15,100.00%
-Keyword Type,Sample_Sample,571,117,4.88,100.00%
-Keyword Vocabulary,Sample_Sample,571,117,4.88,100.00%
-Keyword Vocabulary Citation,Sample_Sample,571,117,4.88,100.00%
-Last Name,Sample_Sample,408,117,3.49,100.00%
-Metadata Access Constraints,Sample_Sample,117,117,1.00,100.00%
-Metadata Association,Sample_Sample,261,117,2.23,100.00%
-Metadata Contact,Sample_Sample,117,117,1.00,100.00%
-Metadata Dates,Sample_Sample,117,117,1.00,100.00%
-Metadata Identifier,Sample_Sample,117,117,1.00,100.00%
-Metadata Language,Sample_Sample,117,117,1.00,100.00%
-Metadata Modified Date,Sample_Sample,117,117,1.00,100.00%
-Metadata Standard Citation,Sample_Sample,117,117,1.00,100.00%
-Metadata Standard Version,Sample_Sample,117,117,1.00,100.00%
-Middle Name,Sample_Sample,408,117,3.49,100.00%
-Name,Sample_Sample,4385,117,37.48,100.00%
-Naming Authority,Sample_Sample,2,2,0.02,1.71%
-Northernmost Latitude,Sample_Sample,88,88,0.75,75.21%
-Online Resource,Sample_Sample,536,117,4.58,100.00%
-Online Resource Description,Sample_Sample,419,117,3.58,100.00%
-Online Resource Name/Title,Sample_Sample,261,117,2.23,100.00%
-Organization Name,Sample_Sample,876,117,7.49,100.00%
-Other Citation Details,Sample_Sample,234,117,2.00,100.00%
-Paleo Temporal Coverage,Sample_Sample,9,9,0.08,7.69%
-Party,Sample_Sample,2296,117,19.62,100.00%
-Phone,Sample_Sample,586,117,5.01,100.00%
-Place Keyword,Sample_Sample,117,117,1.00,100.00%
-Place Keyword Vocabulary,Sample_Sample,117,117,1.00,100.00%
-Platform Short Name,Sample_Sample,118,117,1.01,100.00%
-Position Name,Sample_Sample,117,117,1.00,100.00%
-Postal_Code,Sample_Sample,587,117,5.02,100.00%
-Process Step,Sample_Sample,225,117,1.92,100.00%
-Process Step Description,Sample_Sample,225,117,1.92,100.00%
-Product Link,Sample_Sample,116,116,0.99,99.15%
-Project Name,Sample_Sample,144,117,1.23,100.00%
-Province or State,Sample_Sample,588,117,5.03,100.00%
-Publication Date,Sample_Sample,119,117,1.02,100.00%
-Publication Information,Sample_Sample,117,117,1.00,100.00%
-Range Domain Units,Sample_Sample,1092,117,9.33,100.00%
-Related Resource Citation,Sample_Sample,261,117,2.23,100.00%
-Related Resource Identifier,Sample_Sample,667,117,5.70,100.00%
-Reprocessing Plan Note,Sample_Sample,117,117,1.00,100.00%
-Resource Access Constraints,Sample_Sample,234,117,2.00,100.00%
-Resource Contact,Sample_Sample,125,117,1.07,100.00%
-Resource Creation/Revision Date,Sample_Sample,117,117,1.00,100.00%
-Resource Identifier,Sample_Sample,2,2,0.02,1.71%
-Resource Language,Sample_Sample,117,117,1.00,100.00%
-Resource Lineage,Sample_Sample,117,117,1.00,100.00%
-Resource Long Name,Sample_Sample,117,117,1.00,100.00%
-Resource Status,Sample_Sample,117,117,1.00,100.00%
-Resource Title,Sample_Sample,117,117,1.00,100.00%
-Resource Type,Sample_Sample,117,117,1.00,100.00%
-Resource Update Frequency,Sample_Sample,117,117,1.00,100.00%
-Resource Use Constraints,Sample_Sample,117,117,1.00,100.00%
-Responsibility,Sample_Sample,1962,117,16.77,100.00%
-Rights,Sample_Sample,117,117,1.00,100.00%
-Role,Sample_Sample,819,117,7.00,100.00%
-Southernmost Latitude,Sample_Sample,88,88,0.75,75.21%
-Spatial Extent,Sample_Sample,88,88,0.75,75.21%
-Standard Name Vocabulary,Sample_Sample,571,117,4.88,100.00%
-Start Time,Sample_Sample,9,9,0.08,7.69%
-Temporal Extent,Sample_Sample,117,117,1.00,100.00%
-Theme Keyword,Sample_Sample,3106,117,26.55,100.00%
-Topic Category,Sample_Sample,118,117,1.01,100.00%
-URL,Sample_Sample,116,116,0.99,99.15%
-Units,Sample_Sample,4385,117,37.48,100.00%
-Unknown,Sample_Sample,73002,117,623.95,100.00%
-VariableType,Sample_Sample,117,117,1.00,100.00%
-Web Page,Sample_Sample,887,117,7.58,100.00%
-Westernmost Longitude,Sample_Sample,88,88,0.75,75.21%
+Number of Records,Sample_Sample,101,101,1.00,100.00%
+Abstract,Sample_Sample,101,101,1.00,100.00%
+Address,Sample_Sample,201,101,1.99,100.00%
+Bounding Box,Sample_Sample,103,101,1.02,100.00%
+Browse Description,Sample_Sample,15,15,0.15,14.85%
+Browse File Name,Sample_Sample,15,15,0.15,14.85%
+Browse Format,Sample_Sample,15,15,0.15,14.85%
+Browse URL,Sample_Sample,15,15,0.15,14.85%
+Cited Resource Identifier,Sample_Sample,101,101,1.00,100.00%
+Cited Resource Title,Sample_Sample,1054,101,10.44,100.00%
+City,Sample_Sample,201,101,1.99,100.00%
+Contact Instructions,Sample_Sample,201,101,1.99,100.00%
+Coordinate Reference System (CRS),Sample_Sample,101,101,1.00,100.00%
+Country,Sample_Sample,201,101,1.99,100.00%
+Data Dates,Sample_Sample,163,101,1.61,100.00%
+Data Quality Scope,Sample_Sample,101,101,1.00,100.00%
+Distribution Contact,Sample_Sample,129,101,1.28,100.00%
+Distribution Format,Sample_Sample,101,101,1.00,100.00%
+Easternmost Longitude,Sample_Sample,103,101,1.02,100.00%
+Email,Sample_Sample,229,101,2.27,100.00%
+End Time,Sample_Sample,101,101,1.00,100.00%
+Enumerated Domain Value Definition Source,Sample_Sample,505,101,5.00,100.00%
+First Name,Sample_Sample,128,100,1.27,99.01%
+Format of the Online Resource,Sample_Sample,202,101,2.00,100.00%
+Geographic Description,Sample_Sample,101,101,1.00,100.00%
+Hours of Service,Sample_Sample,100,100,0.99,99.01%
+Instrument,Sample_Sample,224,101,2.22,100.00%
+Instrument Keyword,Sample_Sample,224,101,2.22,100.00%
+Instrument Keyword Vocabulary,Sample_Sample,101,101,1.00,100.00%
+Instrument Short Name,Sample_Sample,224,101,2.22,100.00%
+Instrument Type,Sample_Sample,101,101,1.00,100.00%
+Keyword,Sample_Sample,788,101,7.80,100.00%
+Keyword Type,Sample_Sample,505,101,5.00,100.00%
+Keyword Vocabulary,Sample_Sample,606,101,6.00,100.00%
+Keyword Vocabulary Citation,Sample_Sample,505,101,5.00,100.00%
+Last Name,Sample_Sample,128,100,1.27,99.01%
+Metadata Contact,Sample_Sample,101,101,1.00,100.00%
+Metadata Dates,Sample_Sample,101,101,1.00,100.00%
+Metadata Identifier,Sample_Sample,101,101,1.00,100.00%
+Metadata Language,Sample_Sample,101,101,1.00,100.00%
+Metadata Modified Date,Sample_Sample,101,101,1.00,100.00%
+Metadata Standard Citation,Sample_Sample,101,101,1.00,100.00%
+Metadata Standard Version,Sample_Sample,101,101,1.00,100.00%
+Middle Name,Sample_Sample,128,100,1.27,99.01%
+Northernmost Latitude,Sample_Sample,101,101,1.00,100.00%
+Online Resource,Sample_Sample,404,101,4.00,100.00%
+Online Resource Description,Sample_Sample,979,101,9.69,100.00%
+Online Resource Name/Title,Sample_Sample,816,101,8.08,100.00%
+Organization Name,Sample_Sample,827,101,8.19,100.00%
+Other Citation Details,Sample_Sample,101,101,1.00,100.00%
+Paleo Temporal Coverage,Sample_Sample,101,101,1.00,100.00%
+Party,Sample_Sample,1487,101,14.72,100.00%
+Phone,Sample_Sample,126,100,1.25,99.01%
+Place Keyword,Sample_Sample,102,101,1.01,100.00%
+Place Keyword Vocabulary,Sample_Sample,101,101,1.00,100.00%
+Platform,Sample_Sample,245,101,2.43,100.00%
+Platform Description,Sample_Sample,133,101,1.32,100.00%
+Platform Keyword,Sample_Sample,245,101,2.43,100.00%
+Platform Keyword Vocabulary,Sample_Sample,101,101,1.00,100.00%
+Platform Long Name,Sample_Sample,245,101,2.43,100.00%
+Platform Short Name,Sample_Sample,245,101,2.43,100.00%
+Platform Type,Sample_Sample,133,101,1.32,100.00%
+Position Name,Sample_Sample,221,101,2.19,100.00%
+Postal_Code,Sample_Sample,201,101,1.99,100.00%
+Process Step Description,Sample_Sample,101,101,1.00,100.00%
+Processing Level,Sample_Sample,101,101,1.00,100.00%
+Processor,Sample_Sample,101,101,1.00,100.00%
+Province or State,Sample_Sample,201,101,1.99,100.00%
+Publication Date,Sample_Sample,101,101,1.00,100.00%
+Publication Information,Sample_Sample,101,101,1.00,100.00%
+Purpose,Sample_Sample,101,101,1.00,100.00%
+Related Resource Identifier,Sample_Sample,570,101,5.64,100.00%
+Related URL,Sample_Sample,549,98,5.44,97.03%
+Resource Citation,Sample_Sample,101,101,1.00,100.00%
+Resource Contact,Sample_Sample,101,101,1.00,100.00%
+Resource Cost or Fees,Sample_Sample,101,101,1.00,100.00%
+Resource Creation Date,Sample_Sample,101,101,1.00,100.00%
+Resource Creation/Revision Date,Sample_Sample,163,101,1.61,100.00%
+Resource Format,Sample_Sample,101,101,1.00,100.00%
+Resource Identifier,Sample_Sample,101,101,1.00,100.00%
+Resource Language,Sample_Sample,101,101,1.00,100.00%
+Resource Lineage,Sample_Sample,101,101,1.00,100.00%
+Resource Long Name,Sample_Sample,101,101,1.00,100.00%
+Resource Revision Date,Sample_Sample,101,101,1.00,100.00%
+Resource Title,Sample_Sample,101,101,1.00,100.00%
+Resource Type,Sample_Sample,101,101,1.00,100.00%
+Resource Version,Sample_Sample,101,101,1.00,100.00%
+Responsibility,Sample_Sample,1341,101,13.28,100.00%
+Role,Sample_Sample,505,101,5.00,100.00%
+Sensor Short Name,Sample_Sample,224,101,2.22,100.00%
+Southernmost Latitude,Sample_Sample,101,101,1.00,100.00%
+Spatial Extent,Sample_Sample,103,101,1.02,100.00%
+Spatial Representation,Sample_Sample,101,101,1.00,100.00%
+Standard Name Vocabulary,Sample_Sample,505,101,5.00,100.00%
+Start Time,Sample_Sample,101,101,1.00,100.00%
+Supplemental Information,Sample_Sample,101,101,1.00,100.00%
+Temporal Extent,Sample_Sample,101,101,1.00,100.00%
+Theme Keyword,Sample_Sample,116,101,1.15,100.00%
+URL,Sample_Sample,344,101,3.41,100.00%
+Unknown,Sample_Sample,18947,101,187.59,100.00%
+VariableType,Sample_Sample,101,101,1.00,100.00%
+Web Page,Sample_Sample,404,101,4.00,100.00%
+Westernmost Longitude,Sample_Sample,103,101,1.02,100.00%
