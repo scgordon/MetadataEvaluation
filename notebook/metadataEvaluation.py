@@ -1,6 +1,27 @@
 import pandas as pd
 import csv
+#Using concept occurrence data products, combine them and produce a collection occurrence% table with collections for columns and concepts for rows
+def CombineConceptOccurrence(CollectionComparisons):
+    CombinedDF = pd.concat((pd.read_csv(f) for f in CollectionComparisons)) 
+    CombinedDF.to_csv(DataDestination, mode = 'w', index=False)
+    CombinedPivotDF = CombinedDF.pivot(index='Concept', columns='Collection', values='CollectionOccurrence%')
+    pd.options.display.float_format = '{:,.0f}'.format
+    ConceptCountsDF=CombinedPivotDF.fillna(0)
+    ConceptCountsDF.columns.names = ['']
+    ConceptCountsDF=ConceptCountsDF.reset_index()
 
+    ConceptCountsDF.to_csv(DataDestination, mode = 'w', index=False)
+    return ConceptCountsDF
+#Using concept occurrence data products, combine them and produce a record count table with collections for columns and concepts for rows
+def recordConceptCounts(CollectionComparisons):
+    CombinedDF = pd.concat((pd.read_csv(f) for f in CollectionComparisons))
+    RecordCountCombinedPivotDF = CombinedDF.pivot(index='Concept', columns='Collection', values='RecordCount')
+    pd.options.display.float_format = '{:,.0f}'.format
+    RecordCountCombinedPivotDF=RecordCountCombinedPivotDF.fillna(0)
+    RecordCountCombinedPivotDF.columns.names = ['']
+    RecordCountCombinedPivotDF=RecordCountCombinedPivotDF.reset_index()
+    return RecordCountCombinedPivotDF
+#creates all data products. Likely useful to break up into different functions in the module
 def dataProducts(EvaluatedMetadataDF):
     #variables needed to save data products
     FileName=Collection+'_'+Dialect

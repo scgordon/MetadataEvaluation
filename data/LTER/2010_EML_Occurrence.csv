@@ -1,0 +1,70 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2010_EML,100,100,1.00,100.00%
+Abstract,2010_EML,98,98,0.98,98.00%
+Attribute Definition,2010_EML,930,54,9.30,54.00%
+Attribute List,2010_EML,60,54,0.60,54.00%
+Author,2010_EML,164,100,1.64,100.00%
+Author / Originator,2010_EML,164,100,1.64,100.00%
+Author / Originator Email Address,2010_EML,59,46,0.59,46.00%
+Author / Originator Identifier,2010_EML,99,55,0.99,55.00%
+Author / Originator World Wide Web Address,2010_EML,75,53,0.75,53.00%
+Bounding Box,2010_EML,260,97,2.60,97.00%
+Contributor Name,2010_EML,88,36,0.88,36.00%
+Contributor Role,2010_EML,49,36,0.49,36.00%
+Distribution Format,2010_EML,52,52,0.52,52.00%
+Easternmost Longitude,2010_EML,259,97,2.59,97.00%
+End Time,2010_EML,86,86,0.86,86.00%
+Entity Type Definition,2010_EML,44,38,0.44,38.00%
+Entity and Attribute Information,2010_EML,44,38,0.44,38.00%
+Instrument,2010_EML,43,6,0.43,6.00%
+Keyword,2010_EML,758,97,7.58,97.00%
+Keyword Type,2010_EML,80,61,0.80,61.00%
+Keyword Vocabulary,2010_EML,38,18,0.38,18.00%
+Maintenance,2010_EML,36,36,0.36,36.00%
+Metadata Access Constraints,2010_EML,77,77,0.77,77.00%
+Metadata Contact,2010_EML,49,49,0.49,49.00%
+Metadata Use Constraints,2010_EML,77,77,0.77,77.00%
+Northernmost Latitude,2010_EML,260,97,2.60,97.00%
+Organization Name,2010_EML,232,100,2.32,100.00%
+Originating Organization,2010_EML,68,66,0.68,66.00%
+Parent Identifier,2010_EML,4,4,0.04,4.00%
+Place Keyword,2010_EML,50,20,0.50,20.00%
+Process Step,2010_EML,53,53,0.53,53.00%
+Project Description,2010_EML,30,30,0.30,30.00%
+Project Name,2010_EML,75,53,0.75,53.00%
+Publication Date,2010_EML,97,97,0.97,97.00%
+Publisher,2010_EML,55,55,0.55,55.00%
+Publisher E-Mail,2010_EML,24,24,0.24,24.00%
+Publisher URL,2010_EML,24,24,0.24,24.00%
+Related Resource Citation,2010_EML,30,30,0.30,30.00%
+Related Resource Identifier,2010_EML,4,4,0.04,4.00%
+Resource Access Constraints,2010_EML,77,77,0.77,77.00%
+Resource Contact,2010_EML,103,100,1.03,100.00%
+Resource Creation/Revision Date,2010_EML,97,97,0.97,97.00%
+Resource Distribution,2010_EML,82,82,0.82,82.00%
+Resource Format,2010_EML,52,52,0.52,52.00%
+Resource Identifier,2010_EML,100,100,1.00,100.00%
+Resource Identifier Type,2010_EML,100,100,1.00,100.00%
+Resource Language,2010_EML,3,3,0.03,3.00%
+Resource Lineage,2010_EML,53,53,0.53,53.00%
+Resource Long Name,2010_EML,100,100,1.00,100.00%
+Resource Quality Description,2010_EML,4,4,0.04,4.00%
+Resource Status,2010_EML,77,77,0.77,77.00%
+Resource Title,2010_EML,100,100,1.00,100.00%
+Resource Use Constraints,2010_EML,75,75,0.75,75.00%
+Resource on-line Link,2010_EML,82,82,0.82,82.00%
+Responsible Party Identifier,2010_EML,8,4,0.08,4.00%
+Rights,2010_EML,75,75,0.75,75.00%
+Security Constraints,2010_EML,77,77,0.77,77.00%
+Southernmost Latitude,2010_EML,259,97,2.59,97.00%
+Spatial Extent,2010_EML,263,97,2.63,97.00%
+Start Time,2010_EML,86,86,0.86,86.00%
+Supplemental Information,2010_EML,1,1,0.01,1.00%
+Taxonomic Extent,2010_EML,5,5,0.05,5.00%
+Temporal Extent,2010_EML,86,86,0.86,86.00%
+Temporal Keyword,2010_EML,1,1,0.01,1.00%
+Unknown,2010_EML,15106,100,151.06,100.00%
+Vertical Maximum,2010_EML,12,12,0.12,12.00%
+Vertical Minimum,2010_EML,12,12,0.12,12.00%
+Vertical Resolution,2010_EML,12,12,0.12,12.00%
+Westernmost Longitude,2010_EML,259,97,2.59,97.00%
