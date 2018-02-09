@@ -12,7 +12,6 @@
 #Then the module can be rebuilt and the recommendations analysis functions can be run
 import pandas as pd
 import csv
-import pandas as pd
 import os
 from os import walk
 import shutil
@@ -91,6 +90,14 @@ def ConceptCounts(EvaluatedMetadataDF, Organization, Collection, Dialect):
     pd.options.display.float_format = '{:,.0f}'.format
     occurrenceMatrix.to_csv(RAD, mode = 'w', index=False)
     return(occurrenceMatrix)
+def XpathCounts(EvaluatedMetadataDF, Organization, Collection, Dialect):
+    Xpath='../data/'+Organization+'/'+Collection+'_'+Dialect+'XpathCounts.csv'
+    group_name = EvaluatedMetadataDF.groupby(['Collection','Record', 'XPath'], as_index=False)
+    Xpathdf=group_name.size().unstack().reset_index()
+    Xpathdf=Xpathdf.fillna(0)
+    pd.options.display.float_format = '{:,.0f}'.format
+    Xpathdf.to_csv(Xpath, mode = 'w', index=False)
+    return(Xpathdf)    
     #create a QuickE data product
 def QuickEDataProduct(EvaluatedMetadataDF, Organization, Collection, Dialect):
     QuickE='../data/'+Organization+'/'+Collection+'_'+Dialect+'_QuickE.csv'
@@ -340,3 +347,10 @@ def CombineXPathCounts(CollectionComparisons, DataDestination):
     RecordCountCombinedPivotDF=RecordCountCombinedPivotDF.reset_index()
     RecordCountCombinedPivotDF.to_csv(DataDestination, mode = 'w', index=False)
     return RecordCountCombinedPivotDF
+ #Using xpath occurrence data products, combine them and produce a collection occurrence% table with collections for columns and concepts for rows
+def CombineEvaluatedMetadata(CollectionComparisons, DataDestination):
+    CombinedDF = pd.concat((pd.read_csv(f) for f in CollectionComparisons)) 
+    CombinedDF.to_csv(DataDestination, mode = 'w', index=False)
+
+    CombinedDF.to_csv(DataDestination, mode = 'w', index=False)
+    return CombinedDF   
