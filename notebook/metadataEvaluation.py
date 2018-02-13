@@ -83,11 +83,14 @@ def simpleXPathDataProduct(EvaluatedMetadataDF, Organization, Collection, Dialec
     #Create a Recommendations Analysis data product
 def ConceptCounts(EvaluatedMetadataDF, Organization, Collection, Dialect):
     RAD='../data/'+Organization+'/'+Collection+'_'+Dialect+'_RAD.csv'
+    dialectOccurrenceDF = pd.read_csv('../table/dialectContains.csv')
+    dialectOccurrenceDF=dialectOccurrenceDF['MetadataDialect']=='Dialect'
     group_name = EvaluatedMetadataDF.groupby(['Collection','Record', 'Concept'], as_index=False)
     occurrenceMatrix=group_name.size().unstack().reset_index()
     occurrenceMatrix=occurrenceMatrix.fillna(0)
     occurrenceMatrix.columns.names = ['']
     pd.options.display.float_format = '{:,.0f}'.format
+    pd.concat([occurrenceMatrix,dialectOccurrenceDF], axis=0, ignore_index=True)
     occurrenceMatrix.to_csv(RAD, mode = 'w', index=False)
     return(occurrenceMatrix)
 def XpathCounts(EvaluatedMetadataDF, Organization, Collection, Dialect):
@@ -327,6 +330,7 @@ def CombineConceptCounts(CollectionComparisons, DataDestination):
 
 #Using xpath occurrence data products, combine them and produce a collection occurrence% table with collections for columns and concepts for rows
 def CombineXPathOccurrence(CollectionComparisons, DataDestination):
+    os.makedirs('../data/Combined', exist_ok=True)
     CombinedDF = pd.concat((pd.read_csv(f) for f in CollectionComparisons)) 
     CombinedDF.to_csv(DataDestination, mode = 'w', index=False)
     CombinedPivotDF = CombinedDF.pivot(index='XPath', columns='Collection', values='CollectionOccurrence%')
@@ -339,18 +343,31 @@ def CombineXPathOccurrence(CollectionComparisons, DataDestination):
     return ConceptCountsDF
 #Using xpath occurrence data products, combine them and produce a record count table with collections for columns and concepts for rows
 def CombineXPathCounts(CollectionComparisons, DataDestination):
-    CombinedDF = pd.concat((pd.read_csv(f) for f in CollectionComparisons))
-    RecordCountCombinedPivotDF = CombinedDF.pivot(index='XPath', columns='Collection', values='RecordCount')
-    pd.options.display.float_format = '{:,.0f}'.format
-    RecordCountCombinedPivotDF=RecordCountCombinedPivotDF.fillna(0)
-    RecordCountCombinedPivotDF.columns.names = ['']
-    RecordCountCombinedPivotDF=RecordCountCombinedPivotDF.reset_index()
-    RecordCountCombinedPivotDF.to_csv(DataDestination, mode = 'w', index=False)
-    return RecordCountCombinedPivotDF
+    os.makedirs('../data/Combined', exist_ok=True)
+    XPathCountCombinedDF = pd.concat((pd.read_csv(f) for f in CollectionComparisons), axis=0, ignore_index=True)
+    XPathCountCombinedDF=XPathCountCombinedDF.fillna(0)
+    XPathCountCombinedDF.columns.names = ['']
+
+    # get a list of columns
+    cols = list(XPathCountCombinedDF)
+    
+    # move the column to head of list using index, pop and insert
+    cols.insert(0, cols.pop(cols.index('Record')))
+    # use ix to reorder
+    CombinedXPathCountsDF = XPathCountCombinedDF.loc[:, cols]
+    cols2 = list(CombinedXPathCountsDF)
+    # move the column to head of list using index, pop and insert
+    cols2.insert(0, cols2.pop(cols.index('Collection')))
+    # use ix to reorder
+    CombinedXPathCountsDF = CombinedXPathCountsDF.loc[:, cols2]
+    CombinedXPathCountsDF
+
+    CombinedXPathCountsDF.to_csv(DataDestination, mode = 'w', index=False)
+    return CombinedXPathCountsDF
  #Using xpath occurrence data products, combine them and produce a collection occurrence% table with collections for columns and concepts for rows
 def CombineEvaluatedMetadata(CollectionComparisons, DataDestination):
+    os.makedirs('../data/Combined', exist_ok=True)
     CombinedDF = pd.concat((pd.read_csv(f) for f in CollectionComparisons)) 
-    CombinedDF.to_csv(DataDestination, mode = 'w', index=False)
-
-    CombinedDF.to_csv(DataDestination, mode = 'w', index=False)
+   
+    CombinedDF.to_csv(DataDestination, mode = 'w',compression='gzip', index=False)
     return CombinedDF   
