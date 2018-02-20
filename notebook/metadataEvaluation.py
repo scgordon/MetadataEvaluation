@@ -338,7 +338,7 @@ def CombineXPathOccurrence(CollectionComparisons, DataDestination):
     ConceptCountsDF=CombinedPivotDF.fillna(0)
     ConceptCountsDF.columns.names = ['']
     ConceptCountsDF=ConceptCountsDF.reset_index()
-
+    ConceptCountsDF=ConceptCountsDF[:-1]
     ConceptCountsDF.to_csv(DataDestination, mode = 'w', index=False)
     return ConceptCountsDF
 #Using xpath occurrence data products, combine them and produce a record count table with collections for columns and concepts for rows
