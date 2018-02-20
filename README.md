@@ -27,7 +27,7 @@ The functions used in both Notebooks attempt to:
 
 * count the unique values of content at a selected element to see what variations occurr at selected elements. Useful for identifiying opportunities to ensure consistency. Also useful to see if nonstandard element content has a standardized location
 
-Link below to interactive webbuild of the repository via MyBinder which opens the Exploration Notebook particularly useful for exploration of the fourth and fifth bullet points:
+Link below to interactive webbuild of the repository via MyBinder which opens the Exploration Notebook particularly useful for exploration of the third and fourth bullet points:
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/scgordon/MetadataEvaluation/re3data?filepath=%2Fnotebook%2FRe3data_Exploration.ipynb)
 
