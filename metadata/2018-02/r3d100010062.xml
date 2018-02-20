@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--re3data.org Schema for the Description of Research Data Repositories. Version 2.2, December 2014. doi:10.2312/re3.006-->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/2-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/2-2 http://schema.re3data.org/2-2/re3dataV2-2.xsd">
+  <r3d:repository>
+    <r3d:re3data.orgIdentifier>r3d100010062</r3d:re3data.orgIdentifier>
+    <r3d:repositoryName language="eng">SAFER-Data</r3d:repositoryName>
+    <r3d:additionalName language="eng">EPA Secure Archive For Environmental Research Data</r3d:additionalName>
+    <r3d:repositoryURL>http://erc.epa.ie/safer/</r3d:repositoryURL>
+    <r3d:description language="eng">SAFER-Data is a web-based interface to the Environmental Data Archive maintained by the Environmental Research Centre (ERC) in the Environmental Protection Agency (EPA) of Ireland, who has responsibilities for a wide range of licensing, enforcement, monitoring and assessment activities associated with environmental protection.</r3d:description>
+    <r3d:repositoryContact>http://erc.epa.ie/safer/information/contactUs.jsp</r3d:repositoryContact>
+    <r3d:type>disciplinary</r3d:type>
+    <r3d:type>other</r3d:type>
+    <r3d:size updated="2014-07-24">313 Resources, 3.261 Files, 144 EPA research reports</r3d:size>
+    <r3d:startDate>2008</r3d:startDate>
+    <r3d:endDate></r3d:endDate>
+    <r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+    <r3d:subject subjectScheme="DFG">31 Chemistry</r3d:subject>
+    <r3d:subject subjectScheme="DFG">32 Physics</r3d:subject>
+    <r3d:subject subjectScheme="DFG">34 Geosciences (including Geography)</r3d:subject>
+    <r3d:subject subjectScheme="DFG">3 Natural Sciences</r3d:subject>
+    <r3d:missionStatementURL>http://www.epa.ie/about/roles/mission/</r3d:missionStatementURL>
+    <r3d:contentType contentTypeScheme="parse">Standard office documents</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Raw data</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Images</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Structured graphics</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Software applications</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Scientific and statistical data formats</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Plain text</r3d:contentType>
+    <r3d:providerType>serviceProvider</r3d:providerType>
+    <r3d:providerType>dataProvider</r3d:providerType>
+    <r3d:keyword>environmental sciences</r3d:keyword>
+    <r3d:keyword>biodiversity</r3d:keyword>
+    <r3d:keyword>soils</r3d:keyword>
+    <r3d:keyword>climatology</r3d:keyword>
+    <r3d:keyword>geography</r3d:keyword>
+    <r3d:keyword>GIS</r3d:keyword>
+    <r3d:keyword>cartography</r3d:keyword>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Ireland Environmental Protection Agency, Environmental Research Centre</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">EPA</r3d:institutionAdditionalName>
+        <r3d:institutionAdditionalName language="eng">ERC</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>IRL</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:responsibilityType>technical</r3d:responsibilityType>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://erc.epa.ie/</r3d:institutionURL>
+        <r3d:responsibilityStartDate>2008</r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://erc.epa.ie/safer/information/contactUs.jsp</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:policy>
+        <r3d:policyName>Access to Information on the Environment</r3d:policyName>
+        <r3d:policyURL>http://www.epa.ie/about/info/aie/</r3d:policyURL>
+    </r3d:policy>
+    <r3d:policy>
+        <r3d:policyName>Disclaimer</r3d:policyName>
+        <r3d:policyURL>http://www.epa.ie/footer/disclaimer/</r3d:policyURL>
+    </r3d:policy>
+    <r3d:policy>
+        <r3d:policyName>Privacy policy</r3d:policyName>
+        <r3d:policyURL>http://www.epa.ie/footer/privacy/</r3d:policyURL>
+    </r3d:policy>
+    <r3d:databaseAccess>
+        <r3d:databaseAccessType>open</r3d:databaseAccessType>
+    </r3d:databaseAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>open</r3d:dataAccessType>
+    <r3d:dataAccessRestriction>feeRequired</r3d:dataAccessRestriction>
+    </r3d:dataAccess>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>other</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>http://www.epa.ie/about/info/</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>CC</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>http://creativecommons.org/licenses/by-sa/4.0/</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataUpload>
+        <r3d:dataUploadType>restricted</r3d:dataUploadType>
+        <r3d:dataUploadRestriction>registration</r3d:dataUploadRestriction>
+    </r3d:dataUpload>
+    <r3d:dataUploadLicense>
+        <r3d:dataUploadLicenseName>Submission of Final Reports</r3d:dataUploadLicenseName>
+        <r3d:dataUploadLicenseURL>http://www.epa.ie/pubs/reports/research/abouteparesearch/submission/eparesearchguidelinesforreport.html</r3d:dataUploadLicenseURL>
+    </r3d:dataUploadLicense>
+    <r3d:software>
+        <r3d:softwareName>MySQL</r3d:softwareName>
+    </r3d:software>
+    <r3d:versioning>yes</r3d:versioning>
+    <r3d:api apiType="REST">http://erc.epa.ie/safer/webservices/safer_json.jsp</r3d:api>
+    <r3d:pidSystem>none</r3d:pidSystem>
+    <r3d:citationGuidelineURL>http://erc.epa.ie/safer/iso19115/cite.jsp?isoID=64</r3d:citationGuidelineURL>
+    <r3d:enhancedPublication>unknown</r3d:enhancedPublication>
+    <r3d:qualityManagement>yes</r3d:qualityManagement>
+    <r3d:metadataStandard>
+      <r3d:metadataStandardName metadataStandardScheme="DCC">ISO 19115</r3d:metadataStandardName>
+      <r3d:metadataStandardURL>http://www.dcc.ac.uk/resources/metadata-standards/iso-19115</r3d:metadataStandardURL>
+    </r3d:metadataStandard>
+    <r3d:syndication syndicationType="RSS">http://erc.epa.ie/safer/rss/index.jsp</r3d:syndication>
+    <r3d:remarks>Every project funded under the STRIVE programme is obliged to submit all significant data sets and information generated during the project to the EPA at the conclusion of the research project7. To support researchers in meeting this requirement, the EPA has developed a large-scale computer system named the ERC Server for the upload, storage, management, dissemination, and long-term preservation of these data resources. This development was assisted by the ERC Postdoctoral Fellowship Environmental Research Data Management which ran from 2004 until 2007. One of the key deliverables of this fellowship was the establishment of a software-based data management system for use by the environmental research community. The SAFER-Data system (http:// erc.epa.ie/safer) was developed. SAFER-Data is a fully web-based interface to the ERC Server for use by STRIVE-funded researchers and the environmental science community to upload and manage data resources generated during their research. SAFERData is also the principal point on the EPA website for the dissemination of environmental research data generated by STRIVE-funded research projects.</r3d:remarks>
+    <r3d:entryDate>2012-08-13</r3d:entryDate>
+    <r3d:lastUpdate>2017-08-30</r3d:lastUpdate>
+  </r3d:repository>
+</r3d:re3data>

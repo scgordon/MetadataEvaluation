@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--re3data.org Schema for the Description of Research Data Repositories. Version 2.2, December 2014. doi:10.2312/re3.006-->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/2-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/2-2 http://schema.re3data.org/2-2/re3dataV2-2.xsd">
+  <r3d:repository>
+    <r3d:re3data.orgIdentifier>r3d100012374</r3d:re3data.orgIdentifier>
+    <r3d:repositoryName language="eng">Data and Service Center for the Humanities</r3d:repositoryName>
+    <r3d:additionalName language="eng">DaSCH</r3d:additionalName>
+    <r3d:repositoryURL>http://dasch.swiss</r3d:repositoryURL>
+    <r3d:description language="eng">The Data and Service Center for the Humanities (DaSCH) is an institution of the Swiss Academy of Humanities and Social Sciences (SAHSS) financed by the State Secretariat for Eduction, Research and Innovation (SERI). The primary goals of the DaSCH are
+- Preservation of research data in the humanities and their long-term data curation.
+- Ensuring permanent access to research data in order to make it available for further research and thus facilitating the reuse of existing research data in future research.
+- Providing services for researchers to assist them with the data life cycle management.
+- Encouraging the digital networking of databases created in Switzerland or in other countries.
+- Collaboration and networking with other institutions on digital literacy.
+The services of the DaSCH are available to all researchers and projects in Switzerland which work in the the domain of the Humanities and have to deal with digital information as well to other research institutions in Switzerland.</r3d:description>
+    <r3d:repositoryContact>info@dasch.swiss</r3d:repositoryContact>
+    <r3d:repositoryContact>lukas.rosenthaler@unibas.ch</r3d:repositoryContact>
+    <r3d:type>disciplinary</r3d:type>
+    <r3d:size updated="2017-05-30">approx. 25 projects, growing rapidly</r3d:size>
+    <r3d:startDate>2017-01-01</r3d:startDate>
+    <r3d:endDate></r3d:endDate>
+    <r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+    <r3d:repositoryLanguage>deu</r3d:repositoryLanguage>
+    <r3d:repositoryLanguage>fra</r3d:repositoryLanguage>
+    <r3d:subject subjectScheme="DFG">1 Humanities and Social Sciences</r3d:subject>
+    <r3d:subject subjectScheme="DFG">11 Humanities</r3d:subject>
+    <r3d:subject subjectScheme="DFG">12 Social and Behavioural Sciences</r3d:subject>
+    <r3d:missionStatementURL>http://dasch.swiss/mission/</r3d:missionStatementURL>
+    <r3d:contentType contentTypeScheme="parse">Databases</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Images</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Structured text</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Audiovisual data</r3d:contentType>
+    <r3d:providerType>serviceProvider</r3d:providerType>
+    <r3d:keyword>Humanities</r3d:keyword>
+    <r3d:keyword>Linked Open Data</r3d:keyword>
+    <r3d:keyword>Semantic Web</r3d:keyword>
+    <r3d:institution>
+        <r3d:institutionName language="eng">University of Basel, Digital Humanities Lab</r3d:institutionName>
+        <r3d:institutionCountry>CHE</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:responsibilityType>technical</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://dhlab.unibas.ch/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Data Life Cycle Management Project</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">DLCM</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>CHE</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>https://www.dlcm.ch/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="fra">Université de Lausanne, Laboratoire de cultures et humanités digitales, Plateforme technique</r3d:institutionName>
+        <r3d:institutionAdditionalName language="fra">Unil</r3d:institutionAdditionalName>
+        <r3d:institutionAdditionalName language="fra">PlaTec</r3d:institutionAdditionalName>
+        <r3d:institutionAdditionalName language="fra">plateforme technique du LaDHUL</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>CHE</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:responsibilityType>technical</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>https://platec.unil.ch/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>platec-ladhul@unil.ch</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Swiss Academy of Humanities and Social Sciences</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">SHAS</r3d:institutionAdditionalName>
+        <r3d:institutionAdditionalName language="deu">SAGW</r3d:institutionAdditionalName>
+        <r3d:institutionAdditionalName language="deu">Schweizerische Akademie der Geistes- und Sozialwissenschaften</r3d:institutionAdditionalName>
+        <r3d:institutionAdditionalName language="fra">Académie suisse des sciences humaines et sociales</r3d:institutionAdditionalName>
+        <r3d:institutionAdditionalName language="fra">ASSH</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>CHE</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.sagw.ch/en/sagw.html</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>sagw@sagw.ch</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:policy>
+        <r3d:policyName>Services</r3d:policyName>
+        <r3d:policyURL>http://dh-center.ch/services/</r3d:policyURL>
+    </r3d:policy>
+    <r3d:databaseAccess>
+        <r3d:databaseAccessType>open</r3d:databaseAccessType>
+    </r3d:databaseAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>open</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>embargoed</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>restricted</r3d:dataAccessType>
+    <r3d:dataAccessRestriction>other</r3d:dataAccessRestriction>
+    </r3d:dataAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>closed</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>other</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>http://dh-center.ch/</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>CC</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataUpload>
+        <r3d:dataUploadType>restricted</r3d:dataUploadType>
+        <r3d:dataUploadRestriction>other</r3d:dataUploadRestriction>
+    </r3d:dataUpload>
+    <r3d:software>
+        <r3d:softwareName>other</r3d:softwareName>
+    </r3d:software>
+    <r3d:versioning>yes</r3d:versioning>
+    <r3d:api apiType="REST">http://dh-center.ch/</r3d:api>
+    <r3d:pidSystem>ARK</r3d:pidSystem>
+    <r3d:citationGuidelineURL></r3d:citationGuidelineURL>
+    <r3d:enhancedPublication>yes</r3d:enhancedPublication>
+    <r3d:qualityManagement>unknown</r3d:qualityManagement>
+    <r3d:syndication syndicationType="RSS">http://dh-center.ch/rss/</r3d:syndication>
+    <r3d:remarks>Projects hosted by DaSCH: http://dh-center.ch/projects-hosted/</r3d:remarks>
+    <r3d:entryDate>2017-05-29</r3d:entryDate>
+    <r3d:lastUpdate>2017-11-06</r3d:lastUpdate>
+  </r3d:repository>
+</r3d:re3data>

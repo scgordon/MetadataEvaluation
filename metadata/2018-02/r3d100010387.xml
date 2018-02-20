@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--re3data.org Schema for the Description of Research Data Repositories. Version 2.2, December 2014. doi:10.2312/re3.006-->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/2-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/2-2 http://schema.re3data.org/2-2/re3dataV2-2.xsd">
+  <r3d:repository>
+    <r3d:re3data.orgIdentifier>r3d100010387</r3d:re3data.orgIdentifier>
+    <r3d:repositoryName language="eng">Clarin in Denmark</r3d:repositoryName>
+    <r3d:additionalName language="dan">CLARIN i Danmark</r3d:additionalName>
+    <r3d:additionalName language="eng">CLARIN-DK</r3d:additionalName>
+    <r3d:additionalName language="eng">Centre for Danish Language resources and Technology Infrastructure for the Humanities</r3d:additionalName>
+    <r3d:repositoryURL>http://info.clarin.dk/en/</r3d:repositoryURL>
+    <r3d:description language="eng">Clarin.dk is a Danish IT infrastructure intended for use by humanities scholars. The infrastructure includes digitized research material in the form of written and spoken texts, audio and video records, lexical resources and tools. Part of the resources collected or converted to other formats as part of the project. Other resources developed or collected in other projects and made available to researchers through Clarin.dk. The website is regularly updated with new materials and tools. The vision is to create the humanities researcher&#039;s toolbox through the creation of resources with associated tools and integrating resources together in a web-based electronic research environment provided for humanities researchers. Such access to resources and tools will allow scientists unprecedented opportunities and will also help to enhance their ability to participate in European collaborative projects. The Danish CLARIN project will eventually generate better conditions for Danish language technology research and development.</r3d:description>
+    <r3d:repositoryContact>http://info.clarin.dk/en/contact/</r3d:repositoryContact>
+    <r3d:type>disciplinary</r3d:type>
+    <r3d:size updated=""></r3d:size>
+    <r3d:startDate></r3d:startDate>
+    <r3d:endDate></r3d:endDate>
+    <r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+    <r3d:repositoryLanguage>dan</r3d:repositoryLanguage>
+    <r3d:subject subjectScheme="DFG">104 Linguistics</r3d:subject>
+    <r3d:subject subjectScheme="DFG">11 Humanities</r3d:subject>
+    <r3d:subject subjectScheme="DFG">1 Humanities and Social Sciences</r3d:subject>
+    <r3d:missionStatementURL>http://info.clarin.dk/overblik/datamanagement/</r3d:missionStatementURL>
+    <r3d:contentType contentTypeScheme="parse">Audiovisual data</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Standard office documents</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Plain text</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Software applications</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Structured text</r3d:contentType>
+    <r3d:providerType>dataProvider</r3d:providerType>
+    <r3d:providerType>serviceProvider</r3d:providerType>
+    <r3d:keyword>danish text</r3d:keyword>
+    <r3d:keyword>danish speech</r3d:keyword>
+    <r3d:keyword>danish corpora</r3d:keyword>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Danisch CLARIN consortium</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">CLARIN.dk</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>DNK</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://info.clarin.dk/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>info@clarin.dk</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">University of Copenhagen, Centre for Language Techology</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">CST</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>DNK</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:responsibilityType>technical</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://cst.ku.dk/english/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://cst.ku.dk/english/projekter/projekter-afsluttet/clarin_dk/#</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">CLARIN-ERIC</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">Common Language Resources and Technology Infrastructure</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>EEC</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.clarin.eu/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">DigHumLab</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">Digital Humanities Lab Denmark</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>DNK</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://dighumlab.dk/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>info@clarin.dk</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:policy>
+        <r3d:policyName>General terms</r3d:policyName>
+        <r3d:policyURL>https://clarin.dk/clarindk/info.jsp?page=generalterms</r3d:policyURL>
+    </r3d:policy>
+    <r3d:databaseAccess>
+        <r3d:databaseAccessType>open</r3d:databaseAccessType>
+    </r3d:databaseAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>open</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>restricted</r3d:dataAccessType>
+    <r3d:dataAccessRestriction>registration</r3d:dataAccessRestriction>
+    </r3d:dataAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>restricted</r3d:dataAccessType>
+    <r3d:dataAccessRestriction>other</r3d:dataAccessRestriction>
+    </r3d:dataAccess>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>CC</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>https://clarin.dk/clarindk/download-proxy.jsp?license=downloadpublic</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>other</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>https://clarin.dk/clarindk/download-proxy.jsp?license=downloadpublic</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>other</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>https://clarin.dk/clarindk/download-proxy.jsp?license=downloadacademic</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataUpload>
+        <r3d:dataUploadType>restricted</r3d:dataUploadType>
+        <r3d:dataUploadRestriction>registration</r3d:dataUploadRestriction>
+    </r3d:dataUpload>
+    <r3d:dataUploadLicense>
+        <r3d:dataUploadLicenseName>AC/PUB</r3d:dataUploadLicenseName>
+        <r3d:dataUploadLicenseURL>http://info.clarin.dk/overblik/licenser/</r3d:dataUploadLicenseURL>
+    </r3d:dataUploadLicense>
+    <r3d:software>
+        <r3d:softwareName>eSciDoc</r3d:softwareName>
+    </r3d:software>
+    <r3d:versioning>yes</r3d:versioning>
+    <r3d:api apiType="OAI-PMH">http://clarin.dk/oaiprovider/</r3d:api>
+    <r3d:pidSystem>hdl</r3d:pidSystem>
+    <r3d:citationGuidelineURL></r3d:citationGuidelineURL>
+    <r3d:enhancedPublication>unknown</r3d:enhancedPublication>
+    <r3d:qualityManagement>yes</r3d:qualityManagement>
+    <r3d:certificate>DSA</r3d:certificate>
+    <r3d:certificate>CLARIN certificate B</r3d:certificate>
+    <r3d:metadataStandard>
+      <r3d:metadataStandardName metadataStandardScheme="DCC">other</r3d:metadataStandardName>
+      <r3d:metadataStandardURL>http://www.dcc.ac.uk/resources/metadata-standards/abcd-access-biological-collection-data</r3d:metadataStandardURL>
+    </r3d:metadataStandard>
+    <r3d:remarks>Corpora from clarin-dk can be RETRIEVED BY  VLO - CLARIN Virtual Language Observatory https://vlo.clarin.eu . Clarin.dk is  developed by the Danish CLARIN consortium (Centre for English Language Resources and Technology Infrastructure for the Humanities) for a grant from the Research and Innovation&#039;s National Programme for Research Infrastructure. The partners of CLARIN consortium includes eight leading Danish humanities institutions: four universities and four cultural institutions.University of Copenhagen,
+University of Southern Denmark,
+University of Aarhus,
+Copenhagen Business School,
+The Royal Library,
+The Danish Language and Literature,
+Danish Language Council,
+National Museum. CLARIN-DK is part of the national research infrastructure DigHumLab. CLARIN-DK is part of the European CLARIN-ERIC Research Infrastructure.</r3d:remarks>
+    <r3d:entryDate>2013-06-13</r3d:entryDate>
+    <r3d:lastUpdate>2017-03-09</r3d:lastUpdate>
+  </r3d:repository>
+</r3d:re3data>

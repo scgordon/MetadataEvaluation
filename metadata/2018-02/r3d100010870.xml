@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--re3data.org Schema for the Description of Research Data Repositories. Version 2.2, December 2014. doi:10.2312/re3.006-->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/2-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/2-2 http://schema.re3data.org/2-2/re3dataV2-2.xsd">
+  <r3d:repository>
+    <r3d:re3data.orgIdentifier>r3d100010870</r3d:re3data.orgIdentifier>
+    <r3d:repositoryName language="eng">Africa Centre for Population Health</r3d:repositoryName>
+    <r3d:repositoryURL>http://www.africacentre.ac.za/</r3d:repositoryURL>
+    <r3d:repositoryIdentifier>RRID:nlx_152006</r3d:repositoryIdentifier>
+    <r3d:repositoryIdentifier>RRID:SCR_008964</r3d:repositoryIdentifier>
+    <r3d:description language="eng">The Africa Centre offers longitudinal datasets from a rural demographic in KwaZulu-Natal, South Africa where HIV prevalence is extremely high. The data may be filtered by demographics, years, or by individuals questionnaires. The Africa Centre requests notification that anyone contact them when downloading their data.
+Since January 2000, the Africa Centre For Population Health has built up an extensive longitudinal database of demographic, social, medical and economic information about the members of its Demographic Surveillance Area, which is situated in a rural area of northern KwaZulu-Natal. It has developed from this database, the following suite of datasets which can be used both internally within the organisation, and by other researchers.</r3d:description>
+    <r3d:repositoryContact>info@africacentre.ac.za</r3d:repositoryContact>
+    <r3d:repositoryContact>http://www.africacentre.ac.za/index.php/contact-us</r3d:repositoryContact>
+    <r3d:type>disciplinary</r3d:type>
+    <r3d:size updated=""></r3d:size>
+    <r3d:startDate>2000</r3d:startDate>
+    <r3d:endDate></r3d:endDate>
+    <r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+    <r3d:subject subjectScheme="DFG">204 Microbiology, Virology and Immunology</r3d:subject>
+    <r3d:subject subjectScheme="DFG">20501 Epidemiology, Medical Biometry, Medical Informatics</r3d:subject>
+    <r3d:subject subjectScheme="DFG">20502 Public Health, Health Services Research, Social Medicine</r3d:subject>
+    <r3d:subject subjectScheme="DFG">11202 Economic and Social Policy</r3d:subject>
+    <r3d:subject subjectScheme="DFG">22 Medicine</r3d:subject>
+    <r3d:subject subjectScheme="DFG">21 Biology</r3d:subject>
+    <r3d:subject subjectScheme="DFG">2 Life Sciences</r3d:subject>
+    <r3d:subject subjectScheme="DFG">205 Medicine</r3d:subject>
+    <r3d:subject subjectScheme="DFG">112 Economics</r3d:subject>
+    <r3d:subject subjectScheme="DFG">12 Social and Behavioural Sciences</r3d:subject>
+    <r3d:subject subjectScheme="DFG">1 Humanities and Social Sciences</r3d:subject>
+    <r3d:missionStatementURL>http://www.africacentre.ac.za/index.php/africa-centre/about-us</r3d:missionStatementURL>
+    <r3d:contentType contentTypeScheme="parse">Standard office documents</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Scientific and statistical data formats</r3d:contentType>
+    <r3d:providerType>dataProvider</r3d:providerType>
+    <r3d:keyword>biology</r3d:keyword>
+    <r3d:keyword>demography</r3d:keyword>
+    <r3d:keyword>economics</r3d:keyword>
+    <r3d:keyword>HIV infections</r3d:keyword>
+    <r3d:keyword>medicine</r3d:keyword>
+    <r3d:keyword>census data</r3d:keyword>
+    <r3d:keyword>tuberculosis TB</r3d:keyword>
+    <r3d:keyword>maternal child adolescence</r3d:keyword>
+    <r3d:keyword>health</r3d:keyword>
+    <r3d:institution>
+        <r3d:institutionName language="fra">France REcherche Nord &amp; Sud Sida-HIV Hépatites</r3d:institutionName>
+        <r3d:institutionAdditionalName language="fra">ANRS</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>FRA</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.anrs.fr/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">South African Medical Research Council</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">SA Medical Research Council</r3d:institutionAdditionalName>
+        <r3d:institutionAdditionalName language="eng">MRC</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>ZAF</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.mrc.ac.za/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">wellcome trust</r3d:institutionName>
+        <r3d:institutionCountry>AAA</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>https://wellcome.ac.uk/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">University of KwaZulu-Natal</r3d:institutionName>
+        <r3d:institutionCountry>ZAF</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:responsibilityType>technical</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.ukzn.ac.za/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">U.S. Agency for International Development</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">USAID from the American People</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>USA</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>https://www.usaid.gov/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate>2015</r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">European &amp; Developing Countries Clinical Trials Partnership</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">EDCTP</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>AAA</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.edctp.org/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate>2015</r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">European Union</r3d:institutionName>
+        <r3d:institutionCountry>EEC</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>https://europa.eu/european-union/index_en</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">European Commission</r3d:institutionName>
+        <r3d:institutionCountry>EEC</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>https://ec.europa.eu/commission/index_en</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Republic of South Africa, Department Science and Technology</r3d:institutionName>
+        <r3d:institutionCountry>ZAF</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.dst.gov.za/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">National Institutes of Health</r3d:institutionName>
+        <r3d:institutionCountry>USA</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>https://www.nih.gov/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Discovery Fund</r3d:institutionName>
+        <r3d:institutionCountry>ZAF</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>https://www.discovery.co.za/portal/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Universität Basel, Swiss South African Joint Research Programme</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">SSAJRP</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>CHE</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>https://www.unibas.ch/en/University/Administration-Services/Vice-President-for-Education/International-Office/International-Relations/Joint-Programs/Swiss-South-African-Joint-Research-Programme.html</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Government of Canada, Foreign Affairs, Trade and Development Canada</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">CIDA</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>CAN</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.international.gc.ca/international/index.aspx?lang=eng</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate>2015</r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">United Nations Population Fund</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">UNFPA</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>AAA</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.unfpa.org/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate>2015</r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Council for Scientific and Industrial Research in South Africa</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">CSIR</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>ZAF</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>https://www.csir.co.za/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate>2015</r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">United Kingdom, Department for International Development</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">DFID</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>GBR</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>https://www.gov.uk/government/organisations/department-for-international-development</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate>2015</r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:databaseAccess>
+        <r3d:databaseAccessType>restricted</r3d:databaseAccessType>
+        <r3d:databaseAccessRestriction>registration</r3d:databaseAccessRestriction>
+    </r3d:databaseAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>restricted</r3d:dataAccessType>
+    <r3d:dataAccessRestriction>registration</r3d:dataAccessRestriction>
+    </r3d:dataAccess>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>Copyrights</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>https://data.africacentre.ac.za/index.php/auth/login/?destination=</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataUpload>
+        <r3d:dataUploadType>closed</r3d:dataUploadType>
+    </r3d:dataUpload>
+    <r3d:versioning></r3d:versioning>
+    <r3d:pidSystem>none</r3d:pidSystem>
+    <r3d:citationGuidelineURL></r3d:citationGuidelineURL>
+    <r3d:enhancedPublication>yes</r3d:enhancedPublication>
+    <r3d:qualityManagement>yes</r3d:qualityManagement>
+    <r3d:remarks>Collaborators: http://www.africacentre.ac.za/index.php/africa-centre/collaborators</r3d:remarks>
+    <r3d:entryDate>2014-07-28</r3d:entryDate>
+    <r3d:lastUpdate>2017-07-25</r3d:lastUpdate>
+  </r3d:repository>
+</r3d:re3data>

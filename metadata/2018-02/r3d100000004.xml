@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--re3data.org Schema for the Description of Research Data Repositories. Version 2.2, December 2014. doi:10.2312/re3.006-->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/2-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/2-2 http://schema.re3data.org/2-2/re3dataV2-2.xsd">
+  <r3d:repository>
+    <r3d:re3data.orgIdentifier>r3d100000004</r3d:re3data.orgIdentifier>
+    <r3d:repositoryName language="deu">Datenbank Gesprochenes Deutsch</r3d:repositoryName>
+    <r3d:additionalName language="deu">DGD2</r3d:additionalName>
+    <r3d:additionalName language="deu">FDZ AGD</r3d:additionalName>
+    <r3d:additionalName language="deu">Forschungsdatenzentrum Archiv für Gesprochenes Deutsch am Institut für Deutsche Sprache</r3d:additionalName>
+    <r3d:additionalName language="eng">Database for Spoken German</r3d:additionalName>
+    <r3d:repositoryURL>http://dgd.ids-mannheim.de</r3d:repositoryURL>
+    <r3d:description language="eng">The Archive for Spoken German (AGD) collects and archives data of spoken German in interactions (conversation corpora) and data of domestic and non-domestic varieties of German (variation corpora). Currently, the AGD hosts around 50 corpora comprising more than 15000 audio and 500 video recordings amounting to around 5000 hours of recorded material with more than 7000 transcripts. With the Research and Teaching Corpus of Spoken German (FOLK) the AGD is also compiling an extensive German conversation corpus of its own.
+
+The archive curates data and makes them available to researchers. Curation comprises digitization, structuring and consistent documentation of audio and video recordings, transcripts, metadata and additional material. The scientific public can access the data via the Database for Spoken German (DGD2) or via a personal archive service. The AGD also advises researchers in using the existing inventory as well as in creating their own oral corpora.</r3d:description>
+    <r3d:repositoryContact>dgd@ids-mannheim.de</r3d:repositoryContact>
+    <r3d:type>disciplinary</r3d:type>
+    <r3d:size updated="2015-12-22">50 Korpora</r3d:size>
+    <r3d:startDate>2012</r3d:startDate>
+    <r3d:endDate></r3d:endDate>
+    <r3d:repositoryLanguage>deu</r3d:repositoryLanguage>
+    <r3d:subject subjectScheme="DFG">104 Linguistics</r3d:subject>
+    <r3d:subject subjectScheme="DFG">11 Humanities</r3d:subject>
+    <r3d:subject subjectScheme="DFG">1 Humanities and Social Sciences</r3d:subject>
+    <r3d:missionStatementURL>http://dgd.ids-mannheim.de</r3d:missionStatementURL>
+    <r3d:contentType contentTypeScheme="parse">Audiovisual data</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Structured text</r3d:contentType>
+    <r3d:providerType>dataProvider</r3d:providerType>
+    <r3d:providerType>serviceProvider</r3d:providerType>
+    <r3d:keyword>spoken german language</r3d:keyword>
+    <r3d:keyword>lingustic corpora</r3d:keyword>
+    <r3d:keyword>FOLK</r3d:keyword>
+    <r3d:keyword>German dialects</r3d:keyword>
+    <r3d:keyword>Zwirner corpus</r3d:keyword>
+    <r3d:keyword>Pfeffer corpus</r3d:keyword>
+    <r3d:keyword>Australian German</r3d:keyword>
+    <r3d:institution>
+        <r3d:institutionName language="deu">Institut für Deutsche Sprache, Archiv für Gesprochenes Deutsch</r3d:institutionName>
+        <r3d:institutionAdditionalName language="deu">AGD</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>DEU</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://agd.ids-mannheim.de/index.shtml</r3d:institutionURL>
+        <r3d:responsibilityStartDate>2004</r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>dgd@ids-mannheim.de</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:policy>
+        <r3d:policyName>Kriterien des RatSWD</r3d:policyName>
+        <r3d:policyURL>http://www.ratswd.de/download/publikationen_rat/RatSWD_FDZKriterien.PDF</r3d:policyURL>
+    </r3d:policy>
+    <r3d:policy>
+        <r3d:policyName>Archiv für Gesprochenes Deutsch</r3d:policyName>
+        <r3d:policyURL>http://agd.ids-mannheim.de/index.shtml</r3d:policyURL>
+    </r3d:policy>
+    <r3d:databaseAccess>
+        <r3d:databaseAccessType>restricted</r3d:databaseAccessType>
+        <r3d:databaseAccessRestriction>registration</r3d:databaseAccessRestriction>
+    </r3d:databaseAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>restricted</r3d:dataAccessType>
+    <r3d:dataAccessRestriction>registration</r3d:dataAccessRestriction>
+    <r3d:dataAccessRestriction>feeRequired</r3d:dataAccessRestriction>
+    <r3d:dataAccessRestriction>other</r3d:dataAccessRestriction>
+    </r3d:dataAccess>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>other</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>http://www.ids-mannheim.de/allgemein/impressum.html</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>other</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>http://agd.ids-mannheim.de/konditionen.shtml</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataUpload>
+        <r3d:dataUploadType>restricted</r3d:dataUploadType>
+        <r3d:dataUploadRestriction>other</r3d:dataUploadRestriction>
+    </r3d:dataUpload>
+    <r3d:software>
+        <r3d:softwareName>other</r3d:softwareName>
+    </r3d:software>
+    <r3d:versioning>no</r3d:versioning>
+    <r3d:pidSystem>none</r3d:pidSystem>
+    <r3d:citationGuidelineURL>http://agd.ids-mannheim.de/konditionen.shtml</r3d:citationGuidelineURL>
+    <r3d:enhancedPublication>unknown</r3d:enhancedPublication>
+    <r3d:qualityManagement>unknown</r3d:qualityManagement>
+    <r3d:certificate>RatSWD</r3d:certificate>
+    <r3d:remarks></r3d:remarks>
+    <r3d:entryDate>2012-07-20</r3d:entryDate>
+    <r3d:lastUpdate>2017-10-23</r3d:lastUpdate>
+  </r3d:repository>
+</r3d:re3data>

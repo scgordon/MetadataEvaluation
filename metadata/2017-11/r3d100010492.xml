@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--re3data.org Schema for the Description of Research Data Repositories. Version 2.2, December 2014. doi:10.2312/re3.006-->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/2-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/2-2 http://schema.re3data.org/2-2/re3dataV2-2.xsd">
+  <r3d:repository>
+    <r3d:re3data.orgIdentifier>r3d100010492</r3d:re3data.orgIdentifier>
+    <r3d:repositoryName language="eng">LiDA</r3d:repositoryName>
+    <r3d:additionalName language="lit">Lietuvos HSM duomeny archyvas</r3d:additionalName>
+    <r3d:repositoryURL>http://www.lidata.eu/en/index.php</r3d:repositoryURL>
+    <r3d:description language="eng">LiDA provides virtual digital infrastructure where researchers can deposit, search, browse, make online analyses and download almost 300 quantitative and qualitative social sciences and humanities data sets.</r3d:description>
+    <r3d:type>disciplinary</r3d:type>
+    <r3d:size updated="2013-09-18">300 data sets</r3d:size>
+    <r3d:startDate>2006</r3d:startDate>
+    <r3d:endDate></r3d:endDate>
+    <r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+    <r3d:repositoryLanguage>lit</r3d:repositoryLanguage>
+    <r3d:subject subjectScheme="DFG">1 Humanities and Social Sciences</r3d:subject>
+    <r3d:subject subjectScheme="DFG">111 Social Sciences</r3d:subject>
+    <r3d:subject subjectScheme="DFG">12 Social and Behavioural Sciences</r3d:subject>
+    <r3d:missionStatementURL></r3d:missionStatementURL>
+    <r3d:contentType contentTypeScheme="parse">Scientific and statistical data formats</r3d:contentType>
+    <r3d:providerType>dataProvider</r3d:providerType>
+    <r3d:keyword>survey data</r3d:keyword>
+    <r3d:keyword>social conditions</r3d:keyword>
+    <r3d:keyword>political structures</r3d:keyword>
+    <r3d:keyword>political processes</r3d:keyword>
+    <r3d:keyword>value orientations</r3d:keyword>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Kaunas University of Technology, Policy and Public Administration Institute</r3d:institutionName>
+        <r3d:institutionAdditionalName language="lit">Kauno technologijos universitetas</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>LTU</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://ktu.edu/en/</r3d:institutionURL>
+        <r3d:responsibilityStartDate>2006</r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>rasykite@lidata.eu</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Vilnius University, Institute for Social Research</r3d:institutionName>
+        <r3d:institutionAdditionalName language="lit">Vilniaus universitetas</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>LTU</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.vu.lt/en</r3d:institutionURL>
+        <r3d:responsibilityStartDate>2006</r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Republic of Lithuania Ministry of Education and Science</r3d:institutionName>
+        <r3d:institutionAdditionalName language="lit">Švietimo ir mokslo ministerija</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>LTU</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.smm.lt/web/en/</r3d:institutionURL>
+        <r3d:responsibilityStartDate>2006</r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:policy>
+        <r3d:policyName>CESSDA Data Access Policy</r3d:policyName>
+        <r3d:policyURL>https://www.cessda.eu/content/download/963/8608/file/CESSDA%20Data%20Access%20Policy.pdf</r3d:policyURL>
+    </r3d:policy>
+    <r3d:databaseAccess>
+        <r3d:databaseAccessType>open</r3d:databaseAccessType>
+    </r3d:databaseAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>restricted</r3d:dataAccessType>
+    <r3d:dataAccessRestriction>registration</r3d:dataAccessRestriction>
+    </r3d:dataAccess>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>other</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>http://www.lidata.eu/en/index.php?file=files/eng/data/terms_for_use_data.html</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataUpload>
+        <r3d:dataUploadType>restricted</r3d:dataUploadType>
+        <r3d:dataUploadRestriction>other</r3d:dataUploadRestriction>
+    </r3d:dataUpload>
+    <r3d:software>
+        <r3d:softwareName>other</r3d:softwareName>
+    </r3d:software>
+    <r3d:versioning></r3d:versioning>
+    <r3d:pidSystem>none</r3d:pidSystem>
+    <r3d:citationGuidelineURL>http://www.lidata.eu/en/index_browse_proddate_results_data.php?pid=LiDA%3Aquant.LiDA_PB_0264</r3d:citationGuidelineURL>
+    <r3d:enhancedPublication>unknown</r3d:enhancedPublication>
+    <r3d:qualityManagement>yes</r3d:qualityManagement>
+    <r3d:syndication syndicationType="RSS">http://www.lidata.eu/en/rss.xml</r3d:syndication>
+    <r3d:syndication syndicationType="RSS">http://www.lidata.eu/en/rss_letter.xml</r3d:syndication>
+    <r3d:remarks>LiDA is a national member of ICPSR and conducts European Social Survey and International Social Survey Programme in Lithuania.</r3d:remarks>
+    <r3d:entryDate>2013-08-21</r3d:entryDate>
+    <r3d:lastUpdate>2017-08-02</r3d:lastUpdate>
+  </r3d:repository>
+</r3d:re3data>

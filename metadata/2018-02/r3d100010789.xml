@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--re3data.org Schema for the Description of Research Data Repositories. Version 2.2, December 2014. doi:10.2312/re3.006-->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/2-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/2-2 http://schema.re3data.org/2-2/re3dataV2-2.xsd">
+  <r3d:repository>
+    <r3d:re3data.orgIdentifier>r3d100010789</r3d:re3data.orgIdentifier>
+    <r3d:repositoryName language="eng">BioModels Database</r3d:repositoryName>
+    <r3d:repositoryURL>http://www.ebi.ac.uk/biomodels-main/</r3d:repositoryURL>
+    <r3d:repositoryIdentifier>RRID:nif-0000-02609
+</r3d:repositoryIdentifier>
+    <r3d:description language="eng">BioModels Database is a repository of peer-reviewed, published, computational models that allows biologists to store, search and retrieve published mathematical models from the field of systems biology, but also more generally those of biological interest. Models in the database can be used to generate sub-models, can be simulated online, and can be converted between different representational formats.</r3d:description>
+    <r3d:repositoryContact>http://www.ebi.ac.uk/biomodels-main/contact</r3d:repositoryContact>
+    <r3d:type>disciplinary</r3d:type>
+    <r3d:size updated=""></r3d:size>
+    <r3d:startDate>2005</r3d:startDate>
+    <r3d:endDate></r3d:endDate>
+    <r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+    <r3d:subject subjectScheme="DFG">201 Basic Biological and Medical Research</r3d:subject>
+    <r3d:subject subjectScheme="DFG">20107 Bioinformatics and Theoretical Biology</r3d:subject>
+    <r3d:subject subjectScheme="DFG">20105 General Genetics</r3d:subject>
+    <r3d:subject subjectScheme="DFG">21 Biology</r3d:subject>
+    <r3d:subject subjectScheme="DFG">2 Life Sciences</r3d:subject>
+    <r3d:missionStatementURL></r3d:missionStatementURL>
+    <r3d:contentType contentTypeScheme="parse">Software applications</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Scientific and statistical data formats</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Networkbased data</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Structured graphics</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Structured text</r3d:contentType>
+    <r3d:providerType>dataProvider</r3d:providerType>
+    <r3d:keyword>Systems biology</r3d:keyword>
+    <r3d:keyword>Biology - Mathematical models</r3d:keyword>
+    <r3d:keyword>Biological models</r3d:keyword>
+    <r3d:keyword>Biology</r3d:keyword>
+    <r3d:keyword>Molecular biology</r3d:keyword>
+    <r3d:keyword>Nucleotide sequence</r3d:keyword>
+    <r3d:keyword>Gene expression</r3d:keyword>
+    <r3d:keyword>Proteins</r3d:keyword>
+    <r3d:keyword>Genes</r3d:keyword>
+    <r3d:keyword>DNA</r3d:keyword>
+    <r3d:keyword>RNA</r3d:keyword>
+    <r3d:keyword>Genetics</r3d:keyword>
+    <r3d:keyword>Simulations</r3d:keyword>
+    <r3d:institution>
+        <r3d:institutionName language="eng">EMBL-European Bioinformatics Institute </r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">EMBL-EBI</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>GBR</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.ebi.ac.uk/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">European Molecular Biology Laboratory</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">EMBL</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>GBR</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.embl.org/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Bioscience for the future</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">BBSRC</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>GBR</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.bbsrc.ac.uk/home/home.aspx</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Innovative Medicines Initiative</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">IMI</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>EEC</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.imi.europa.eu/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">European Commission, Community Research and Development Information Service, Seventh Framework Programme</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">FP7</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>EEC</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://cordis.europa.eu/fp7/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:policy>
+        <r3d:policyName>Minimum Information Required int the Annotation of Models - MIRIAM</r3d:policyName>
+        <r3d:policyURL>http://co.mbine.org/standards/miriam</r3d:policyURL>
+    </r3d:policy>
+    <r3d:databaseAccess>
+        <r3d:databaseAccessType>open</r3d:databaseAccessType>
+    </r3d:databaseAccess>
+    <r3d:databaseLicense>
+        <r3d:databaseLicenseName>other</r3d:databaseLicenseName>
+        <r3d:databaseLicenseURL>http://sourceforge.net/projects/biomodels/</r3d:databaseLicenseURL>
+    </r3d:databaseLicense>
+    <r3d:databaseLicense>
+        <r3d:databaseLicenseName>other</r3d:databaseLicenseName>
+        <r3d:databaseLicenseURL>http://slashdotmedia.com/terms-of-use/</r3d:databaseLicenseURL>
+    </r3d:databaseLicense>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>open</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>embargoed</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>CC0</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>http://creativecommons.org/publicdomain/zero/1.0/</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataUpload>
+        <r3d:dataUploadType>restricted</r3d:dataUploadType>
+        <r3d:dataUploadRestriction>registration</r3d:dataUploadRestriction>
+    </r3d:dataUpload>
+    <r3d:dataUploadLicense>
+        <r3d:dataUploadLicenseName>CC0</r3d:dataUploadLicenseName>
+        <r3d:dataUploadLicenseURL>http://creativecommons.org/publicdomain/zero/1.0/</r3d:dataUploadLicenseURL>
+    </r3d:dataUploadLicense>
+    <r3d:versioning>yes</r3d:versioning>
+    <r3d:api apiType="FTP">ftp://ftp.ebi.ac.uk/pub/databases/biomodels/</r3d:api>
+    <r3d:api apiType="SOAP">http://www.ebi.ac.uk/biomodels-main/services/BioModelsWebServices?wsdl</r3d:api>
+    <r3d:pidSystem>none</r3d:pidSystem>
+    <r3d:citationGuidelineURL>http://www.ebi.ac.uk/biomodels-main/citation</r3d:citationGuidelineURL>
+    <r3d:enhancedPublication>yes</r3d:enhancedPublication>
+    <r3d:qualityManagement>yes</r3d:qualityManagement>
+    <r3d:syndication syndicationType="RSS">http://www.ebi.ac.uk/biomodels-main/modelmonth</r3d:syndication>
+    <r3d:syndication syndicationType="RSS">http://www.ebi.ac.uk/biomodels/newsFeed.xml</r3d:syndication>
+    <r3d:remarks>BioModels Database is hosted on sourceforge http://sourceforge.net/projects/biomodels/</r3d:remarks>
+    <r3d:entryDate>2014-05-15</r3d:entryDate>
+    <r3d:lastUpdate>2015-03-24</r3d:lastUpdate>
+  </r3d:repository>
+</r3d:re3data>

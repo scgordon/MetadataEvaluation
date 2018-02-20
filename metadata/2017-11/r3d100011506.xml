@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--re3data.org Schema for the Description of Research Data Repositories. Version 2.2, December 2014. doi:10.2312/re3.006-->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/2-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/2-2 http://schema.re3data.org/2-2/re3dataV2-2.xsd">
+  <r3d:repository>
+    <r3d:re3data.orgIdentifier>r3d100011506</r3d:re3data.orgIdentifier>
+    <r3d:repositoryName language="eng">FLUXNET</r3d:repositoryName>
+    <r3d:repositoryURL>http://www.fluxdata.org/</r3d:repositoryURL>
+    <r3d:description language="eng">Flux and meteorological data, collected world‐wide, are submitted to this central database (www.fluxdata.org). This fluxdata.org web site is focused on providing support of users of these datasets. It contains tools that assist scientists to acquire, query, browse, plot and manipulate diverse combinations of heterogeneous data from many sites, for many years and with various independent variables.</r3d:description>
+    <r3d:repositoryContact>http://www.fluxnet.ornl.gov/contact</r3d:repositoryContact>
+    <r3d:repositoryContact>fluxdata-support@fluxdata.org</r3d:repositoryContact>
+    <r3d:type>disciplinary</r3d:type>
+    <r3d:size updated=""></r3d:size>
+    <r3d:startDate></r3d:startDate>
+    <r3d:endDate></r3d:endDate>
+    <r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+    <r3d:subject subjectScheme="DFG">31301 Atmospheric Science</r3d:subject>
+    <r3d:subject subjectScheme="DFG">313 Atmospheric Science and Oceanography</r3d:subject>
+    <r3d:subject subjectScheme="DFG">34 Geosciences (including Geography)</r3d:subject>
+    <r3d:subject subjectScheme="DFG">3 Natural Sciences</r3d:subject>
+    <r3d:missionStatementURL></r3d:missionStatementURL>
+    <r3d:contentType contentTypeScheme="parse">Standard office documents</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Scientific and statistical data formats</r3d:contentType>
+    <r3d:providerType>dataProvider</r3d:providerType>
+    <r3d:keyword>ecosystem</r3d:keyword>
+    <r3d:institution>
+        <r3d:institutionName language="eng">FLUXNET</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">a network of regional networks</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>USA</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.fluxnet.ornl.gov/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.fluxnet.ornl.gov/contact</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:policy>
+        <r3d:policyName>LATHUILE FLUXNET DATA</r3d:policyName>
+        <r3d:policyURL>http://www.fluxdata.org/Shared%20Documents/Policy_LaThuile_Final.pdf</r3d:policyURL>
+    </r3d:policy>
+    <r3d:policy>
+        <r3d:policyName>OPENED ACCESS FLUXNET DATA</r3d:policyName>
+        <r3d:policyURL>http://www.fluxdata.org/Shared%20Documents/Policy_Opened_Final.pdf</r3d:policyURL>
+    </r3d:policy>
+    <r3d:policy>
+        <r3d:policyName>Fair use data policy</r3d:policyName>
+        <r3d:policyURL>http://www.fluxdata.org/Shared%20Documents/Policy_Free_Final.pdf</r3d:policyURL>
+    </r3d:policy>
+    <r3d:databaseAccess>
+        <r3d:databaseAccessType>restricted</r3d:databaseAccessType>
+        <r3d:databaseAccessRestriction>registration</r3d:databaseAccessRestriction>
+    </r3d:databaseAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>restricted</r3d:dataAccessType>
+    <r3d:dataAccessRestriction>registration</r3d:dataAccessRestriction>
+    </r3d:dataAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>restricted</r3d:dataAccessType>
+    <r3d:dataAccessRestriction>other</r3d:dataAccessRestriction>
+    </r3d:dataAccess>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>other</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>http://www.fluxdata.org/Shared%20Documents/Policy_Free_Final.pdf</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>other</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>http://www.fluxdata.org/Shared%20Documents/Policy_LaThuile_Final.pdf</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>other</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>http://www.fluxdata.org/Shared%20Documents/Policy_Opened_Final.pdf</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataUpload>
+        <r3d:dataUploadType>restricted</r3d:dataUploadType>
+        <r3d:dataUploadRestriction>other</r3d:dataUploadRestriction>
+    </r3d:dataUpload>
+    <r3d:software>
+        <r3d:softwareName>unknown</r3d:softwareName>
+    </r3d:software>
+    <r3d:versioning>yes</r3d:versioning>
+    <r3d:pidSystem>none</r3d:pidSystem>
+    <r3d:citationGuidelineURL></r3d:citationGuidelineURL>
+    <r3d:aidSystem>none</r3d:aidSystem>
+    <r3d:enhancedPublication>unknown</r3d:enhancedPublication>
+    <r3d:qualityManagement>yes</r3d:qualityManagement>
+    <r3d:remarks>These tools are the product of a collaboration with database specialists at national laboratories (Lawrence Berkeley National Laboratory and Max Planck Institute of Biogeochemistry, Jena ), Universities (Tuscia, Virginia, California-Berkeley) and industry (Microsoft). This web site has been developed by a collaboration consisting of University of Virginia, Lawrence Berkeley National Laboratory, and Microsoft Research researchers with help from many many data contributors and data users. It is hosted by Lawrence Berkeley Laboratory. Funding for this web site has been provided by Microsoft Research, US Department of Agriculture (US Forest Service), and Department of Energy. Here you can find a list of all responsible institutions: http://www.fluxdata.org/DataInfo/default.aspx</r3d:remarks>
+    <r3d:entryDate>2015-05-04</r3d:entryDate>
+    <r3d:lastUpdate>2015-05-19</r3d:lastUpdate>
+  </r3d:repository>
+</r3d:re3data>

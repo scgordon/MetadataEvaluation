@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--re3data.org Schema for the Description of Research Data Repositories. Version 2.2, December 2014. doi:10.2312/re3.006-->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/2-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/2-2 http://schema.re3data.org/2-2/re3dataV2-2.xsd">
+  <r3d:repository>
+    <r3d:re3data.orgIdentifier>r3d100010710</r3d:re3data.orgIdentifier>
+    <r3d:repositoryName language="eng">Stanford Digital Repository</r3d:repositoryName>
+    <r3d:additionalName language="eng">SDR</r3d:additionalName>
+    <r3d:repositoryURL>http://library.stanford.edu/research/stanford-digital-repository</r3d:repositoryURL>
+    <r3d:description language="eng">The Stanford Digital Repository (SDR) is Stanford University Libraries&#039; digital preservation system. The core repository provides “back-office” preservation services – data replication, auditing, media migration, and retrieval -- in a secure, sustainable, scalable stewardship environment. The SDR team consults with librarians, archivists, and others across the Stanford campus, providing technical guidance in order to create, build, and acquire digital collections that can remain usable in the face of inevitable technological change. Through this combination of technical strategies and programmatic activities, the SDR ensures ongoing access to digital information resources of enduring value to the Stanford community.</r3d:description>
+    <r3d:repositoryContact>https://library.stanford.edu/research/stanford-digital-repository/help</r3d:repositoryContact>
+    <r3d:type>institutional</r3d:type>
+    <r3d:size updated="2017-08-147">1.338 collections, 216 million files, 296 terabyte</r3d:size>
+    <r3d:startDate>2012</r3d:startDate>
+    <r3d:endDate></r3d:endDate>
+    <r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+    <r3d:subject subjectScheme="DFG">1 Humanities and Social Sciences</r3d:subject>
+    <r3d:subject subjectScheme="DFG">2 Life Sciences</r3d:subject>
+    <r3d:subject subjectScheme="DFG">3 Natural Sciences</r3d:subject>
+    <r3d:subject subjectScheme="DFG">4 Engineering Sciences</r3d:subject>
+    <r3d:missionStatementURL>https://library.stanford.edu/research/stanford-digital-repository/sdr-overview</r3d:missionStatementURL>
+    <r3d:contentType contentTypeScheme="parse">Standard office documents</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Databases</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Images</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Structured graphics</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Audiovisual data</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Scientific and statistical data formats</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Raw data</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Plain text</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Structured text</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Archived data</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">other</r3d:contentType>
+    <r3d:providerType>serviceProvider</r3d:providerType>
+    <r3d:keyword>multidisciplinary</r3d:keyword>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Stanford University, Stanford University Libraries</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">Stanford University Libraries</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>USA</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:responsibilityType>technical</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://library.stanford.edu/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>sdr-contact@lists.stanford.edu</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Stanford University</r3d:institutionName>
+        <r3d:institutionCountry>USA</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.stanford.edu/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>sdr-contact@lists.stanford.edu.</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:policy>
+        <r3d:policyName>Copyright, licenses and access restrictions</r3d:policyName>
+        <r3d:policyURL>https://library.stanford.edu/research/stanford-digital-repository/faqs/copyright-licenses-and-access-restrictions</r3d:policyURL>
+    </r3d:policy>
+    <r3d:databaseAccess>
+        <r3d:databaseAccessType>open</r3d:databaseAccessType>
+    </r3d:databaseAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>open</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>restricted</r3d:dataAccessType>
+    <r3d:dataAccessRestriction>registration</r3d:dataAccessRestriction>
+    </r3d:dataAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>closed</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>other</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>https://www.stanford.edu/site/terms/</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>Copyrights</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>https://www.stanford.edu/site/terms/</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataUpload>
+        <r3d:dataUploadType>restricted</r3d:dataUploadType>
+        <r3d:dataUploadRestriction>registration</r3d:dataUploadRestriction>
+    </r3d:dataUpload>
+    <r3d:dataUploadLicense>
+        <r3d:dataUploadLicenseName>SDR Terms of Deposit</r3d:dataUploadLicenseName>
+        <r3d:dataUploadLicenseURL>https://library.stanford.edu/research/data-management-services/share-and-preserve-research-data/data-preservation-stanford</r3d:dataUploadLicenseURL>
+    </r3d:dataUploadLicense>
+    <r3d:software>
+        <r3d:softwareName>other</r3d:softwareName>
+    </r3d:software>
+    <r3d:versioning>yes</r3d:versioning>
+    <r3d:api apiType="other">http://www-sul.stanford.edu/iiif/image-api/1.1/</r3d:api>
+    <r3d:pidSystem>PURL</r3d:pidSystem>
+    <r3d:pidSystem>other</r3d:pidSystem>
+    <r3d:citationGuidelineURL></r3d:citationGuidelineURL>
+    <r3d:enhancedPublication>unknown</r3d:enhancedPublication>
+    <r3d:qualityManagement>yes</r3d:qualityManagement>
+    <r3d:metadataStandard>
+      <r3d:metadataStandardName metadataStandardScheme="DCC">Dublin Core</r3d:metadataStandardName>
+      <r3d:metadataStandardURL>http://www.dcc.ac.uk/resources/metadata-standards/dublin-core</r3d:metadataStandardURL>
+    </r3d:metadataStandard>
+    <r3d:syndication syndicationType="RSS">http://library.stanford.edu/feeds/news/all</r3d:syndication>
+    <r3d:remarks></r3d:remarks>
+    <r3d:entryDate>2013-08-20</r3d:entryDate>
+    <r3d:lastUpdate>2017-08-15</r3d:lastUpdate>
+  </r3d:repository>
+</r3d:re3data>

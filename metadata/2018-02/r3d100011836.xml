@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--re3data.org Schema for the Description of Research Data Repositories. Version 2.2, December 2014. doi:10.2312/re3.006-->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/2-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/2-2 http://schema.re3data.org/2-2/re3dataV2-2.xsd">
+  <r3d:repository>
+    <r3d:re3data.orgIdentifier>r3d100011836</r3d:re3data.orgIdentifier>
+    <r3d:repositoryName language="eng">Johns Hopkins Data Archive Dataverse Network</r3d:repositoryName>
+    <r3d:additionalName language="eng">JHU Data Archive</r3d:additionalName>
+    <r3d:repositoryURL>https://archive.data.jhu.edu/</r3d:repositoryURL>
+    <r3d:description language="eng">The Johns Hopkins Data Archive contains data collections produced by the Johns Hopkins community of researchers for public access and use. Each dataset has a citation and DOI, facilitating attribution and connection to research publications. If you are conducting research at Johns Hopkins and are interested in archiving your data with the JHU Data Archive, please contact us to discuss your research and data access needs. Currently, the JHU Data Archive operates on the Dataverse repository software platform. More information about the benefits of archiving data and the JHU Data Archive can be found here: http://dms.data.jhu.edu/archiving-2/</r3d:description>
+    <r3d:repositoryContact>datamanagement@jhu.edu</r3d:repositoryContact>
+    <r3d:type>institutional</r3d:type>
+    <r3d:size updated="2017-08-08">17 dataverses; 31 datasets; 363 files</r3d:size>
+    <r3d:startDate></r3d:startDate>
+    <r3d:endDate></r3d:endDate>
+    <r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+    <r3d:subject subjectScheme="DFG">1 Humanities and Social Sciences</r3d:subject>
+    <r3d:subject subjectScheme="DFG">2 Life Sciences</r3d:subject>
+    <r3d:subject subjectScheme="DFG">3 Natural Sciences</r3d:subject>
+    <r3d:subject subjectScheme="DFG">4 Engineering Sciences</r3d:subject>
+    <r3d:missionStatementURL>http://dms.data.jhu.edu/about-us/history-and-the-team/</r3d:missionStatementURL>
+    <r3d:contentType contentTypeScheme="parse">Standard office documents</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Archived data</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">other</r3d:contentType>
+    <r3d:providerType>dataProvider</r3d:providerType>
+    <r3d:keyword>multidsciplinary</r3d:keyword>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Johns Hopkins Sheridan Libraries and University Museums</r3d:institutionName>
+        <r3d:institutionCountry>USA</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.library.jhu.edu/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.library.jhu.edu/support/</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Johns Hopkins University</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">Johns Hopkins University Data Management Services</r3d:institutionAdditionalName>
+        <r3d:institutionAdditionalName language="eng">JHUDMS</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>USA</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://dms.data.jhu.edu/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>datamanagement@jhu.edu</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:policy>
+        <r3d:policyName>TERMS OF USE for the JHU Data Archive</r3d:policyName>
+        <r3d:policyURL>http://dms.data.jhu.edu/terms-of-use/</r3d:policyURL>
+    </r3d:policy>
+    <r3d:databaseAccess>
+        <r3d:databaseAccessType>open</r3d:databaseAccessType>
+    </r3d:databaseAccess>
+    <r3d:databaseLicense>
+        <r3d:databaseLicenseName>Apache License 2.0</r3d:databaseLicenseName>
+        <r3d:databaseLicenseURL>http://www.apache.org/licenses/LICENSE-2.0</r3d:databaseLicenseURL>
+    </r3d:databaseLicense>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>open</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>embargoed</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>restricted</r3d:dataAccessType>
+    <r3d:dataAccessRestriction>other</r3d:dataAccessRestriction>
+    </r3d:dataAccess>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>other</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>http://dms.data.jhu.edu/terms-of-use/</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataUpload>
+        <r3d:dataUploadType>restricted</r3d:dataUploadType>
+        <r3d:dataUploadRestriction>institutional membership</r3d:dataUploadRestriction>
+    </r3d:dataUpload>
+    <r3d:software>
+        <r3d:softwareName>DataVerse</r3d:softwareName>
+    </r3d:software>
+    <r3d:versioning>yes</r3d:versioning>
+    <r3d:pidSystem>DOI</r3d:pidSystem>
+    <r3d:citationGuidelineURL>http://best-practices.dataverse.org/data-citation/#data-citation-standard</r3d:citationGuidelineURL>
+    <r3d:aidSystem>none</r3d:aidSystem>
+    <r3d:enhancedPublication>yes</r3d:enhancedPublication>
+    <r3d:qualityManagement>yes</r3d:qualityManagement>
+    <r3d:metadataStandard>
+      <r3d:metadataStandardName metadataStandardScheme="DCC">DDI - Data Documentation Initiative</r3d:metadataStandardName>
+      <r3d:metadataStandardURL>http://www.dcc.ac.uk/resources/metadata-standards/ddi-data-documentation-initiative</r3d:metadataStandardURL>
+    </r3d:metadataStandard>
+    <r3d:remarks>Johns Hopkins University Data Archive is covered by Thomson Reuters Data Citation Index.</r3d:remarks>
+    <r3d:entryDate>2016-03-22</r3d:entryDate>
+    <r3d:lastUpdate>2017-08-08</r3d:lastUpdate>
+  </r3d:repository>
+</r3d:re3data>

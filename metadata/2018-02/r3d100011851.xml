@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--re3data.org Schema for the Description of Research Data Repositories. Version 2.2, December 2014. doi:10.2312/re3.006-->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/2-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/2-2 http://schema.re3data.org/2-2/re3dataV2-2.xsd">
+  <r3d:repository>
+    <r3d:re3data.orgIdentifier>r3d100011851</r3d:re3data.orgIdentifier>
+    <r3d:repositoryName language="eng">TwinsUK</r3d:repositoryName>
+    <r3d:repositoryURL>http://www.twinsuk.ac.uk/</r3d:repositoryURL>
+    <r3d:description language="eng">The TwinsUK resource is the biggest UK adult twin registry of 12.000 twins used to study the genetic and environmental aetiology of age related complex traits and diseases.</r3d:description>
+    <r3d:repositoryContact>http://www.twinsuk.ac.uk/contact-us/</r3d:repositoryContact>
+    <r3d:type>disciplinary</r3d:type>
+    <r3d:size updated=""></r3d:size>
+    <r3d:startDate>1992</r3d:startDate>
+    <r3d:endDate></r3d:endDate>
+    <r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+    <r3d:subject subjectScheme="DFG">201 Basic Biological and Medical Research</r3d:subject>
+    <r3d:subject subjectScheme="DFG">20502 Public Health, Health Services Research, Social Medicine</r3d:subject>
+    <r3d:subject subjectScheme="DFG">20503 Human Genetics</r3d:subject>
+    <r3d:subject subjectScheme="DFG">20504 Physiology</r3d:subject>
+    <r3d:subject subjectScheme="DFG">206 Neurosciences</r3d:subject>
+    <r3d:subject subjectScheme="DFG">21 Biology</r3d:subject>
+    <r3d:subject subjectScheme="DFG">2 Life Sciences</r3d:subject>
+    <r3d:subject subjectScheme="DFG">205 Medicine</r3d:subject>
+    <r3d:subject subjectScheme="DFG">22 Medicine</r3d:subject>
+    <r3d:missionStatementURL>http://www.kcl.ac.uk/aboutkings/strategy/index.aspx</r3d:missionStatementURL>
+    <r3d:contentType contentTypeScheme="parse">Images</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Standard office documents</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Software applications</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Raw data</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Plain text</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Scientific and statistical data formats</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">other</r3d:contentType>
+    <r3d:providerType>dataProvider</r3d:providerType>
+    <r3d:keyword>monozygotic (identical) twins</r3d:keyword>
+    <r3d:keyword>rheumatology</r3d:keyword>
+    <r3d:keyword>osteoporosis</r3d:keyword>
+    <r3d:keyword>cohort study</r3d:keyword>
+    <r3d:keyword>genetics</r3d:keyword>
+    <r3d:keyword>cardiovascular disease</r3d:keyword>
+    <r3d:keyword>metabolic syndrome</r3d:keyword>
+    <r3d:keyword>musculoskeletal system</r3d:keyword>
+    <r3d:keyword>epigenetics</r3d:keyword>
+    <r3d:keyword>ageing</r3d:keyword>
+    <r3d:keyword>computational biology</r3d:keyword>
+    <r3d:keyword>biological samples</r3d:keyword>
+    <r3d:keyword>cell lines</r3d:keyword>
+    <r3d:institution>
+        <r3d:institutionName language="eng">King&#039;s College London, Department of Twin Research &amp; Genetic Epidemiology</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">DTR</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>GBR</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:responsibilityType>technical</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.kcl.ac.uk/lsm/research/divisions/gmm/departments/twin/index.aspx</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.kcl.ac.uk/lsm/research/divisions/gmm/departments/twin/contact.aspx</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Arthritis Research UK</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">Arthritis Research Campaign</r3d:institutionAdditionalName>
+        <r3d:institutionAdditionalName language="eng">ARUK</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>GBR</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.arthritisresearchuk.org/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>https://www.arthritisresearchuk.org/contact-us</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Wellcome Trust</r3d:institutionName>
+        <r3d:institutionCountry>GBR</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.wellcome.ac.uk/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.wellcome.ac.uk/About-us/Contact-us/index.htm</r3d:institutionContact>
+        <r3d:institutionContact>http://www.wellcome.ac.uk/News/2013/News/WTP052826.htm</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Chronic Disease Research Foundation</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">CDRF</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>GBR</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.cdrf.org.uk/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.cdrf.org.uk/#!form__map/c24vq</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Medical Research Council</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">MRC</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>GBR</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.mrc.ac.uk/?nav=main</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>https://www.mrc.ac.uk/about/contact/</r3d:institutionContact>
+        <r3d:institutionContact>http://www.mrc.ac.uk/research/facilities/cohort-directory/twins-uk/</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">National Institute for Health Research</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">NIHR</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>GBR</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.nihr.ac.uk/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.nihr.ac.uk/contact/</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">European Commission</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">EU</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>EEC</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://ec.europa.eu/index_en.htm</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://ec.europa.eu/contact/guide_activity_en.htm</r3d:institutionContact>
+        <r3d:institutionContact>http://ec.europa.eu/contact/local_offices_en.htm</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:policy>
+        <r3d:policyName>Privacy statement</r3d:policyName>
+        <r3d:policyURL>http://www.kcl.ac.uk/terms/privacy.aspx</r3d:policyURL>
+    </r3d:policy>
+    <r3d:policy>
+        <r3d:policyName>DTR Policy Document for data access</r3d:policyName>
+        <r3d:policyURL>http://www.twinsuk.ac.uk/wp-content/uploads/2015/10/DTR_DataAccess_Policy.pdf</r3d:policyURL>
+    </r3d:policy>
+    <r3d:databaseAccess>
+        <r3d:databaseAccessType>restricted</r3d:databaseAccessType>
+        <r3d:databaseAccessRestriction>registration</r3d:databaseAccessRestriction>
+    </r3d:databaseAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>restricted</r3d:dataAccessType>
+    <r3d:dataAccessRestriction>feeRequired</r3d:dataAccessRestriction>
+    <r3d:dataAccessRestriction>other</r3d:dataAccessRestriction>
+    <r3d:dataAccessRestriction>registration</r3d:dataAccessRestriction>
+    </r3d:dataAccess>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>Copyrights</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>http://www.kcl.ac.uk/terms/index.aspx</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>other</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>http://www.twinsuk.ac.uk/wp-content/uploads/2012/05/TRU_Policy_Collaborations.pdf</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>other</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>http://twinsuk.ac.uk/wp-content/uploads/2012/07/DTR_ProposalForm-_Version3.1_2012.pdf</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataUpload>
+        <r3d:dataUploadType>restricted</r3d:dataUploadType>
+        <r3d:dataUploadRestriction>other</r3d:dataUploadRestriction>
+    </r3d:dataUpload>
+    <r3d:software>
+        <r3d:softwareName>unknown</r3d:softwareName>
+    </r3d:software>
+    <r3d:versioning></r3d:versioning>
+    <r3d:api apiType="FTP">ftp://twinr-ftp.kcl.ac.uk/</r3d:api>
+    <r3d:pidSystem>none</r3d:pidSystem>
+    <r3d:citationGuidelineURL>http://www.twinsuk.ac.uk/wp-content/uploads/2012/05/TRU_Policy_Collaborations.pdf</r3d:citationGuidelineURL>
+    <r3d:enhancedPublication>yes</r3d:enhancedPublication>
+    <r3d:qualityManagement>yes</r3d:qualityManagement>
+    <r3d:remarks>TwinsUK is covered by Thomson Reuters Data Citation Index. A Beta version is currently available for limited phenotypes (http://www.twinsuk.ac.uk/oa.php).</r3d:remarks>
+    <r3d:entryDate>2016-03-04</r3d:entryDate>
+    <r3d:lastUpdate>2016-03-21</r3d:lastUpdate>
+  </r3d:repository>
+</r3d:re3data>

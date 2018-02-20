@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--re3data.org Schema for the Description of Research Data Repositories. Version 2.2, December 2014. doi:10.2312/re3.006-->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/2-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/2-2 http://schema.re3data.org/2-2/re3dataV2-2.xsd">
+  <r3d:repository>
+    <r3d:re3data.orgIdentifier>r3d100011648</r3d:re3data.orgIdentifier>
+    <r3d:repositoryName language="eng">AHEAD</r3d:repositoryName>
+    <r3d:additionalName language="eng">European Archive of Historical EArthquake Data</r3d:additionalName>
+    <r3d:repositoryURL>http://www.emidius.eu/AHEAD/</r3d:repositoryURL>
+    <r3d:repositoryIdentifier>doi:10.6092/INGV.IT-AHEAD</r3d:repositoryIdentifier>
+    <r3d:description language="eng">AHEAD, the European Archive of Historical Earthquake Data 1000-1899, is a distributed archive aiming at preserving, inventorying and making available, to investigators and other users, data sources on the earthquake history of Europe, such as papers, reports, Macroseismic Data Points (MDPs), parametric catalogues, and so on.</r3d:description>
+    <r3d:repositoryContact>mario.locati@ingv.it</r3d:repositoryContact>
+    <r3d:repositoryContact>andrea.rovida@ingv.it</r3d:repositoryContact>
+    <r3d:type>disciplinary</r3d:type>
+    <r3d:size updated=""></r3d:size>
+    <r3d:startDate>2006</r3d:startDate>
+    <r3d:endDate></r3d:endDate>
+    <r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+    <r3d:subject subjectScheme="DFG">34 Geosciences (including Geography)</r3d:subject>
+    <r3d:subject subjectScheme="DFG">3 Natural Sciences</r3d:subject>
+    <r3d:missionStatementURL>http://www.emidius.eu/AHEAD/introduction.php</r3d:missionStatementURL>
+    <r3d:contentType contentTypeScheme="parse">Standard office documents</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Raw data</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">other</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Scientific and statistical data formats</r3d:contentType>
+    <r3d:providerType>dataProvider</r3d:providerType>
+    <r3d:providerType>serviceProvider</r3d:providerType>
+    <r3d:keyword>epicentre</r3d:keyword>
+    <r3d:keyword>seismic</r3d:keyword>
+    <r3d:keyword>seismology</r3d:keyword>
+    <r3d:keyword>geology</r3d:keyword>
+    <r3d:keyword>macroseismic</r3d:keyword>
+    <r3d:keyword>historical</r3d:keyword>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Istituto Nazionale di Geofisica e Vulcanologia - Sezione di Milano</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">INGV Milan</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>ITA</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:responsibilityType>technical</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.mi.ingv.it/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://comunicazione.ingv.it/index.php/contatti-ingv</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">NERIES</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">Network of Research Infrastructures for Europen Seismology, Networking Activity 4</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>EEC</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://emidius.mi.ingv.it/neries_NA4/</r3d:institutionURL>
+        <r3d:responsibilityStartDate>2006</r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate>2010</r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.neries-eu.org/</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">SHARE</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">Seismic Hazard Harmonization in Europe</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>EEC</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.share-eu.org/</r3d:institutionURL>
+        <r3d:responsibilityStartDate>2013</r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.share-eu.org/node/26</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="fra">Bureau de Recherches Géologiques et Minières</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">BRGM</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>FRA</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.brgm.fr/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.brgm.fr/content/contact</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="fra">Électricité de France SA</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">EDF</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>FRA</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>commercial</r3d:institutionType>
+        <r3d:institutionURL>https://www.edf.fr/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>https://particulier.edf.fr/fr/accueil/aide-et-contact/contact/contacter-edf.html</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="cat">Institut Cartogràfic i Geològic de Catalunya</r3d:institutionName>
+        <r3d:institutionCountry>ESP</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.icgc.cat/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.icgc.cat/L-ICGC/Sobre-l-ICGC/Contacte2</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Institute of Engineering Seismology and Earthquake Engineering</r3d:institutionName>
+        <r3d:institutionCountry>ITA</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.itsak.gr/en</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.itsak.gr/en/contact/contact_form</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="deu">Schweizerische Erdbebendienst, ETH Zürich</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">SED</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>CHE</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.seismo.ethz.ch/de/home/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.seismo.ethz.ch/en/about-us/contact/</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="por">Instituto Português do Mar e da Atmosfera</r3d:institutionName>
+        <r3d:institutionCountry>PRT</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>https://www.ipma.pt/pt/index.html</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>https://www.ipma.pt/en/siteinfo/contacto.jsp</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="fra">Institut de radioprotection et de sûreté nucléaire</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">IRSN</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>FRA</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.irsn.fr/FR/Pages/Home.aspx</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.irsn.fr/FR/Contact/Pages/Question.aspx</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">EPOS</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">European Plate Observing System</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>EEC</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>https://www.epos-ip.org/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>epos.secretariat@ingv.it</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Ministero dell&#039;Istruzione, dell&#039;Università e della Ricerca</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">MIUR</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>ITA</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.miur.gov.it/web/guest/home</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Royal Observatory of Belgium, Seismology</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">ROB</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>BEL</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://seismologie.be/en</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://seismologie.be/en/the-service/contact-us</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:policy>
+        <r3d:policyName>Disclaimer</r3d:policyName>
+        <r3d:policyURL>http://www.emidius.eu/AHEAD/introduction.php#disclaimer</r3d:policyURL>
+    </r3d:policy>
+    <r3d:databaseAccess>
+        <r3d:databaseAccessType>open</r3d:databaseAccessType>
+    </r3d:databaseAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>open</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>other</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>http://www.emidius.eu/AHEAD/introduction.php#copyright</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataUpload>
+        <r3d:dataUploadType>restricted</r3d:dataUploadType>
+        <r3d:dataUploadRestriction>registration</r3d:dataUploadRestriction>
+    </r3d:dataUpload>
+    <r3d:software>
+        <r3d:softwareName>unknown</r3d:softwareName>
+    </r3d:software>
+    <r3d:versioning></r3d:versioning>
+    <r3d:pidSystem>DOI</r3d:pidSystem>
+    <r3d:citationGuidelineURL>http://www.emidius.eu/AHEAD/introduction.php</r3d:citationGuidelineURL>
+    <r3d:aidSystem>none</r3d:aidSystem>
+    <r3d:enhancedPublication>yes</r3d:enhancedPublication>
+    <r3d:qualityManagement>yes</r3d:qualityManagement>
+    <r3d:remarks>http://www.emidius.eu/SHEEC/ SHARE European Earthquake Catalogue The SHARE European Earthquake Catalogue, compiled in the frame of the SHARE project (Task 3.1), consists of two portions:  the SHARE European Earthquake Catalogue (SHEEC) 1000-1899 and the SHARE European Earthquake Catalogue (SHEEC) 1900-2006.</r3d:remarks>
+    <r3d:entryDate>2015-07-20</r3d:entryDate>
+    <r3d:lastUpdate>2017-07-21</r3d:lastUpdate>
+  </r3d:repository>
+</r3d:re3data>

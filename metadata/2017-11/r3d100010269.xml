@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--re3data.org Schema for the Description of Research Data Repositories. Version 2.2, December 2014. doi:10.2312/re3.006-->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/2-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/2-2 http://schema.re3data.org/2-2/re3dataV2-2.xsd">
+  <r3d:repository>
+    <r3d:re3data.orgIdentifier>r3d100010269</r3d:re3data.orgIdentifier>
+    <r3d:repositoryName language="eng">J. Craig Venter Institute</r3d:repositoryName>
+    <r3d:additionalName language="eng">JCVI</r3d:additionalName>
+    <r3d:repositoryURL>http://www.jcvi.org/cms/home/</r3d:repositoryURL>
+    <r3d:repositoryIdentifier>RRID:SCR_011269</r3d:repositoryIdentifier>
+    <r3d:repositoryIdentifier>RRID:nlx_42542</r3d:repositoryIdentifier>
+    <r3d:description language="eng">JCVI is a world leader in genomic research.</r3d:description>
+    <r3d:repositoryContact>http://www.jcvi.org/cms/contact/locations/</r3d:repositoryContact>
+    <r3d:type>disciplinary</r3d:type>
+    <r3d:size updated=""></r3d:size>
+    <r3d:startDate>2006-10-01</r3d:startDate>
+    <r3d:endDate></r3d:endDate>
+    <r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+    <r3d:subject subjectScheme="DFG">20105 General Genetics</r3d:subject>
+    <r3d:subject subjectScheme="DFG">20107 Bioinformatics and Theoretical Biology</r3d:subject>
+    <r3d:subject subjectScheme="DFG">20207 Plant Genetics</r3d:subject>
+    <r3d:subject subjectScheme="DFG">201 Basic Biological and Medical Research</r3d:subject>
+    <r3d:subject subjectScheme="DFG">21 Biology</r3d:subject>
+    <r3d:subject subjectScheme="DFG">2 Life Sciences</r3d:subject>
+    <r3d:subject subjectScheme="DFG">202 Plant Sciences</r3d:subject>
+    <r3d:missionStatementURL>http://www.jcvi.org/cms/research/groups/policy-center/</r3d:missionStatementURL>
+    <r3d:contentType contentTypeScheme="parse">Standard office documents</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Structured graphics</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Images</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Raw data</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Structured text</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Software applications</r3d:contentType>
+    <r3d:providerType>dataProvider</r3d:providerType>
+    <r3d:keyword>human genomic medicine</r3d:keyword>
+    <r3d:keyword>infectious disease</r3d:keyword>
+    <r3d:keyword>human health</r3d:keyword>
+    <r3d:keyword>plant</r3d:keyword>
+    <r3d:keyword>microbial and environment genomics</r3d:keyword>
+    <r3d:keyword>synthetic biology</r3d:keyword>
+    <r3d:keyword>biological energy</r3d:keyword>
+    <r3d:keyword>bioinformatics</r3d:keyword>
+    <r3d:keyword>software engineering</r3d:keyword>
+    <r3d:institution>
+        <r3d:institutionName language="eng">J. Craig Venter Institute</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">JCVI</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>USA</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:responsibilityType>technical</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.jcvi.org/cms/home/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.jcvi.org/cms/contact/locations/</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Virginia Bioinformatics Institute</r3d:institutionName>
+        <r3d:institutionCountry>USA</r3d:institutionCountry>
+        <r3d:responsibilityType>technical</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>https://www.vbi.vt.edu/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>https://www.vbi.vt.edu/contact</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">University of Pennsylvania</r3d:institutionName>
+        <r3d:institutionCountry>USA</r3d:institutionCountry>
+        <r3d:responsibilityType>technical</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.upenn.edu/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.upenn.edu/about/comments</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">National Institute of Allergy and Infectious Disease</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">NIAID</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>USA</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>https://www.niaid.nih.gov/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.jcvi.org/cms/contact/locations/</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:policy>
+        <r3d:policyName>JCVI Policy</r3d:policyName>
+        <r3d:policyURL>http://www.jcvi.org/cms/legal/promoting-objectivity-in-research/</r3d:policyURL>
+    </r3d:policy>
+    <r3d:databaseAccess>
+        <r3d:databaseAccessType>open</r3d:databaseAccessType>
+    </r3d:databaseAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>open</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>restricted</r3d:dataAccessType>
+    <r3d:dataAccessRestriction>registration</r3d:dataAccessRestriction>
+    </r3d:dataAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>closed</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>Copyrights</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>http://www.jcvi.org/cms/legal/privacy-statement/</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataUpload>
+        <r3d:dataUploadType>restricted</r3d:dataUploadType>
+        <r3d:dataUploadRestriction>other</r3d:dataUploadRestriction>
+    </r3d:dataUpload>
+    <r3d:dataUploadLicense>
+        <r3d:dataUploadLicenseName>Submisison Guide</r3d:dataUploadLicenseName>
+        <r3d:dataUploadLicenseURL>http://jcvi.org/medicago/archives_annotation.php?pageName=Annotation&amp;section=CommunityAnnotation</r3d:dataUploadLicenseURL>
+    </r3d:dataUploadLicense>
+    <r3d:software>
+        <r3d:softwareName>other</r3d:softwareName>
+    </r3d:software>
+    <r3d:versioning>no</r3d:versioning>
+    <r3d:api apiType="other">http://www.jcvi.org/cms/research/projects/variantclassifier/manual/download-and-installation/</r3d:api>
+    <r3d:pidSystem>none</r3d:pidSystem>
+    <r3d:citationGuidelineURL>http://www.jcvi.org/cms/legal/data-disclaimer/</r3d:citationGuidelineURL>
+    <r3d:enhancedPublication>unknown</r3d:enhancedPublication>
+    <r3d:qualityManagement>yes</r3d:qualityManagement>
+    <r3d:syndication syndicationType="RSS">http://www.jcvi.org/cms/publications/listing/?type=100</r3d:syndication>
+    <r3d:syndication syndicationType="RSS">http://www.jcvi.org/cms/press/press-releases/?type=100</r3d:syndication>
+    <r3d:syndication syndicationType="RSS">http://blogs.jcvi.org/feed/</r3d:syndication>
+    <r3d:remarks>J.Craig Venter Institute was formed in October 2006 through the merger of several affiliated and legacy organizations â€” The Institute for Genomic Research (TIGR) and The Center for the Advancement of Genomics (TCAG), The J. Craig Venter Science Foundation, The Joint Technology Center, and the Institute for Biological Energy Alternatives (IBEA). Today all these organizations have become one large multidisciplinary genomic-focused organization. With more than 400 scientists and staff, more than 250,000 square feet of laboratory space, and locations in Rockville, Maryland and San Diego, California.</r3d:remarks>
+    <r3d:entryDate>2013-05-02</r3d:entryDate>
+    <r3d:lastUpdate>2017-04-06</r3d:lastUpdate>
+  </r3d:repository>
+</r3d:re3data>

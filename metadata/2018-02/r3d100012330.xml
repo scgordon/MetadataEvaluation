@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--re3data.org Schema for the Description of Research Data Repositories. Version 2.2, December 2014. doi:10.2312/re3.006-->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/2-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/2-2 http://schema.re3data.org/2-2/re3dataV2-2.xsd">
+  <r3d:repository>
+    <r3d:re3data.orgIdentifier>r3d100012330</r3d:re3data.orgIdentifier>
+    <r3d:repositoryName language="deu">RADAR</r3d:repositoryName>
+    <r3d:additionalName language="eng">Research Data Repository</r3d:additionalName>
+    <r3d:repositoryURL>https://www.radar-service.eu/en</r3d:repositoryURL>
+    <r3d:description language="eng">RADAR is an online service for the archival and publication of research data resulting from completed scientific studies and projects. RADAR is a generic, interdisciplinary service which offers two service levels: data archival and data publication (including archival).
+Data archival offers format-independent long-term storage with user-defined rentention periods. By default, archived data and associated metadata will not be published, unless specified otherwise by the RADAR user. The RADAR service offers flexible data and metadata access management, so that RADAR users are able to share preserved datasets with specific users. Bitstream preservation will produce backup copies of the data at three different locations to ensure its long-term availability.
+- Flexible retention period (5, 10, 15 years)
+- By default &quot;Dark archive&quot;
+- Data providers determine access rights (private/shared/public) 
+- Yearly payment scheme for institutions
+Data publication includes the allocation of a DataCite DOI at point of publication. The RADAR service includes an optional embargo period for the publication of submitted data that can be subsequently prolonged if necessary. The dataset along with the metadata describing the dataset will be published and allocated a DOI to ensure that each specific datasets can be found and cited once any embargo period has expired.
+Within the publication service, a peer review option may be used. The RADAR user will receive a secure review URL provided by RADAR which may then be forwarded to an editor or reviewer responsible for a corresponding manuscript submission. The respective dataset is locked for the duration of the peer review process.
+- Unlimited holding period (minimum 25 years guaranteed)
+- Optional embargos
+- Assigning a DOI (DataCite)
+- Interface for peer review 
+- Selection of licences, no CC0 required
+- Metadata is indexed (RADAR, DataCite, OAI, Google) 
+- One-time payment scheme for institutions</r3d:description>
+    <r3d:repositoryContact>info@radar-service.eu</r3d:repositoryContact>
+    <r3d:type>other</r3d:type>
+    <r3d:size updated=""></r3d:size>
+    <r3d:startDate>2017-03-16</r3d:startDate>
+    <r3d:endDate></r3d:endDate>
+    <r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+    <r3d:repositoryLanguage>deu</r3d:repositoryLanguage>
+    <r3d:subject subjectScheme="DFG">1 Humanities and Social Sciences</r3d:subject>
+    <r3d:subject subjectScheme="DFG">2 Life Sciences</r3d:subject>
+    <r3d:subject subjectScheme="DFG">3 Natural Sciences</r3d:subject>
+    <r3d:subject subjectScheme="DFG">4 Engineering Sciences</r3d:subject>
+    <r3d:missionStatementURL>https://www.radar-service.eu/en/services</r3d:missionStatementURL>
+    <r3d:contentType contentTypeScheme="parse">Standard office documents</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Images</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">other</r3d:contentType>
+    <r3d:providerType>serviceProvider</r3d:providerType>
+    <r3d:providerType>dataProvider</r3d:providerType>
+    <r3d:keyword>multidisciplinary</r3d:keyword>
+    <r3d:institution>
+        <r3d:institutionName language="eng">FIZ Karlsruhe - Leibniz Institute for Information Infrastructure</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">FIZ Karlsruhe</r3d:institutionAdditionalName>
+        <r3d:institutionAdditionalName language="deu">FIZ Karlsruhe - Leibniz-Institut für Informationsinfrastruktur GmbH</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>DEU</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:responsibilityType>technical</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>https://www.fiz-karlsruhe.de/</r3d:institutionURL>
+        <r3d:responsibilityStartDate>2017-03-16</r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>matthias.razum@fiz-karlsruhe.de</r3d:institutionContact>
+        <r3d:institutionContact>ena.brophy@fiz-karlsruhe.de</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:policy>
+        <r3d:policyName>Customer contract</r3d:policyName>
+        <r3d:policyURL>https://www.radar-service.eu/sites/default/files/Dienstvertrag%20RADAR.pdf</r3d:policyURL>
+    </r3d:policy>
+    <r3d:policy>
+        <r3d:policyName>Upload policy</r3d:policyName>
+        <r3d:policyURL>https://www.radar-service.eu/en/terms-and-conditions</r3d:policyURL>
+    </r3d:policy>
+    <r3d:databaseAccess>
+        <r3d:databaseAccessType>open</r3d:databaseAccessType>
+    </r3d:databaseAccess>
+    <r3d:databaseLicense>
+        <r3d:databaseLicenseName>CC0</r3d:databaseLicenseName>
+        <r3d:databaseLicenseURL>https://creativecommons.org/publicdomain/zero/1.0/deed.de</r3d:databaseLicenseURL>
+    </r3d:databaseLicense>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>open</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>embargoed</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>restricted</r3d:dataAccessType>
+    <r3d:dataAccessRestriction>registration</r3d:dataAccessRestriction>
+    </r3d:dataAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>closed</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>CC</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>https://creativecommons.org/</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataUpload>
+        <r3d:dataUploadType>restricted</r3d:dataUploadType>
+        <r3d:dataUploadRestriction>feeRequired</r3d:dataUploadRestriction>
+    </r3d:dataUpload>
+    <r3d:dataUploadLicense>
+        <r3d:dataUploadLicenseName>Creative Commons</r3d:dataUploadLicenseName>
+        <r3d:dataUploadLicenseURL>https://www.creativecommons.org</r3d:dataUploadLicenseURL>
+    </r3d:dataUploadLicense>
+    <r3d:software>
+        <r3d:softwareName>eSciDoc</r3d:softwareName>
+    </r3d:software>
+    <r3d:versioning></r3d:versioning>
+    <r3d:api apiType="REST">https://www.radar-service.eu/en/radar-api</r3d:api>
+    <r3d:api apiType="OAI-PMH">https://www.radar-service.eu/oai/search.jsp</r3d:api>
+    <r3d:pidSystem>DOI</r3d:pidSystem>
+    <r3d:citationGuidelineURL></r3d:citationGuidelineURL>
+    <r3d:aidSystem>ORCID</r3d:aidSystem>
+    <r3d:enhancedPublication>yes</r3d:enhancedPublication>
+    <r3d:qualityManagement>no</r3d:qualityManagement>
+    <r3d:metadataStandard>
+      <r3d:metadataStandardName metadataStandardScheme="DCC">DataCite Metadata Schema</r3d:metadataStandardName>
+      <r3d:metadataStandardURL>http://www.dcc.ac.uk/resources/metadata-standards/abcd-access-biological-collection-data</r3d:metadataStandardURL>
+    </r3d:metadataStandard>
+    <r3d:remarks>RADAR was established by an experienced consortium to develop an infrastructure that facilitates the preservation, publication and traceability of research data. The project was funded by the German Research Foundation (DFG) from 2013 to 2016 within the programme “Scientific Library Services and Information Systems (LIS)”. The technical infrastructure of RADAR was provided by the FIZ Karlsruhe – Leibniz Institute for Information Infrastructure and the Steinbuch Centre for Computing (SCC). The Ludwig-Maximilians-Universität Munich (LMU), Faculty for Chemistry and Pharmacy, and the Leibniz Institute of Plant Biochemistry (IPB) provided the scientific specification for data management services. The German National Library of Science and Technology (TIB) considered the sustainable management and publication of research data.</r3d:remarks>
+    <r3d:entryDate>2017-03-17</r3d:entryDate>
+    <r3d:lastUpdate>2018-02-07</r3d:lastUpdate>
+  </r3d:repository>
+</r3d:re3data>

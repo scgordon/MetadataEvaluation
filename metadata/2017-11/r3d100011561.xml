@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--re3data.org Schema for the Description of Research Data Repositories. Version 2.2, December 2014. doi:10.2312/re3.006-->
+<r3d:re3data xmlns:r3d="http://www.re3data.org/schema/2-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.re3data.org/schema/2-2 http://schema.re3data.org/2-2/re3dataV2-2.xsd">
+  <r3d:repository>
+    <r3d:re3data.orgIdentifier>r3d100011561</r3d:re3data.orgIdentifier>
+    <r3d:repositoryName language="eng">PhysioNet</r3d:repositoryName>
+    <r3d:additionalName language="eng">the reserach resource or complex physiologic signals</r3d:additionalName>
+    <r3d:repositoryURL>http://physionet.org/</r3d:repositoryURL>
+    <r3d:repositoryIdentifier>RRID:SCR_007345</r3d:repositoryIdentifier>
+    <r3d:repositoryIdentifier>RRID:nif-0000-00250</r3d:repositoryIdentifier>
+    <r3d:description language="eng">PhysioNet is an on-line forum for the dissemination and exchange of recorded biomedical signals and open-source software for analyzing them. It provides facilities for the cooperative analysis of data and the evaluation of proposed new algorithms. In addition to providing free electronic access to PhysioBank data and PhysioToolkit software via the World Wide Web. PhysioNet offers services and training via on-line tutorials to assist users with varying levels of expertise. PhysioNet is a resource for biomedical research and development. It has three closely interdependent components: PhysioBank is a large and growing archive of well-characterized digital recordings of physiologic signals, time series, and related data for use by the biomedical research community. PhysioBank currently includes more than 60 collections of cardiopulmonary, neural, and other biomedical signals from healthy subjects and patients with a variety of conditions with major public health implications, including sudden cardiac death, congestive heart failure, epilepsy, gait disorders, sleep apnea, and aging. PhysioToolkit is a large and growing library of software for physiologic signal processing and analysis, detection of physiologically significant events using both classical techniques and novel methods based on statistical physics and nonlinear dynamics, interactive display and characterization of signals, creation of new databases, simulation of physiologic and other signals, quantitative evaluation and comparison of analysis methods, and analysis of nonequilibrium and nonstationary processes. PhysioNetWorks is a virtual laboratory where you can work together with us and with colleagues anywhere in the world to create, evaluate, improve, document, and prepare new data and software &quot;works&quot; for publication on PhysioNet. Unlike all other parts of the PhysioNet web site, access to PhysioNetWorks is password-protected. (Accounts are free and a password can be obtained in a minute or two.)</r3d:description>
+    <r3d:repositoryContact>webmaster@physionet.org.</r3d:repositoryContact>
+    <r3d:type>disciplinary</r3d:type>
+    <r3d:size updated="2015-03-20">The main PhysioNet server at MIT supplies about 4 terabytes of data (about 8 million hits) each month</r3d:size>
+    <r3d:startDate>1999</r3d:startDate>
+    <r3d:endDate></r3d:endDate>
+    <r3d:repositoryLanguage>eng</r3d:repositoryLanguage>
+    <r3d:subject subjectScheme="DFG">20502 Public Health, Health Services Research, Social Medicine</r3d:subject>
+    <r3d:subject subjectScheme="DFG">206 Neurosciences</r3d:subject>
+    <r3d:subject subjectScheme="DFG">205 Medicine</r3d:subject>
+    <r3d:subject subjectScheme="DFG">22 Medicine</r3d:subject>
+    <r3d:subject subjectScheme="DFG">2 Life Sciences</r3d:subject>
+    <r3d:missionStatementURL>http://physionet.org/tour/</r3d:missionStatementURL>
+    <r3d:contentType contentTypeScheme="parse">Databases</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Images</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Raw data</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Software applications</r3d:contentType>
+    <r3d:contentType contentTypeScheme="parse">Archived data</r3d:contentType>
+    <r3d:providerType>dataProvider</r3d:providerType>
+    <r3d:keyword>physiology</r3d:keyword>
+    <r3d:keyword>aging</r3d:keyword>
+    <r3d:keyword>sudden death</r3d:keyword>
+    <r3d:keyword>electrophysiology</r3d:keyword>
+    <r3d:keyword>heart</r3d:keyword>
+    <r3d:keyword>nervous system</r3d:keyword>
+    <r3d:keyword>nonlinear dynamics</r3d:keyword>
+    <r3d:keyword>cardiology</r3d:keyword>
+    <r3d:keyword>biomedical signals</r3d:keyword>
+    <r3d:keyword>physiological signals</r3d:keyword>
+    <r3d:institution>
+        <r3d:institutionName language="eng">National Institutes of Health, National Institute of Biomedical Imaging and Bioengineering</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">NIBIB</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>USA</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.nibib.nih.gov/</r3d:institutionURL>
+        <r3d:responsibilityStartDate>2007</r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.nibib.nih.gov/contact-us</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">National Institutes of Health, National Institute of General Medical Sciences</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">NIGMS</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>USA</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.nigms.nih.gov/Pages/default.aspx</r3d:institutionURL>
+        <r3d:responsibilityStartDate>2007</r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.nigms.nih.gov/Pages/ContactUs.aspx</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Beth Israel Deaconess Medical Center</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">BIDMC</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>USA</r3d:institutionCountry>
+        <r3d:responsibilityType>funding</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.bidmc.org/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.bidmc.org/Contact-Us.aspx</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Boston University</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">BU</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>USA</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.bu.edu/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.bu.edu/contact/</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">Harvard Medical School</r3d:institutionName>
+        <r3d:institutionCountry>USA</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://hms.harvard.edu/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://hms.harvard.edu/contact-us</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">McGill University, Centre for Applied Mathematics in Bioscience and Medicine</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">CAMBAM</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>USA</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://www.mcgill.ca/cambam/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://www.mcgill.ca/cambam/</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:institution>
+        <r3d:institutionName language="eng">MIT Laboratory for Computational Physiology</r3d:institutionName>
+        <r3d:institutionAdditionalName language="eng">MIT LCP</r3d:institutionAdditionalName>
+        <r3d:institutionCountry>USA</r3d:institutionCountry>
+        <r3d:responsibilityType>general</r3d:responsibilityType>
+        <r3d:responsibilityType>technical</r3d:responsibilityType>
+        <r3d:institutionType>non-profit</r3d:institutionType>
+        <r3d:institutionURL>http://lcp.mit.edu/</r3d:institutionURL>
+        <r3d:responsibilityStartDate></r3d:responsibilityStartDate>
+        <r3d:responsibilityEndDate></r3d:responsibilityEndDate>
+        <r3d:institutionContact>http://lcp.mit.edu/contact.shtml</r3d:institutionContact>
+    </r3d:institution>
+    <r3d:policy>
+        <r3d:policyName>PhysioNet Guidelines</r3d:policyName>
+        <r3d:policyURL>http://www.physionet.org/guidelines.shtml</r3d:policyURL>
+    </r3d:policy>
+    <r3d:databaseAccess>
+        <r3d:databaseAccessType>open</r3d:databaseAccessType>
+    </r3d:databaseAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>open</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>embargoed</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataAccess>
+    <r3d:dataAccessType>closed</r3d:dataAccessType>
+    </r3d:dataAccess>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>other</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>http://www.physionet.org/copying.shtml#data</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataLicense>
+        <r3d:dataLicenseName>other</r3d:dataLicenseName>
+        <r3d:dataLicenseURL>http://www.physionet.org/copying.shtml</r3d:dataLicenseURL>
+    </r3d:dataLicense>
+    <r3d:dataUpload>
+        <r3d:dataUploadType>restricted</r3d:dataUploadType>
+        <r3d:dataUploadRestriction>registration</r3d:dataUploadRestriction>
+    </r3d:dataUpload>
+    <r3d:dataUploadLicense>
+        <r3d:dataUploadLicenseName>NIH Data Sharing Policy</r3d:dataUploadLicenseName>
+        <r3d:dataUploadLicenseURL>http://grants.nih.gov/grants/policy/data_sharing/</r3d:dataUploadLicenseURL>
+    </r3d:dataUploadLicense>
+    <r3d:dataUploadLicense>
+        <r3d:dataUploadLicenseName>Contributing to PhysioNet Guidelines</r3d:dataUploadLicenseName>
+        <r3d:dataUploadLicenseURL>http://www.physionet.org/guidelines.shtml</r3d:dataUploadLicenseURL>
+    </r3d:dataUploadLicense>
+    <r3d:software>
+        <r3d:softwareName>other</r3d:softwareName>
+    </r3d:software>
+    <r3d:versioning>yes</r3d:versioning>
+    <r3d:api apiType="FTP">http://physionet.org/physiotools/wfdb.shtml#library</r3d:api>
+    <r3d:pidSystem>none</r3d:pidSystem>
+    <r3d:citationGuidelineURL>http://www.physionet.org/citations.shtml</r3d:citationGuidelineURL>
+    <r3d:enhancedPublication>yes</r3d:enhancedPublication>
+    <r3d:qualityManagement>yes</r3d:qualityManagement>
+    <r3d:syndication syndicationType="RSS">http://physionet.org/feed.xml</r3d:syndication>
+    <r3d:remarks>PhysioNet is covered by Thomson Reuters Data Citation Index. see also in re3data.org: PhysioBank. PhysioBank is the web-accessible public data archive and component of PhysioNet.</r3d:remarks>
+    <r3d:entryDate>2015-03-20</r3d:entryDate>
+    <r3d:lastUpdate>2016-03-03</r3d:lastUpdate>
+  </r3d:repository>
+</r3d:re3data>
