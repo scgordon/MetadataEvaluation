@@ -15,7 +15,7 @@ More functions are described in the metadataEvaluation module Tutorial:
 
 The Exploration notebook directly addresses the information needs listed below and shows the location the csv files are for each data product for further visualization in other environments. In this notebook you just hold shift and press return/enter, or make selections from dropdown.
 
-[Exploration Notebook]https://github.com/scgordon/MetadataEvaluation/blob/re3data/notebook/Exploration.ipynb
+[Exploration Notebook](https://github.com/scgordon/MetadataEvaluation/blob/re3data/notebook/Exploration.ipynb)
 
 The functions used in both Notebooks attempt to:
 
