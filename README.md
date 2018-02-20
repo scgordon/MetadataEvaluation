@@ -1,4 +1,4 @@
-# NCAR-DASH
+# Re3data
 A repository branch to explore metadata in Re3data and research the metadata about repositories. Possible research directions include determining recommendations for journals to vet repositories with, study of what is claimed vs what is actually offered, test set of repos to test api layer of vm Metadata Evaluation analytics. Studies of different metadata dialects. EX there are over 200 repositories using ISO 19115 dialect of the documentation language. Do they use the dialect in the same way? Do usage patterns follow communities of practice? Funding agency?
 
 If you are new to Jupyter and want to explore the notebooks in this repository, use the wiki to get started.
@@ -7,7 +7,7 @@ https://github.com/scgordon/MetadataEvaluation/wiki/Getting-Started
 
 The Evaluation notebook should allow the user to gain an understanding of metadataEvaluation.py functions used to create data products.
 
-[![metadataEvaluation.py](https://github.com/scgordon/MetadataEvaluation/blob/re3data/notebook/Re3data_Evaluation.ipynb
+[![metadataEvaluation.py](https://github.com/scgordon/MetadataEvaluation/blob/re3data/notebook/Re3data_Evaluation.ipynb)
 
 More functions are described in metadataEvaluation_ModuleTutorial:
 
@@ -27,7 +27,7 @@ The functions used in both Notebooks attempt to:
 
 * count the unique values of content at a selected element to see what variations occurr at selected elements. Useful for identifiying opportunities to ensure consistency. Also useful to see if nonstandard element content has a standardized location
 
-Link below to interactive webbuild of the repository via MyBinder which opens the Presentation Notebook particularly useful for exploration of the fourth and fifth bullet points:
+Link below to interactive webbuild of the repository via MyBinder which opens the Exploration Notebook particularly useful for exploration of the fourth and fifth bullet points:
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/scgordon/MetadataEvaluation/re3data?filepath=%2Fnotebook%2FRe3data_Exploration.ipynb)
 
