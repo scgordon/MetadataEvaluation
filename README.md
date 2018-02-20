@@ -1,25 +1,27 @@
 # NCAR-DASH
-A repository for the DSET team to explore metadata in the DASH WAF and determine curation needs via Jupyter Notebooks. 
+A repository branch to explore metadata in Re3data and research the metadata about repositories. Possible research directions include determining recommendations for journals to vet repositories with, study of what is claimed vs what is actually offered, test set of repos to test api layer of vm Metadata Evaluation analytics. Studies of different metadata dialects. EX there are over 200 repositories using ISO 19115 dialect of the documentation language. Do they use the dialect in the same way? Do usage patterns follow communities of practice? Funding agency?
 
 If you are new to Jupyter and want to explore the notebooks in this repository, use the wiki to get started.
 
-https://github.com/scgordon/NCAR-DASH/wiki/Getting-Started
+https://github.com/scgordon/MetadataEvaluation/wiki/Getting-Started
 
 The Evaluation notebook should allow the user to gain an understanding of metadataEvaluation.py functions used to create data products.
 
-https://github.com/scgordon/NCAR-DASH/blob/master/notebook/DSET_DASH_Evaluation.ipynb
+[![metadataEvaluation.py](https://github.com/scgordon/MetadataEvaluation/blob/re3data/notebook/Re3data_Evaluation.ipynb
 
-The Presentation notebook directly addresses the information needs listed below and shows the location the csv files are for each data product for further visualization in other environments. In this notebook you just hold shift and press return/enter, or make selections from dropdown.
+More functions are described in metadataEvaluation_ModuleTutorial:
 
-https://github.com/scgordon/NCAR-DASH/blob/master/notebook/DSET_DASH_Presentation.ipynb
+https://github.com/scgordon/MetadataEvaluation/blob/master/notebook/metadataEvaluation_ModuleTutorial.ipynb
+
+The Exploration notebook directly addresses the information needs listed below and shows the location the csv files are for each data product for further visualization in other environments. In this notebook you just hold shift and press return/enter, or make selections from dropdown.
+
+https://github.com/scgordon/MetadataEvaluation/blob/re3data/notebook/Exploration.ipynb
 
 The functions used in both Notebooks attempt to:
 
-* Check the occurrence of metadata elements and compare percentages across DASH collections
+* Check the occurrence of metadata elements and compare percentages across timestamped collections of Re3data metadata
 
-* Check for a specific set of essential elements across the collection, provide counts, provide occurrence
-
-* Create lists of records at NCAR that do not contain an element
+* Create lists of records at Re3data that do not contain an element
 
 * Create lists of what content occurs at a selected element 
 
@@ -27,4 +29,5 @@ The functions used in both Notebooks attempt to:
 
 Link below to interactive webbuild of the repository via MyBinder which opens the Presentation Notebook particularly useful for exploration of the fourth and fifth bullet points:
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/scgordon/NCAR-DASH/master?filepath=%2Fnotebook%2FDSET_DASH_Presentation.ipynb)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/scgordon/MetadataEvaluation/re3data?filepath=%2Fnotebook%2FRe3data_Exploration.ipynb)
+
