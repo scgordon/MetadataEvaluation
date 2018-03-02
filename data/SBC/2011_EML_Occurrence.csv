@@ -1,0 +1,64 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2011_EML,19,19,1.00,100.00%
+Abstract,2011_EML,19,19,1.00,100.00%
+Attribute Constraints,2011_EML,2,2,0.11,10.53%
+Attribute Definition,2011_EML,873,19,45.95,100.00%
+Attribute List,2011_EML,31,19,1.63,100.00%
+Author,2011_EML,57,19,3.00,100.00%
+Author / Originator,2011_EML,57,19,3.00,100.00%
+Author / Originator Email Address,2011_EML,7,7,0.37,36.84%
+Author / Originator Identifier,2011_EML,55,19,2.89,100.00%
+Author / Originator Identifier Type,2011_EML,11,7,0.58,36.84%
+Author / Originator World Wide Web Address,2011_EML,50,19,2.63,100.00%
+Bounding Box,2011_EML,212,19,11.16,100.00%
+Contributor Name,2011_EML,3,3,0.16,15.79%
+Contributor Role,2011_EML,3,3,0.16,15.79%
+Distribution Format,2011_EML,31,19,1.63,100.00%
+Easternmost Longitude,2011_EML,176,19,9.26,100.00%
+End Time,2011_EML,13,13,0.68,68.42%
+Entity Type Definition,2011_EML,31,19,1.63,100.00%
+Entity and Attribute Information,2011_EML,31,19,1.63,100.00%
+Instrument,2011_EML,18,9,0.95,47.37%
+Keyword,2011_EML,544,19,28.63,100.00%
+Keyword Type,2011_EML,44,19,2.32,100.00%
+Keyword Vocabulary,2011_EML,111,19,5.84,100.00%
+Maintenance,2011_EML,4,4,0.21,21.05%
+Metadata Access Constraints,2011_EML,19,19,1.00,100.00%
+Metadata Use Constraints,2011_EML,19,19,1.00,100.00%
+Northernmost Latitude,2011_EML,212,19,11.16,100.00%
+Organization Name,2011_EML,30,17,1.58,89.47%
+Originating Organization,2011_EML,13,13,0.68,68.42%
+Parent Identifier,2011_EML,7,7,0.37,36.84%
+Place Keyword,2011_EML,79,19,4.16,100.00%
+Process Step,2011_EML,19,19,1.00,100.00%
+Project Description,2011_EML,18,18,0.95,94.74%
+Project Name,2011_EML,50,19,2.63,100.00%
+Publication Date,2011_EML,19,19,1.00,100.00%
+Publisher,2011_EML,17,17,0.89,89.47%
+Related Resource Citation,2011_EML,18,18,0.95,94.74%
+Related Resource Identifier,2011_EML,7,7,0.37,36.84%
+Resource Access Constraints,2011_EML,19,19,1.00,100.00%
+Resource Contact,2011_EML,19,19,1.00,100.00%
+Resource Creation/Revision Date,2011_EML,19,19,1.00,100.00%
+Resource Distribution,2011_EML,17,17,0.89,89.47%
+Resource Format,2011_EML,31,19,1.63,100.00%
+Resource Identifier,2011_EML,19,19,1.00,100.00%
+Resource Identifier Type,2011_EML,19,19,1.00,100.00%
+Resource Language,2011_EML,10,10,0.53,52.63%
+Resource Lineage,2011_EML,19,19,1.00,100.00%
+Resource Long Name,2011_EML,19,19,1.00,100.00%
+Resource Status,2011_EML,19,19,1.00,100.00%
+Resource Title,2011_EML,19,19,1.00,100.00%
+Resource Use Constraints,2011_EML,17,17,0.89,89.47%
+Resource on-line Link,2011_EML,17,17,0.89,89.47%
+Rights,2011_EML,17,17,0.89,89.47%
+Security Constraints,2011_EML,19,19,1.00,100.00%
+Southernmost Latitude,2011_EML,212,19,11.16,100.00%
+Spatial Extent,2011_EML,212,19,11.16,100.00%
+Start Time,2011_EML,13,13,0.68,68.42%
+Temporal Extent,2011_EML,19,19,1.00,100.00%
+Unknown,2011_EML,7819,19,411.53,100.00%
+Vertical Maximum,2011_EML,69,6,3.63,31.58%
+Vertical Minimum,2011_EML,69,6,3.63,31.58%
+Vertical Resolution,2011_EML,6,6,0.32,31.58%
+Westernmost Longitude,2011_EML,176,19,9.26,100.00%

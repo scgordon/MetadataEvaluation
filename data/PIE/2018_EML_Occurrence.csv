@@ -1,0 +1,60 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2018_EML,19,19,1.00,100.00%
+Abstract,2018_EML,19,19,1.00,100.00%
+Attribute Definition,2018_EML,418,18,22.00,94.74%
+Attribute List,2018_EML,18,18,0.95,94.74%
+Author,2018_EML,45,19,2.37,100.00%
+Author / Originator,2018_EML,45,19,2.37,100.00%
+Author / Originator Email Address,2018_EML,17,17,0.89,89.47%
+Author / Originator Identifier,2018_EML,2,1,0.11,5.26%
+Author / Originator World Wide Web Address,2018_EML,30,18,1.58,94.74%
+Bounding Box,2018_EML,27,19,1.42,100.00%
+Contributor Name,2018_EML,10,8,0.53,42.11%
+Contributor Role,2018_EML,8,8,0.42,42.11%
+Distribution Format,2018_EML,18,18,0.95,94.74%
+Easternmost Longitude,2018_EML,27,19,1.42,100.00%
+End Time,2018_EML,18,18,0.95,94.74%
+Entity Type Definition,2018_EML,18,18,0.95,94.74%
+Entity and Attribute Information,2018_EML,18,18,0.95,94.74%
+Keyword,2018_EML,190,19,10.00,100.00%
+Keyword Vocabulary,2018_EML,30,18,1.58,94.74%
+Maintenance,2018_EML,19,19,1.00,100.00%
+Metadata Access Constraints,2018_EML,19,19,1.00,100.00%
+Metadata Contact,2018_EML,19,19,1.00,100.00%
+Metadata Use Constraints,2018_EML,19,19,1.00,100.00%
+Northernmost Latitude,2018_EML,27,19,1.42,100.00%
+Organization Name,2018_EML,70,19,3.68,100.00%
+Originating Organization,2018_EML,14,14,0.74,73.68%
+Process Step,2018_EML,19,19,1.00,100.00%
+Project Description,2018_EML,1,1,0.05,5.26%
+Project Name,2018_EML,30,18,1.58,94.74%
+Publication Date,2018_EML,19,19,1.00,100.00%
+Publisher,2018_EML,19,19,1.00,100.00%
+Publisher E-Mail,2018_EML,1,1,0.05,5.26%
+Publisher URL,2018_EML,1,1,0.05,5.26%
+Purpose,2018_EML,2,2,0.11,10.53%
+Related Resource Citation,2018_EML,1,1,0.05,5.26%
+Resource Access Constraints,2018_EML,19,19,1.00,100.00%
+Resource Contact,2018_EML,20,19,1.05,100.00%
+Resource Creation/Revision Date,2018_EML,19,19,1.00,100.00%
+Resource Distribution,2018_EML,19,19,1.00,100.00%
+Resource Format,2018_EML,18,18,0.95,94.74%
+Resource Identifier,2018_EML,19,19,1.00,100.00%
+Resource Identifier Type,2018_EML,19,19,1.00,100.00%
+Resource Language,2018_EML,18,18,0.95,94.74%
+Resource Lineage,2018_EML,19,19,1.00,100.00%
+Resource Long Name,2018_EML,19,19,1.00,100.00%
+Resource Status,2018_EML,19,19,1.00,100.00%
+Resource Title,2018_EML,19,19,1.00,100.00%
+Resource Use Constraints,2018_EML,19,19,1.00,100.00%
+Resource on-line Link,2018_EML,19,19,1.00,100.00%
+Rights,2018_EML,19,19,1.00,100.00%
+Security Constraints,2018_EML,19,19,1.00,100.00%
+Southernmost Latitude,2018_EML,27,19,1.42,100.00%
+Spatial Extent,2018_EML,27,19,1.42,100.00%
+Start Time,2018_EML,18,18,0.95,94.74%
+Supplemental Information,2018_EML,1,1,0.05,5.26%
+Taxonomic Extent,2018_EML,1,1,0.05,5.26%
+Temporal Extent,2018_EML,19,19,1.00,100.00%
+Unknown,2018_EML,2962,19,155.89,100.00%
+Westernmost Longitude,2018_EML,27,19,1.42,100.00%

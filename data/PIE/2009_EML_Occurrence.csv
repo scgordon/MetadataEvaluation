@@ -1,0 +1,53 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2009_EML,5,5,1.00,100.00%
+Abstract,2009_EML,4,4,0.80,80.00%
+Attribute Definition,2009_EML,26,4,5.20,80.00%
+Attribute List,2009_EML,4,4,0.80,80.00%
+Author,2009_EML,6,4,1.20,80.00%
+Author / Originator,2009_EML,6,4,1.20,80.00%
+Author / Originator Identifier,2009_EML,6,4,1.20,80.00%
+Bounding Box,2009_EML,4,4,0.80,80.00%
+Contributor Name,2009_EML,10,4,2.00,80.00%
+Contributor Role,2009_EML,4,4,0.80,80.00%
+Distribution Format,2009_EML,4,4,0.80,80.00%
+Easternmost Longitude,2009_EML,4,4,0.80,80.00%
+End Time,2009_EML,4,4,0.80,80.00%
+Entity Type Definition,2009_EML,4,4,0.80,80.00%
+Entity and Attribute Information,2009_EML,4,4,0.80,80.00%
+Keyword,2009_EML,44,4,8.80,80.00%
+Maintenance,2009_EML,4,4,0.80,80.00%
+Metadata Access Constraints,2009_EML,4,4,0.80,80.00%
+Metadata Contact,2009_EML,4,4,0.80,80.00%
+Metadata Use Constraints,2009_EML,4,4,0.80,80.00%
+Northernmost Latitude,2009_EML,4,4,0.80,80.00%
+Organization Name,2009_EML,12,4,2.40,80.00%
+Originating Organization,2009_EML,4,4,0.80,80.00%
+Process Step,2009_EML,4,4,0.80,80.00%
+Project Description,2009_EML,4,4,0.80,80.00%
+Publication Date,2009_EML,4,4,0.80,80.00%
+Publisher,2009_EML,4,4,0.80,80.00%
+Publisher E-Mail,2009_EML,4,4,0.80,80.00%
+Publisher URL,2009_EML,4,4,0.80,80.00%
+Related Resource Citation,2009_EML,4,4,0.80,80.00%
+Resource Access Constraints,2009_EML,4,4,0.80,80.00%
+Resource Contact,2009_EML,4,4,0.80,80.00%
+Resource Creation/Revision Date,2009_EML,4,4,0.80,80.00%
+Resource Distribution,2009_EML,4,4,0.80,80.00%
+Resource Format,2009_EML,4,4,0.80,80.00%
+Resource Identifier,2009_EML,4,4,0.80,80.00%
+Resource Identifier Type,2009_EML,4,4,0.80,80.00%
+Resource Lineage,2009_EML,4,4,0.80,80.00%
+Resource Long Name,2009_EML,4,4,0.80,80.00%
+Resource Status,2009_EML,4,4,0.80,80.00%
+Resource Title,2009_EML,4,4,0.80,80.00%
+Resource Use Constraints,2009_EML,4,4,0.80,80.00%
+Resource on-line Link,2009_EML,4,4,0.80,80.00%
+Rights,2009_EML,4,4,0.80,80.00%
+Security Constraints,2009_EML,4,4,0.80,80.00%
+Southernmost Latitude,2009_EML,4,4,0.80,80.00%
+Spatial Extent,2009_EML,4,4,0.80,80.00%
+Start Time,2009_EML,4,4,0.80,80.00%
+Taxonomic Extent,2009_EML,4,4,0.80,80.00%
+Temporal Extent,2009_EML,4,4,0.80,80.00%
+Unknown,2009_EML,792,5,158.40,100.00%
+Westernmost Longitude,2009_EML,4,4,0.80,80.00%

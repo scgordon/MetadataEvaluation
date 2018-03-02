@@ -1,0 +1,57 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2016_EML,100,100,1.00,100.00%
+Abstract,2016_EML,100,100,1.00,100.00%
+Attribute Definition,2016_EML,1737,80,17.37,80.00%
+Attribute List,2016_EML,124,80,1.24,80.00%
+Author,2016_EML,108,100,1.08,100.00%
+Author / Originator,2016_EML,108,100,1.08,100.00%
+Author / Originator Email Address,2016_EML,1,1,0.01,1.00%
+Author / Originator World Wide Web Address,2016_EML,105,98,1.05,98.00%
+Bounding Box,2016_EML,113,94,1.13,94.00%
+Distribution Format,2016_EML,80,80,0.80,80.00%
+Easternmost Longitude,2016_EML,113,94,1.13,94.00%
+End Time,2016_EML,97,97,0.97,97.00%
+Entity Type Definition,2016_EML,128,80,1.28,80.00%
+Entity and Attribute Information,2016_EML,128,80,1.28,80.00%
+Keyword,2016_EML,1278,99,12.78,99.00%
+Keyword Type,2016_EML,120,96,1.20,96.00%
+Keyword Vocabulary,2016_EML,39,20,0.39,20.00%
+Maintenance,2016_EML,7,7,0.07,7.00%
+Metadata Access Constraints,2016_EML,100,100,1.00,100.00%
+Metadata Contact,2016_EML,19,19,0.19,19.00%
+Metadata Use Constraints,2016_EML,100,100,1.00,100.00%
+Northernmost Latitude,2016_EML,112,94,1.12,94.00%
+Organization Name,2016_EML,122,100,1.22,100.00%
+Place Keyword,2016_EML,420,96,4.20,96.00%
+Process Step,2016_EML,100,100,1.00,100.00%
+Project Name,2016_EML,105,98,1.05,98.00%
+Publication Date,2016_EML,100,100,1.00,100.00%
+Publisher,2016_EML,1,1,0.01,1.00%
+Purpose,2016_EML,1,1,0.01,1.00%
+Resource Access Constraints,2016_EML,100,100,1.00,100.00%
+Resource Contact,2016_EML,200,100,2.00,100.00%
+Resource Creation/Revision Date,2016_EML,100,100,1.00,100.00%
+Resource Distribution,2016_EML,100,100,1.00,100.00%
+Resource Format,2016_EML,80,80,0.80,80.00%
+Resource Identifier,2016_EML,100,100,1.00,100.00%
+Resource Identifier Type,2016_EML,100,100,1.00,100.00%
+Resource Language,2016_EML,100,100,1.00,100.00%
+Resource Lineage,2016_EML,100,100,1.00,100.00%
+Resource Long Name,2016_EML,100,100,1.00,100.00%
+Resource Status,2016_EML,100,100,1.00,100.00%
+Resource Title,2016_EML,100,100,1.00,100.00%
+Resource Update Frequency,2016_EML,6,6,0.06,6.00%
+Resource Use Constraints,2016_EML,9,9,0.09,9.00%
+Resource on-line Link,2016_EML,100,100,1.00,100.00%
+Rights,2016_EML,9,9,0.09,9.00%
+Security Constraints,2016_EML,100,100,1.00,100.00%
+Southernmost Latitude,2016_EML,111,94,1.11,94.00%
+Spatial Extent,2016_EML,113,94,1.13,94.00%
+Start Time,2016_EML,97,97,0.97,97.00%
+Supplemental Information,2016_EML,10,10,0.10,10.00%
+Temporal Extent,2016_EML,97,97,0.97,97.00%
+Unknown,2016_EML,16069,100,160.69,100.00%
+Vertical Maximum,2016_EML,1,1,0.01,1.00%
+Vertical Minimum,2016_EML,1,1,0.01,1.00%
+Vertical Resolution,2016_EML,1,1,0.01,1.00%
+Westernmost Longitude,2016_EML,113,94,1.13,94.00%

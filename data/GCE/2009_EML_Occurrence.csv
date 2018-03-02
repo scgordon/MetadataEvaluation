@@ -1,0 +1,57 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2009_EML,8,8,1.00,100.00%
+Abstract,2009_EML,8,8,1.00,100.00%
+Attribute Definition,2009_EML,374,8,46.75,100.00%
+Attribute List,2009_EML,8,8,1.00,100.00%
+Author,2009_EML,16,8,2.00,100.00%
+Author / Originator,2009_EML,16,8,2.00,100.00%
+Author / Originator Email Address,2009_EML,16,8,2.00,100.00%
+Author / Originator Identifier,2009_EML,8,8,1.00,100.00%
+Author / Originator World Wide Web Address,2009_EML,16,8,2.00,100.00%
+Bounding Box,2009_EML,8,8,1.00,100.00%
+Contributor Name,2009_EML,42,8,5.25,100.00%
+Contributor Role,2009_EML,20,8,2.50,100.00%
+Distribution Format,2009_EML,8,8,1.00,100.00%
+Easternmost Longitude,2009_EML,8,8,1.00,100.00%
+End Time,2009_EML,8,8,1.00,100.00%
+Entity Type Definition,2009_EML,7,7,0.88,87.50%
+Entity and Attribute Information,2009_EML,7,7,0.88,87.50%
+Instrument,2009_EML,139,8,17.38,100.00%
+Keyword,2009_EML,225,8,28.12,100.00%
+Keyword Type,2009_EML,16,8,2.00,100.00%
+Keyword Vocabulary,2009_EML,21,7,2.62,87.50%
+Metadata Access Constraints,2009_EML,8,8,1.00,100.00%
+Metadata Contact,2009_EML,8,8,1.00,100.00%
+Metadata Use Constraints,2009_EML,8,8,1.00,100.00%
+Northernmost Latitude,2009_EML,8,8,1.00,100.00%
+Organization Name,2009_EML,27,8,3.38,100.00%
+Originating Organization,2009_EML,16,8,2.00,100.00%
+Place Keyword,2009_EML,38,8,4.75,100.00%
+Process Step,2009_EML,8,8,1.00,100.00%
+Project Description,2009_EML,8,8,1.00,100.00%
+Project Name,2009_EML,16,8,2.00,100.00%
+Publication Date,2009_EML,8,8,1.00,100.00%
+Publisher,2009_EML,8,8,1.00,100.00%
+Related Resource Citation,2009_EML,8,8,1.00,100.00%
+Resource Access Constraints,2009_EML,8,8,1.00,100.00%
+Resource Contact,2009_EML,8,8,1.00,100.00%
+Resource Creation/Revision Date,2009_EML,8,8,1.00,100.00%
+Resource Distribution,2009_EML,8,8,1.00,100.00%
+Resource Format,2009_EML,8,8,1.00,100.00%
+Resource Identifier,2009_EML,8,8,1.00,100.00%
+Resource Identifier Type,2009_EML,8,8,1.00,100.00%
+Resource Lineage,2009_EML,8,8,1.00,100.00%
+Resource Long Name,2009_EML,8,8,1.00,100.00%
+Resource Quality Description,2009_EML,8,8,1.00,100.00%
+Resource Status,2009_EML,8,8,1.00,100.00%
+Resource Title,2009_EML,8,8,1.00,100.00%
+Resource Use Constraints,2009_EML,8,8,1.00,100.00%
+Resource on-line Link,2009_EML,8,8,1.00,100.00%
+Rights,2009_EML,8,8,1.00,100.00%
+Security Constraints,2009_EML,8,8,1.00,100.00%
+Southernmost Latitude,2009_EML,8,8,1.00,100.00%
+Spatial Extent,2009_EML,8,8,1.00,100.00%
+Start Time,2009_EML,8,8,1.00,100.00%
+Temporal Extent,2009_EML,8,8,1.00,100.00%
+Unknown,2009_EML,3337,8,417.12,100.00%
+Westernmost Longitude,2009_EML,8,8,1.00,100.00%

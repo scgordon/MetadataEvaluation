@@ -1,0 +1,55 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2010_EML,18,18,1.00,100.00%
+Abstract,2010_EML,11,11,0.61,61.11%
+Attribute Definition,2010_EML,522,11,29.00,61.11%
+Attribute List,2010_EML,72,11,4.00,61.11%
+Author,2010_EML,35,11,1.94,61.11%
+Author / Originator,2010_EML,35,11,1.94,61.11%
+Author / Originator World Wide Web Address,2010_EML,26,11,1.44,61.11%
+Bounding Box,2010_EML,11,11,0.61,61.11%
+Contributor Name,2010_EML,2,2,0.11,11.11%
+Contributor Role,2010_EML,2,2,0.11,11.11%
+Distribution Format,2010_EML,13,11,0.72,61.11%
+Easternmost Longitude,2010_EML,11,11,0.61,61.11%
+End Time,2010_EML,11,11,0.61,61.11%
+Entity Type Definition,2010_EML,82,11,4.56,61.11%
+Entity and Attribute Information,2010_EML,82,11,4.56,61.11%
+Keyword,2010_EML,84,11,4.67,61.11%
+Keyword Vocabulary,2010_EML,22,11,1.22,61.11%
+Maintenance,2010_EML,11,11,0.61,61.11%
+Metadata Access Constraints,2010_EML,11,11,0.61,61.11%
+Metadata Contact,2010_EML,11,11,0.61,61.11%
+Metadata Use Constraints,2010_EML,11,11,0.61,61.11%
+Northernmost Latitude,2010_EML,11,11,0.61,61.11%
+Organization Name,2010_EML,62,11,3.44,61.11%
+Originating Organization,2010_EML,20,11,1.11,61.11%
+Process Step,2010_EML,11,11,0.61,61.11%
+Project Description,2010_EML,11,11,0.61,61.11%
+Project Name,2010_EML,26,11,1.44,61.11%
+Publication Date,2010_EML,11,11,0.61,61.11%
+Publisher,2010_EML,11,11,0.61,61.11%
+Publisher E-Mail,2010_EML,11,11,0.61,61.11%
+Publisher URL,2010_EML,11,11,0.61,61.11%
+Related Resource Citation,2010_EML,11,11,0.61,61.11%
+Resource Access Constraints,2010_EML,11,11,0.61,61.11%
+Resource Contact,2010_EML,18,11,1.00,61.11%
+Resource Creation/Revision Date,2010_EML,11,11,0.61,61.11%
+Resource Distribution,2010_EML,11,11,0.61,61.11%
+Resource Format,2010_EML,13,11,0.72,61.11%
+Resource Identifier,2010_EML,11,11,0.61,61.11%
+Resource Identifier Type,2010_EML,11,11,0.61,61.11%
+Resource Language,2010_EML,11,11,0.61,61.11%
+Resource Lineage,2010_EML,11,11,0.61,61.11%
+Resource Long Name,2010_EML,11,11,0.61,61.11%
+Resource Status,2010_EML,11,11,0.61,61.11%
+Resource Title,2010_EML,11,11,0.61,61.11%
+Resource Use Constraints,2010_EML,11,11,0.61,61.11%
+Resource on-line Link,2010_EML,11,11,0.61,61.11%
+Rights,2010_EML,11,11,0.61,61.11%
+Security Constraints,2010_EML,11,11,0.61,61.11%
+Southernmost Latitude,2010_EML,11,11,0.61,61.11%
+Spatial Extent,2010_EML,11,11,0.61,61.11%
+Start Time,2010_EML,11,11,0.61,61.11%
+Temporal Extent,2010_EML,11,11,0.61,61.11%
+Unknown,2010_EML,4973,18,276.28,100.00%
+Westernmost Longitude,2010_EML,11,11,0.61,61.11%

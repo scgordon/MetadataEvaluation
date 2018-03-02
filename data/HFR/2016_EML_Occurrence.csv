@@ -1,0 +1,50 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2016_EML,134,134,1.00,100.00%
+Abstract,2016_EML,134,134,1.00,100.00%
+Attribute Definition,2016_EML,7726,133,57.66,99.25%
+Attribute List,2016_EML,607,133,4.53,99.25%
+Author,2016_EML,274,134,2.04,100.00%
+Author / Originator,2016_EML,274,134,2.04,100.00%
+Bounding Box,2016_EML,133,133,0.99,99.25%
+Contributor Name,2016_EML,261,101,1.95,75.37%
+Contributor Role,2016_EML,101,101,0.75,75.37%
+Distribution Format,2016_EML,135,133,1.01,99.25%
+Easternmost Longitude,2016_EML,133,133,0.99,99.25%
+End Time,2016_EML,133,133,0.99,99.25%
+Entity Type Definition,2016_EML,612,133,4.57,99.25%
+Entity and Attribute Information,2016_EML,612,133,4.57,99.25%
+Keyword,2016_EML,1450,134,10.82,100.00%
+Keyword Vocabulary,2016_EML,402,134,3.00,100.00%
+Maintenance,2016_EML,86,86,0.64,64.18%
+Metadata Access Constraints,2016_EML,134,134,1.00,100.00%
+Metadata Use Constraints,2016_EML,134,134,1.00,100.00%
+Northernmost Latitude,2016_EML,133,133,0.99,99.25%
+Organization Name,2016_EML,397,134,2.96,100.00%
+Process Step,2016_EML,134,134,1.00,100.00%
+Publication Date,2016_EML,134,134,1.00,100.00%
+Publisher,2016_EML,134,134,1.00,100.00%
+Resource Access Constraints,2016_EML,134,134,1.00,100.00%
+Resource Contact,2016_EML,263,134,1.96,100.00%
+Resource Creation/Revision Date,2016_EML,134,134,1.00,100.00%
+Resource Distribution,2016_EML,134,134,1.00,100.00%
+Resource Format,2016_EML,135,133,1.01,99.25%
+Resource Identifier,2016_EML,134,134,1.00,100.00%
+Resource Identifier Type,2016_EML,134,134,1.00,100.00%
+Resource Lineage,2016_EML,134,134,1.00,100.00%
+Resource Long Name,2016_EML,134,134,1.00,100.00%
+Resource Status,2016_EML,134,134,1.00,100.00%
+Resource Title,2016_EML,134,134,1.00,100.00%
+Resource Use Constraints,2016_EML,134,134,1.00,100.00%
+Resource on-line Link,2016_EML,134,134,1.00,100.00%
+Rights,2016_EML,134,134,1.00,100.00%
+Security Constraints,2016_EML,134,134,1.00,100.00%
+Southernmost Latitude,2016_EML,133,133,0.99,99.25%
+Spatial Extent,2016_EML,133,133,0.99,99.25%
+Start Time,2016_EML,133,133,0.99,99.25%
+Taxonomic Extent,2016_EML,79,79,0.59,58.96%
+Temporal Extent,2016_EML,133,133,0.99,99.25%
+Unknown,2016_EML,46094,134,343.99,100.00%
+Vertical Maximum,2016_EML,118,118,0.88,88.06%
+Vertical Minimum,2016_EML,118,118,0.88,88.06%
+Vertical Resolution,2016_EML,118,118,0.88,88.06%
+Westernmost Longitude,2016_EML,133,133,0.99,99.25%

@@ -1,0 +1,53 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2011_EML,63,63,1.00,100.00%
+Abstract,2011_EML,58,58,0.92,92.06%
+Attribute Definition,2011_EML,2944,58,46.73,92.06%
+Attribute List,2011_EML,58,58,0.92,92.06%
+Author,2011_EML,110,58,1.75,92.06%
+Author / Originator,2011_EML,110,58,1.75,92.06%
+Author / Originator Identifier,2011_EML,110,58,1.75,92.06%
+Bounding Box,2011_EML,78,58,1.24,92.06%
+Contributor Name,2011_EML,18,10,0.29,15.87%
+Contributor Role,2011_EML,10,10,0.16,15.87%
+Distribution Format,2011_EML,58,58,0.92,92.06%
+Easternmost Longitude,2011_EML,78,58,1.24,92.06%
+End Time,2011_EML,58,58,0.92,92.06%
+Entity Type Definition,2011_EML,58,58,0.92,92.06%
+Entity and Attribute Information,2011_EML,58,58,0.92,92.06%
+Keyword,2011_EML,344,58,5.46,92.06%
+Maintenance,2011_EML,58,58,0.92,92.06%
+Metadata Access Constraints,2011_EML,58,58,0.92,92.06%
+Metadata Contact,2011_EML,58,58,0.92,92.06%
+Metadata Use Constraints,2011_EML,58,58,0.92,92.06%
+Northernmost Latitude,2011_EML,78,58,1.24,92.06%
+Organization Name,2011_EML,174,58,2.76,92.06%
+Originating Organization,2011_EML,58,58,0.92,92.06%
+Process Step,2011_EML,58,58,0.92,92.06%
+Project Description,2011_EML,58,58,0.92,92.06%
+Publication Date,2011_EML,58,58,0.92,92.06%
+Publisher,2011_EML,58,58,0.92,92.06%
+Publisher E-Mail,2011_EML,58,58,0.92,92.06%
+Publisher URL,2011_EML,58,58,0.92,92.06%
+Related Resource Citation,2011_EML,58,58,0.92,92.06%
+Resource Access Constraints,2011_EML,58,58,0.92,92.06%
+Resource Contact,2011_EML,58,58,0.92,92.06%
+Resource Creation/Revision Date,2011_EML,58,58,0.92,92.06%
+Resource Distribution,2011_EML,58,58,0.92,92.06%
+Resource Format,2011_EML,58,58,0.92,92.06%
+Resource Identifier,2011_EML,58,58,0.92,92.06%
+Resource Identifier Type,2011_EML,58,58,0.92,92.06%
+Resource Lineage,2011_EML,58,58,0.92,92.06%
+Resource Long Name,2011_EML,58,58,0.92,92.06%
+Resource Status,2011_EML,58,58,0.92,92.06%
+Resource Title,2011_EML,58,58,0.92,92.06%
+Resource Use Constraints,2011_EML,58,58,0.92,92.06%
+Resource on-line Link,2011_EML,58,58,0.92,92.06%
+Rights,2011_EML,58,58,0.92,92.06%
+Security Constraints,2011_EML,58,58,0.92,92.06%
+Southernmost Latitude,2011_EML,78,58,1.24,92.06%
+Spatial Extent,2011_EML,78,58,1.24,92.06%
+Start Time,2011_EML,58,58,0.92,92.06%
+Taxonomic Extent,2011_EML,8,8,0.13,12.70%
+Temporal Extent,2011_EML,58,58,0.92,92.06%
+Unknown,2011_EML,18370,63,291.59,100.00%
+Westernmost Longitude,2011_EML,78,58,1.24,92.06%

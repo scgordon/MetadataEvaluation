@@ -1,0 +1,48 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2016_EML,67,67,1.00,100.00%
+Abstract,2016_EML,67,67,1.00,100.00%
+Attribute Definition,2016_EML,1537,67,22.94,100.00%
+Attribute List,2016_EML,222,67,3.31,100.00%
+Author,2016_EML,70,67,1.04,100.00%
+Author / Originator,2016_EML,70,67,1.04,100.00%
+Author / Originator World Wide Web Address,2016_EML,60,57,0.90,85.07%
+Bounding Box,2016_EML,67,67,1.00,100.00%
+Contributor Name,2016_EML,176,66,2.63,98.51%
+Contributor Role,2016_EML,149,66,2.22,98.51%
+Distribution Format,2016_EML,164,67,2.45,100.00%
+Easternmost Longitude,2016_EML,67,67,1.00,100.00%
+End Time,2016_EML,58,58,0.87,86.57%
+Entity Type Definition,2016_EML,212,64,3.16,95.52%
+Entity and Attribute Information,2016_EML,212,64,3.16,95.52%
+Keyword,2016_EML,1121,67,16.73,100.00%
+Keyword Type,2016_EML,67,67,1.00,100.00%
+Keyword Vocabulary,2016_EML,53,53,0.79,79.10%
+Metadata Access Constraints,2016_EML,67,67,1.00,100.00%
+Metadata Use Constraints,2016_EML,67,67,1.00,100.00%
+Northernmost Latitude,2016_EML,67,67,1.00,100.00%
+Organization Name,2016_EML,342,67,5.10,100.00%
+Originating Organization,2016_EML,58,58,0.87,86.57%
+Place Keyword,2016_EML,402,67,6.00,100.00%
+Process Step,2016_EML,40,40,0.60,59.70%
+Project Name,2016_EML,60,57,0.90,85.07%
+Publication Date,2016_EML,67,67,1.00,100.00%
+Publisher,2016_EML,67,67,1.00,100.00%
+Resource Access Constraints,2016_EML,67,67,1.00,100.00%
+Resource Contact,2016_EML,134,67,2.00,100.00%
+Resource Creation/Revision Date,2016_EML,67,67,1.00,100.00%
+Resource Format,2016_EML,164,67,2.45,100.00%
+Resource Identifier,2016_EML,67,67,1.00,100.00%
+Resource Identifier Type,2016_EML,67,67,1.00,100.00%
+Resource Lineage,2016_EML,40,40,0.60,59.70%
+Resource Long Name,2016_EML,67,67,1.00,100.00%
+Resource Status,2016_EML,67,67,1.00,100.00%
+Resource Title,2016_EML,67,67,1.00,100.00%
+Resource Use Constraints,2016_EML,67,67,1.00,100.00%
+Rights,2016_EML,67,67,1.00,100.00%
+Security Constraints,2016_EML,67,67,1.00,100.00%
+Southernmost Latitude,2016_EML,67,67,1.00,100.00%
+Spatial Extent,2016_EML,67,67,1.00,100.00%
+Start Time,2016_EML,58,58,0.87,86.57%
+Temporal Extent,2016_EML,58,58,0.87,86.57%
+Unknown,2016_EML,9257,67,138.16,100.00%
+Westernmost Longitude,2016_EML,67,67,1.00,100.00%

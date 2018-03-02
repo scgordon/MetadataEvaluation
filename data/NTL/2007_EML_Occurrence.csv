@@ -1,0 +1,53 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2007_EML,46,46,1.00,100.00%
+Abstract,2007_EML,19,19,0.41,41.30%
+Attribute Definition,2007_EML,828,19,18.00,41.30%
+Attribute List,2007_EML,70,19,1.52,41.30%
+Author,2007_EML,63,19,1.37,41.30%
+Author / Originator,2007_EML,63,19,1.37,41.30%
+Author / Originator World Wide Web Address,2007_EML,58,19,1.26,41.30%
+Bounding Box,2007_EML,19,19,0.41,41.30%
+Distribution Format,2007_EML,21,19,0.46,41.30%
+Easternmost Longitude,2007_EML,19,19,0.41,41.30%
+End Time,2007_EML,17,17,0.37,36.96%
+Entity Type Definition,2007_EML,68,19,1.48,41.30%
+Entity and Attribute Information,2007_EML,68,19,1.48,41.30%
+Keyword,2007_EML,149,19,3.24,41.30%
+Keyword Vocabulary,2007_EML,36,19,0.78,41.30%
+Maintenance,2007_EML,19,19,0.41,41.30%
+Metadata Access Constraints,2007_EML,19,19,0.41,41.30%
+Metadata Contact,2007_EML,19,19,0.41,41.30%
+Metadata Use Constraints,2007_EML,19,19,0.41,41.30%
+Northernmost Latitude,2007_EML,19,19,0.41,41.30%
+Organization Name,2007_EML,110,19,2.39,41.30%
+Originating Organization,2007_EML,36,19,0.78,41.30%
+Process Step,2007_EML,19,19,0.41,41.30%
+Project Description,2007_EML,19,19,0.41,41.30%
+Project Name,2007_EML,58,19,1.26,41.30%
+Publication Date,2007_EML,18,18,0.39,39.13%
+Publisher,2007_EML,19,19,0.41,41.30%
+Publisher E-Mail,2007_EML,19,19,0.41,41.30%
+Publisher URL,2007_EML,19,19,0.41,41.30%
+Related Resource Citation,2007_EML,19,19,0.41,41.30%
+Resource Access Constraints,2007_EML,19,19,0.41,41.30%
+Resource Contact,2007_EML,38,19,0.83,41.30%
+Resource Creation/Revision Date,2007_EML,18,18,0.39,39.13%
+Resource Distribution,2007_EML,19,19,0.41,41.30%
+Resource Format,2007_EML,21,19,0.46,41.30%
+Resource Identifier,2007_EML,19,19,0.41,41.30%
+Resource Identifier Type,2007_EML,19,19,0.41,41.30%
+Resource Language,2007_EML,19,19,0.41,41.30%
+Resource Lineage,2007_EML,19,19,0.41,41.30%
+Resource Long Name,2007_EML,19,19,0.41,41.30%
+Resource Status,2007_EML,19,19,0.41,41.30%
+Resource Title,2007_EML,19,19,0.41,41.30%
+Resource Use Constraints,2007_EML,19,19,0.41,41.30%
+Resource on-line Link,2007_EML,19,19,0.41,41.30%
+Rights,2007_EML,19,19,0.41,41.30%
+Security Constraints,2007_EML,19,19,0.41,41.30%
+Southernmost Latitude,2007_EML,19,19,0.41,41.30%
+Spatial Extent,2007_EML,19,19,0.41,41.30%
+Start Time,2007_EML,17,17,0.37,36.96%
+Temporal Extent,2007_EML,18,18,0.39,39.13%
+Unknown,2007_EML,12125,46,263.59,100.00%
+Westernmost Longitude,2007_EML,19,19,0.41,41.30%

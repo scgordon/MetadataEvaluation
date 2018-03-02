@@ -1,0 +1,50 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2009_EML,8,8,1.00,100.00%
+Abstract,2009_EML,4,4,0.50,50.00%
+Attribute Definition,2009_EML,106,4,13.25,50.00%
+Attribute List,2009_EML,4,4,0.50,50.00%
+Author,2009_EML,7,4,0.88,50.00%
+Author / Originator,2009_EML,7,4,0.88,50.00%
+Author / Originator World Wide Web Address,2009_EML,7,4,0.88,50.00%
+Bounding Box,2009_EML,4,4,0.50,50.00%
+Distribution Format,2009_EML,4,4,0.50,50.00%
+Easternmost Longitude,2009_EML,4,4,0.50,50.00%
+End Time,2009_EML,3,3,0.38,37.50%
+Keyword,2009_EML,35,4,4.38,50.00%
+Keyword Type,2009_EML,8,4,1.00,50.00%
+Maintenance,2009_EML,3,3,0.38,37.50%
+Metadata Access Constraints,2009_EML,4,4,0.50,50.00%
+Metadata Contact,2009_EML,4,4,0.50,50.00%
+Metadata Use Constraints,2009_EML,4,4,0.50,50.00%
+Northernmost Latitude,2009_EML,4,4,0.50,50.00%
+Organization Name,2009_EML,12,4,1.50,50.00%
+Place Keyword,2009_EML,4,4,0.50,50.00%
+Process Step,2009_EML,4,4,0.50,50.00%
+Project Name,2009_EML,7,4,0.88,50.00%
+Publisher,2009_EML,4,4,0.50,50.00%
+Publisher E-Mail,2009_EML,4,4,0.50,50.00%
+Publisher URL,2009_EML,4,4,0.50,50.00%
+Resource Access Constraints,2009_EML,4,4,0.50,50.00%
+Resource Contact,2009_EML,4,4,0.50,50.00%
+Resource Distribution,2009_EML,4,4,0.50,50.00%
+Resource Format,2009_EML,4,4,0.50,50.00%
+Resource Identifier,2009_EML,4,4,0.50,50.00%
+Resource Identifier Type,2009_EML,4,4,0.50,50.00%
+Resource Lineage,2009_EML,4,4,0.50,50.00%
+Resource Long Name,2009_EML,4,4,0.50,50.00%
+Resource Status,2009_EML,4,4,0.50,50.00%
+Resource Title,2009_EML,4,4,0.50,50.00%
+Resource Use Constraints,2009_EML,4,4,0.50,50.00%
+Resource on-line Link,2009_EML,4,4,0.50,50.00%
+Rights,2009_EML,4,4,0.50,50.00%
+Security Constraints,2009_EML,4,4,0.50,50.00%
+Southernmost Latitude,2009_EML,4,4,0.50,50.00%
+Spatial Extent,2009_EML,4,4,0.50,50.00%
+Start Time,2009_EML,3,3,0.38,37.50%
+Supplemental Information,2009_EML,4,4,0.50,50.00%
+Temporal Extent,2009_EML,3,3,0.38,37.50%
+Unknown,2009_EML,1153,8,144.12,100.00%
+Vertical Maximum,2009_EML,4,4,0.50,50.00%
+Vertical Minimum,2009_EML,4,4,0.50,50.00%
+Vertical Resolution,2009_EML,4,4,0.50,50.00%
+Westernmost Longitude,2009_EML,4,4,0.50,50.00%

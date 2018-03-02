@@ -1,0 +1,50 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2014_EML,5,5,1.00,100.00%
+Abstract,2014_EML,5,5,1.00,100.00%
+Attribute Definition,2014_EML,75,5,15.00,100.00%
+Attribute List,2014_EML,8,5,1.60,100.00%
+Author,2014_EML,11,5,2.20,100.00%
+Author / Originator,2014_EML,11,5,2.20,100.00%
+Bounding Box,2014_EML,5,5,1.00,100.00%
+Contributor Name,2014_EML,22,1,4.40,20.00%
+Contributor Role,2014_EML,1,1,0.20,20.00%
+Distribution Format,2014_EML,5,5,1.00,100.00%
+Easternmost Longitude,2014_EML,5,5,1.00,100.00%
+End Time,2014_EML,5,5,1.00,100.00%
+Entity Type Definition,2014_EML,8,5,1.60,100.00%
+Entity and Attribute Information,2014_EML,8,5,1.60,100.00%
+Keyword,2014_EML,46,5,9.20,100.00%
+Keyword Vocabulary,2014_EML,15,5,3.00,100.00%
+Maintenance,2014_EML,1,1,0.20,20.00%
+Metadata Access Constraints,2014_EML,5,5,1.00,100.00%
+Metadata Use Constraints,2014_EML,5,5,1.00,100.00%
+Northernmost Latitude,2014_EML,5,5,1.00,100.00%
+Organization Name,2014_EML,10,5,2.00,100.00%
+Process Step,2014_EML,5,5,1.00,100.00%
+Publication Date,2014_EML,5,5,1.00,100.00%
+Publisher,2014_EML,5,5,1.00,100.00%
+Resource Access Constraints,2014_EML,5,5,1.00,100.00%
+Resource Contact,2014_EML,5,5,1.00,100.00%
+Resource Creation/Revision Date,2014_EML,5,5,1.00,100.00%
+Resource Distribution,2014_EML,5,5,1.00,100.00%
+Resource Format,2014_EML,5,5,1.00,100.00%
+Resource Identifier,2014_EML,5,5,1.00,100.00%
+Resource Identifier Type,2014_EML,5,5,1.00,100.00%
+Resource Lineage,2014_EML,5,5,1.00,100.00%
+Resource Long Name,2014_EML,5,5,1.00,100.00%
+Resource Status,2014_EML,5,5,1.00,100.00%
+Resource Title,2014_EML,5,5,1.00,100.00%
+Resource Use Constraints,2014_EML,5,5,1.00,100.00%
+Resource on-line Link,2014_EML,5,5,1.00,100.00%
+Rights,2014_EML,5,5,1.00,100.00%
+Security Constraints,2014_EML,5,5,1.00,100.00%
+Southernmost Latitude,2014_EML,5,5,1.00,100.00%
+Spatial Extent,2014_EML,5,5,1.00,100.00%
+Start Time,2014_EML,5,5,1.00,100.00%
+Taxonomic Extent,2014_EML,2,2,0.40,40.00%
+Temporal Extent,2014_EML,5,5,1.00,100.00%
+Unknown,2014_EML,754,5,150.80,100.00%
+Vertical Maximum,2014_EML,5,5,1.00,100.00%
+Vertical Minimum,2014_EML,5,5,1.00,100.00%
+Vertical Resolution,2014_EML,5,5,1.00,100.00%
+Westernmost Longitude,2014_EML,5,5,1.00,100.00%

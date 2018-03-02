@@ -1,0 +1,53 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2005_EML,1363,1363,1.00,100.00%
+Abstract,2005_EML,440,440,0.32,32.28%
+Attribute Definition,2005_EML,8493,440,6.23,32.28%
+Attribute List,2005_EML,440,440,0.32,32.28%
+Author,2005_EML,525,440,0.39,32.28%
+Author / Originator,2005_EML,525,440,0.39,32.28%
+Author / Originator Identifier,2005_EML,525,440,0.39,32.28%
+Bounding Box,2005_EML,887,440,0.65,32.28%
+Contributor Name,2005_EML,858,418,0.63,30.67%
+Contributor Role,2005_EML,440,418,0.32,30.67%
+Distribution Format,2005_EML,440,440,0.32,32.28%
+Easternmost Longitude,2005_EML,885,440,0.65,32.28%
+End Time,2005_EML,440,440,0.32,32.28%
+Entity Type Definition,2005_EML,440,440,0.32,32.28%
+Entity and Attribute Information,2005_EML,440,440,0.32,32.28%
+Keyword,2005_EML,2662,440,1.95,32.28%
+Maintenance,2005_EML,440,440,0.32,32.28%
+Metadata Access Constraints,2005_EML,440,440,0.32,32.28%
+Metadata Contact,2005_EML,440,440,0.32,32.28%
+Metadata Use Constraints,2005_EML,440,440,0.32,32.28%
+Northernmost Latitude,2005_EML,885,440,0.65,32.28%
+Organization Name,2005_EML,1320,440,0.97,32.28%
+Originating Organization,2005_EML,440,440,0.32,32.28%
+Process Step,2005_EML,440,440,0.32,32.28%
+Project Description,2005_EML,440,440,0.32,32.28%
+Publication Date,2005_EML,440,440,0.32,32.28%
+Publisher,2005_EML,440,440,0.32,32.28%
+Publisher E-Mail,2005_EML,440,440,0.32,32.28%
+Publisher URL,2005_EML,440,440,0.32,32.28%
+Related Resource Citation,2005_EML,440,440,0.32,32.28%
+Resource Access Constraints,2005_EML,440,440,0.32,32.28%
+Resource Contact,2005_EML,440,440,0.32,32.28%
+Resource Creation/Revision Date,2005_EML,440,440,0.32,32.28%
+Resource Distribution,2005_EML,440,440,0.32,32.28%
+Resource Format,2005_EML,440,440,0.32,32.28%
+Resource Identifier,2005_EML,440,440,0.32,32.28%
+Resource Identifier Type,2005_EML,440,440,0.32,32.28%
+Resource Lineage,2005_EML,440,440,0.32,32.28%
+Resource Long Name,2005_EML,440,440,0.32,32.28%
+Resource Status,2005_EML,440,440,0.32,32.28%
+Resource Title,2005_EML,440,440,0.32,32.28%
+Resource Use Constraints,2005_EML,440,440,0.32,32.28%
+Resource on-line Link,2005_EML,440,440,0.32,32.28%
+Rights,2005_EML,440,440,0.32,32.28%
+Security Constraints,2005_EML,440,440,0.32,32.28%
+Southernmost Latitude,2005_EML,885,440,0.65,32.28%
+Spatial Extent,2005_EML,893,440,0.66,32.28%
+Start Time,2005_EML,440,440,0.32,32.28%
+Taxonomic Extent,2005_EML,114,114,0.08,8.36%
+Temporal Extent,2005_EML,440,440,0.32,32.28%
+Unknown,2005_EML,196972,1363,144.51,100.00%
+Westernmost Longitude,2005_EML,885,440,0.65,32.28%

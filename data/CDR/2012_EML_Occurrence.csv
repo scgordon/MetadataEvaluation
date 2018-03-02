@@ -1,0 +1,37 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2012_EML,326,326,1.00,100.00%
+Abstract,2012_EML,326,326,1.00,100.00%
+Attribute Definition,2012_EML,3573,326,10.96,100.00%
+Attribute List,2012_EML,326,326,1.00,100.00%
+Author,2012_EML,326,326,1.00,100.00%
+Author / Originator,2012_EML,326,326,1.00,100.00%
+Bounding Box,2012_EML,326,326,1.00,100.00%
+Distribution Format,2012_EML,326,326,1.00,100.00%
+Easternmost Longitude,2012_EML,326,326,1.00,100.00%
+End Time,2012_EML,326,326,1.00,100.00%
+Keyword,2012_EML,7706,321,23.64,98.47%
+Keyword Type,2012_EML,389,321,1.19,98.47%
+Metadata Access Constraints,2012_EML,326,326,1.00,100.00%
+Metadata Contact,2012_EML,326,326,1.00,100.00%
+Metadata Use Constraints,2012_EML,326,326,1.00,100.00%
+Northernmost Latitude,2012_EML,326,326,1.00,100.00%
+Organization Name,2012_EML,652,326,2.00,100.00%
+Process Step,2012_EML,91,91,0.28,27.91%
+Publication Date,2012_EML,326,326,1.00,100.00%
+Resource Access Constraints,2012_EML,326,326,1.00,100.00%
+Resource Contact,2012_EML,326,326,1.00,100.00%
+Resource Creation/Revision Date,2012_EML,326,326,1.00,100.00%
+Resource Format,2012_EML,326,326,1.00,100.00%
+Resource Identifier,2012_EML,326,326,1.00,100.00%
+Resource Identifier Type,2012_EML,326,326,1.00,100.00%
+Resource Lineage,2012_EML,91,91,0.28,27.91%
+Resource Long Name,2012_EML,326,326,1.00,100.00%
+Resource Status,2012_EML,326,326,1.00,100.00%
+Resource Title,2012_EML,326,326,1.00,100.00%
+Security Constraints,2012_EML,326,326,1.00,100.00%
+Southernmost Latitude,2012_EML,326,326,1.00,100.00%
+Spatial Extent,2012_EML,326,326,1.00,100.00%
+Start Time,2012_EML,326,326,1.00,100.00%
+Temporal Extent,2012_EML,326,326,1.00,100.00%
+Unknown,2012_EML,39354,326,120.72,100.00%
+Westernmost Longitude,2012_EML,326,326,1.00,100.00%

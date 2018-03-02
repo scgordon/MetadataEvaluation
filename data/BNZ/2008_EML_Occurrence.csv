@@ -1,0 +1,54 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2008_EML,301,301,1.00,100.00%
+Abstract,2008_EML,222,222,0.74,73.75%
+Attribute Definition,2008_EML,3028,206,10.06,68.44%
+Attribute List,2008_EML,206,206,0.68,68.44%
+Author,2008_EML,311,230,1.03,76.41%
+Author / Originator,2008_EML,311,230,1.03,76.41%
+Author / Originator Email Address,2008_EML,241,182,0.80,60.47%
+Author / Originator World Wide Web Address,2008_EML,294,222,0.98,73.75%
+Bounding Box,2008_EML,223,223,0.74,74.09%
+Contributor Name,2008_EML,516,179,1.71,59.47%
+Contributor Role,2008_EML,179,179,0.59,59.47%
+Distribution Format,2008_EML,206,206,0.68,68.44%
+Easternmost Longitude,2008_EML,223,223,0.74,74.09%
+End Time,2008_EML,230,230,0.76,76.41%
+Entity Type Definition,2008_EML,70,70,0.23,23.26%
+Entity and Attribute Information,2008_EML,70,70,0.23,23.26%
+Keyword,2008_EML,1239,230,4.12,76.41%
+Keyword Vocabulary,2008_EML,230,230,0.76,76.41%
+Maintenance,2008_EML,230,230,0.76,76.41%
+Metadata Access Constraints,2008_EML,230,230,0.76,76.41%
+Metadata Contact,2008_EML,230,230,0.76,76.41%
+Metadata Use Constraints,2008_EML,230,230,0.76,76.41%
+Northernmost Latitude,2008_EML,223,223,0.74,74.09%
+Organization Name,2008_EML,722,230,2.40,76.41%
+Originating Organization,2008_EML,32,32,0.11,10.63%
+Process Step,2008_EML,140,140,0.47,46.51%
+Project Name,2008_EML,294,222,0.98,73.75%
+Publication Date,2008_EML,230,230,0.76,76.41%
+Publisher,2008_EML,230,230,0.76,76.41%
+Resource Access Constraints,2008_EML,230,230,0.76,76.41%
+Resource Contact,2008_EML,230,230,0.76,76.41%
+Resource Creation/Revision Date,2008_EML,230,230,0.76,76.41%
+Resource Distribution,2008_EML,230,230,0.76,76.41%
+Resource Format,2008_EML,206,206,0.68,68.44%
+Resource Identifier,2008_EML,230,230,0.76,76.41%
+Resource Identifier Type,2008_EML,230,230,0.76,76.41%
+Resource Lineage,2008_EML,140,140,0.47,46.51%
+Resource Long Name,2008_EML,230,230,0.76,76.41%
+Resource Status,2008_EML,230,230,0.76,76.41%
+Resource Title,2008_EML,230,230,0.76,76.41%
+Resource Use Constraints,2008_EML,230,230,0.76,76.41%
+Resource on-line Link,2008_EML,230,230,0.76,76.41%
+Rights,2008_EML,230,230,0.76,76.41%
+Security Constraints,2008_EML,230,230,0.76,76.41%
+Southernmost Latitude,2008_EML,223,223,0.74,74.09%
+Spatial Extent,2008_EML,223,223,0.74,74.09%
+Start Time,2008_EML,230,230,0.76,76.41%
+Temporal Extent,2008_EML,230,230,0.76,76.41%
+Unknown,2008_EML,49043,301,162.93,100.00%
+Vertical Maximum,2008_EML,34,34,0.11,11.30%
+Vertical Minimum,2008_EML,34,34,0.11,11.30%
+Vertical Resolution,2008_EML,34,34,0.11,11.30%
+Westernmost Longitude,2008_EML,223,223,0.74,74.09%

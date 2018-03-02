@@ -1,0 +1,50 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2010_EML,29,29,1.00,100.00%
+Abstract,2010_EML,29,29,1.00,100.00%
+Attribute Definition,2010_EML,1292,25,44.55,86.21%
+Attribute List,2010_EML,119,25,4.10,86.21%
+Author,2010_EML,34,29,1.17,100.00%
+Author / Originator,2010_EML,34,29,1.17,100.00%
+Bounding Box,2010_EML,29,29,1.00,100.00%
+Contributor Name,2010_EML,57,19,1.97,65.52%
+Contributor Role,2010_EML,19,19,0.66,65.52%
+Distribution Format,2010_EML,25,25,0.86,86.21%
+Easternmost Longitude,2010_EML,29,29,1.00,100.00%
+End Time,2010_EML,29,29,1.00,100.00%
+Entity Type Definition,2010_EML,117,25,4.03,86.21%
+Entity and Attribute Information,2010_EML,117,25,4.03,86.21%
+Keyword,2010_EML,302,29,10.41,100.00%
+Keyword Vocabulary,2010_EML,78,26,2.69,89.66%
+Maintenance,2010_EML,25,25,0.86,86.21%
+Metadata Access Constraints,2010_EML,29,29,1.00,100.00%
+Metadata Use Constraints,2010_EML,29,29,1.00,100.00%
+Northernmost Latitude,2010_EML,29,29,1.00,100.00%
+Organization Name,2010_EML,58,29,2.00,100.00%
+Process Step,2010_EML,29,29,1.00,100.00%
+Publication Date,2010_EML,29,29,1.00,100.00%
+Publisher,2010_EML,29,29,1.00,100.00%
+Resource Access Constraints,2010_EML,29,29,1.00,100.00%
+Resource Contact,2010_EML,29,29,1.00,100.00%
+Resource Creation/Revision Date,2010_EML,29,29,1.00,100.00%
+Resource Distribution,2010_EML,29,29,1.00,100.00%
+Resource Format,2010_EML,25,25,0.86,86.21%
+Resource Identifier,2010_EML,29,29,1.00,100.00%
+Resource Identifier Type,2010_EML,29,29,1.00,100.00%
+Resource Lineage,2010_EML,29,29,1.00,100.00%
+Resource Long Name,2010_EML,29,29,1.00,100.00%
+Resource Status,2010_EML,29,29,1.00,100.00%
+Resource Title,2010_EML,29,29,1.00,100.00%
+Resource Use Constraints,2010_EML,29,29,1.00,100.00%
+Resource on-line Link,2010_EML,29,29,1.00,100.00%
+Rights,2010_EML,29,29,1.00,100.00%
+Security Constraints,2010_EML,29,29,1.00,100.00%
+Southernmost Latitude,2010_EML,29,29,1.00,100.00%
+Spatial Extent,2010_EML,29,29,1.00,100.00%
+Start Time,2010_EML,29,29,1.00,100.00%
+Taxonomic Extent,2010_EML,22,22,0.76,75.86%
+Temporal Extent,2010_EML,29,29,1.00,100.00%
+Unknown,2010_EML,8429,29,290.66,100.00%
+Vertical Maximum,2010_EML,29,29,1.00,100.00%
+Vertical Minimum,2010_EML,29,29,1.00,100.00%
+Vertical Resolution,2010_EML,29,29,1.00,100.00%
+Westernmost Longitude,2010_EML,29,29,1.00,100.00%

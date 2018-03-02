@@ -1,0 +1,57 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2015_EML,182,182,1.00,100.00%
+Abstract,2015_EML,182,182,1.00,100.00%
+Attribute Definition,2015_EML,3199,182,17.58,100.00%
+Attribute List,2015_EML,249,182,1.37,100.00%
+Author,2015_EML,364,182,2.00,100.00%
+Author / Originator,2015_EML,364,182,2.00,100.00%
+Author / Originator Email Address,2015_EML,275,182,1.51,100.00%
+Author / Originator Identifier,2015_EML,182,182,1.00,100.00%
+Author / Originator World Wide Web Address,2015_EML,318,182,1.75,100.00%
+Bounding Box,2015_EML,151,151,0.83,82.97%
+Contributor Name,2015_EML,225,141,1.24,77.47%
+Contributor Role,2015_EML,187,141,1.03,77.47%
+Distribution Format,2015_EML,182,182,1.00,100.00%
+Easternmost Longitude,2015_EML,151,151,0.83,82.97%
+End Time,2015_EML,182,182,1.00,100.00%
+Entity Type Definition,2015_EML,250,182,1.37,100.00%
+Entity and Attribute Information,2015_EML,250,182,1.37,100.00%
+Instrument,2015_EML,234,136,1.29,74.73%
+Keyword,2015_EML,3329,182,18.29,100.00%
+Keyword Type,2015_EML,364,182,2.00,100.00%
+Keyword Vocabulary,2015_EML,517,182,2.84,100.00%
+Metadata Access Constraints,2015_EML,182,182,1.00,100.00%
+Metadata Contact,2015_EML,182,182,1.00,100.00%
+Metadata Use Constraints,2015_EML,182,182,1.00,100.00%
+Northernmost Latitude,2015_EML,151,151,0.83,82.97%
+Organization Name,2015_EML,707,182,3.88,100.00%
+Originating Organization,2015_EML,350,182,1.92,100.00%
+Place Keyword,2015_EML,546,182,3.00,100.00%
+Process Step,2015_EML,179,179,0.98,98.35%
+Project Description,2015_EML,182,182,1.00,100.00%
+Project Name,2015_EML,318,182,1.75,100.00%
+Publication Date,2015_EML,182,182,1.00,100.00%
+Publisher,2015_EML,182,182,1.00,100.00%
+Related Resource Citation,2015_EML,182,182,1.00,100.00%
+Resource Access Constraints,2015_EML,182,182,1.00,100.00%
+Resource Contact,2015_EML,364,182,2.00,100.00%
+Resource Creation/Revision Date,2015_EML,182,182,1.00,100.00%
+Resource Distribution,2015_EML,182,182,1.00,100.00%
+Resource Format,2015_EML,182,182,1.00,100.00%
+Resource Identifier,2015_EML,182,182,1.00,100.00%
+Resource Identifier Type,2015_EML,182,182,1.00,100.00%
+Resource Lineage,2015_EML,179,179,0.98,98.35%
+Resource Long Name,2015_EML,182,182,1.00,100.00%
+Resource Quality Description,2015_EML,180,180,0.99,98.90%
+Resource Status,2015_EML,182,182,1.00,100.00%
+Resource Title,2015_EML,182,182,1.00,100.00%
+Resource Use Constraints,2015_EML,182,182,1.00,100.00%
+Resource on-line Link,2015_EML,182,182,1.00,100.00%
+Rights,2015_EML,182,182,1.00,100.00%
+Security Constraints,2015_EML,182,182,1.00,100.00%
+Southernmost Latitude,2015_EML,151,151,0.83,82.97%
+Spatial Extent,2015_EML,151,151,0.83,82.97%
+Start Time,2015_EML,182,182,1.00,100.00%
+Temporal Extent,2015_EML,182,182,1.00,100.00%
+Unknown,2015_EML,41961,182,230.55,100.00%
+Westernmost Longitude,2015_EML,151,151,0.83,82.97%

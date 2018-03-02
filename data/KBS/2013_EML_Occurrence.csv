@@ -1,0 +1,48 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2013_EML,19,19,1.00,100.00%
+Abstract,2013_EML,19,19,1.00,100.00%
+Attribute Definition,2013_EML,287,13,15.11,68.42%
+Attribute List,2013_EML,31,13,1.63,68.42%
+Author,2013_EML,19,19,1.00,100.00%
+Author / Originator,2013_EML,19,19,1.00,100.00%
+Author / Originator World Wide Web Address,2013_EML,13,13,0.68,68.42%
+Bounding Box,2013_EML,19,19,1.00,100.00%
+Contributor Name,2013_EML,24,17,1.26,89.47%
+Contributor Role,2013_EML,23,17,1.21,89.47%
+Distribution Format,2013_EML,15,13,0.79,68.42%
+Easternmost Longitude,2013_EML,19,19,1.00,100.00%
+End Time,2013_EML,4,4,0.21,21.05%
+Entity Type Definition,2013_EML,30,12,1.58,63.16%
+Entity and Attribute Information,2013_EML,30,12,1.58,63.16%
+Keyword,2013_EML,142,19,7.47,100.00%
+Keyword Type,2013_EML,19,19,1.00,100.00%
+Keyword Vocabulary,2013_EML,5,5,0.26,26.32%
+Metadata Access Constraints,2013_EML,19,19,1.00,100.00%
+Metadata Use Constraints,2013_EML,19,19,1.00,100.00%
+Northernmost Latitude,2013_EML,19,19,1.00,100.00%
+Organization Name,2013_EML,68,19,3.58,100.00%
+Originating Organization,2013_EML,13,13,0.68,68.42%
+Place Keyword,2013_EML,114,19,6.00,100.00%
+Process Step,2013_EML,3,3,0.16,15.79%
+Project Name,2013_EML,13,13,0.68,68.42%
+Publication Date,2013_EML,19,19,1.00,100.00%
+Publisher,2013_EML,19,19,1.00,100.00%
+Resource Access Constraints,2013_EML,19,19,1.00,100.00%
+Resource Contact,2013_EML,19,19,1.00,100.00%
+Resource Creation/Revision Date,2013_EML,19,19,1.00,100.00%
+Resource Format,2013_EML,15,13,0.79,68.42%
+Resource Identifier,2013_EML,19,19,1.00,100.00%
+Resource Identifier Type,2013_EML,19,19,1.00,100.00%
+Resource Lineage,2013_EML,3,3,0.16,15.79%
+Resource Long Name,2013_EML,19,19,1.00,100.00%
+Resource Status,2013_EML,19,19,1.00,100.00%
+Resource Title,2013_EML,19,19,1.00,100.00%
+Resource Use Constraints,2013_EML,14,14,0.74,73.68%
+Rights,2013_EML,14,14,0.74,73.68%
+Security Constraints,2013_EML,19,19,1.00,100.00%
+Southernmost Latitude,2013_EML,19,19,1.00,100.00%
+Spatial Extent,2013_EML,19,19,1.00,100.00%
+Start Time,2013_EML,4,4,0.21,21.05%
+Temporal Extent,2013_EML,4,4,0.21,21.05%
+Unknown,2013_EML,1578,19,83.05,100.00%
+Westernmost Longitude,2013_EML,19,19,1.00,100.00%

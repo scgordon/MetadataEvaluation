@@ -1,0 +1,50 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2012_EML,41,41,1.00,100.00%
+Abstract,2012_EML,39,39,0.95,95.12%
+Attribute Definition,2012_EML,1013,39,24.71,95.12%
+Attribute List,2012_EML,183,39,4.46,95.12%
+Author,2012_EML,109,39,2.66,95.12%
+Author / Originator,2012_EML,109,39,2.66,95.12%
+Bounding Box,2012_EML,39,39,0.95,95.12%
+Contributor Name,2012_EML,126,34,3.07,82.93%
+Contributor Role,2012_EML,34,34,0.83,82.93%
+Distribution Format,2012_EML,48,39,1.17,95.12%
+Easternmost Longitude,2012_EML,39,39,0.95,95.12%
+End Time,2012_EML,39,39,0.95,95.12%
+Entity Type Definition,2012_EML,183,39,4.46,95.12%
+Entity and Attribute Information,2012_EML,183,39,4.46,95.12%
+Keyword,2012_EML,367,39,8.95,95.12%
+Keyword Vocabulary,2012_EML,99,33,2.41,80.49%
+Maintenance,2012_EML,10,10,0.24,24.39%
+Metadata Access Constraints,2012_EML,39,39,0.95,95.12%
+Metadata Use Constraints,2012_EML,39,39,0.95,95.12%
+Northernmost Latitude,2012_EML,39,39,0.95,95.12%
+Organization Name,2012_EML,78,39,1.90,95.12%
+Process Step,2012_EML,39,39,0.95,95.12%
+Publication Date,2012_EML,39,39,0.95,95.12%
+Publisher,2012_EML,39,39,0.95,95.12%
+Resource Access Constraints,2012_EML,39,39,0.95,95.12%
+Resource Contact,2012_EML,39,39,0.95,95.12%
+Resource Creation/Revision Date,2012_EML,39,39,0.95,95.12%
+Resource Distribution,2012_EML,39,39,0.95,95.12%
+Resource Format,2012_EML,48,39,1.17,95.12%
+Resource Identifier,2012_EML,39,39,0.95,95.12%
+Resource Identifier Type,2012_EML,39,39,0.95,95.12%
+Resource Lineage,2012_EML,39,39,0.95,95.12%
+Resource Long Name,2012_EML,39,39,0.95,95.12%
+Resource Status,2012_EML,39,39,0.95,95.12%
+Resource Title,2012_EML,39,39,0.95,95.12%
+Resource Use Constraints,2012_EML,39,39,0.95,95.12%
+Resource on-line Link,2012_EML,39,39,0.95,95.12%
+Rights,2012_EML,39,39,0.95,95.12%
+Security Constraints,2012_EML,39,39,0.95,95.12%
+Southernmost Latitude,2012_EML,39,39,0.95,95.12%
+Spatial Extent,2012_EML,39,39,0.95,95.12%
+Start Time,2012_EML,39,39,0.95,95.12%
+Taxonomic Extent,2012_EML,26,26,0.63,63.41%
+Temporal Extent,2012_EML,39,39,0.95,95.12%
+Unknown,2012_EML,9552,41,232.98,100.00%
+Vertical Maximum,2012_EML,39,39,0.95,95.12%
+Vertical Minimum,2012_EML,39,39,0.95,95.12%
+Vertical Resolution,2012_EML,39,39,0.95,95.12%
+Westernmost Longitude,2012_EML,39,39,0.95,95.12%

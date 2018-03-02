@@ -1,0 +1,49 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2010_EML,171,171,1.00,100.00%
+Abstract,2010_EML,167,167,0.98,97.66%
+Attribute Definition,2010_EML,2185,138,12.78,80.70%
+Attribute List,2010_EML,338,138,1.98,80.70%
+Author,2010_EML,186,167,1.09,97.66%
+Author / Originator,2010_EML,186,167,1.09,97.66%
+Author / Originator Identifier,2010_EML,1,1,0.01,0.58%
+Author / Originator World Wide Web Address,2010_EML,112,93,0.65,54.39%
+Bounding Box,2010_EML,34,34,0.20,19.88%
+Contributor Name,2010_EML,447,156,2.61,91.23%
+Contributor Role,2010_EML,349,156,2.04,91.23%
+Distribution Format,2010_EML,152,138,0.89,80.70%
+Easternmost Longitude,2010_EML,34,34,0.20,19.88%
+End Time,2010_EML,107,107,0.63,62.57%
+Entity Type Definition,2010_EML,338,138,1.98,80.70%
+Entity and Attribute Information,2010_EML,338,138,1.98,80.70%
+Keyword,2010_EML,2098,167,12.27,97.66%
+Keyword Type,2010_EML,167,167,0.98,97.66%
+Keyword Vocabulary,2010_EML,16,16,0.09,9.36%
+Metadata Access Constraints,2010_EML,167,167,0.98,97.66%
+Metadata Use Constraints,2010_EML,167,167,0.98,97.66%
+Northernmost Latitude,2010_EML,34,34,0.20,19.88%
+Organization Name,2010_EML,552,167,3.23,97.66%
+Originating Organization,2010_EML,95,93,0.56,54.39%
+Place Keyword,2010_EML,1002,167,5.86,97.66%
+Process Step,2010_EML,49,49,0.29,28.65%
+Project Name,2010_EML,112,93,0.65,54.39%
+Publication Date,2010_EML,93,93,0.54,54.39%
+Publisher,2010_EML,93,93,0.54,54.39%
+Resource Access Constraints,2010_EML,167,167,0.98,97.66%
+Resource Contact,2010_EML,167,167,0.98,97.66%
+Resource Creation/Revision Date,2010_EML,93,93,0.54,54.39%
+Resource Format,2010_EML,152,138,0.89,80.70%
+Resource Identifier,2010_EML,167,167,0.98,97.66%
+Resource Identifier Type,2010_EML,167,167,0.98,97.66%
+Resource Lineage,2010_EML,49,49,0.29,28.65%
+Resource Long Name,2010_EML,167,167,0.98,97.66%
+Resource Status,2010_EML,167,167,0.98,97.66%
+Resource Title,2010_EML,167,167,0.98,97.66%
+Resource Use Constraints,2010_EML,22,22,0.13,12.87%
+Rights,2010_EML,22,22,0.13,12.87%
+Security Constraints,2010_EML,167,167,0.98,97.66%
+Southernmost Latitude,2010_EML,34,34,0.20,19.88%
+Spatial Extent,2010_EML,34,34,0.20,19.88%
+Start Time,2010_EML,107,107,0.63,62.57%
+Temporal Extent,2010_EML,107,107,0.63,62.57%
+Unknown,2010_EML,15285,171,89.39,100.00%
+Westernmost Longitude,2010_EML,34,34,0.20,19.88%

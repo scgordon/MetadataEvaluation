@@ -1,0 +1,51 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2005_EML,69,69,1.00,100.00%
+Abstract,2005_EML,2,2,0.03,2.90%
+Attribute Definition,2005_EML,11,1,0.16,1.45%
+Attribute List,2005_EML,1,1,0.01,1.45%
+Author,2005_EML,4,3,0.06,4.35%
+Author / Originator,2005_EML,4,3,0.06,4.35%
+Author / Originator World Wide Web Address,2005_EML,3,2,0.04,2.90%
+Bounding Box,2005_EML,8,2,0.12,2.90%
+Contributor Name,2005_EML,2,1,0.03,1.45%
+Contributor Role,2005_EML,2,1,0.03,1.45%
+Distribution Format,2005_EML,1,1,0.01,1.45%
+Easternmost Longitude,2005_EML,8,2,0.12,2.90%
+End Time,2005_EML,2,2,0.03,2.90%
+Entity Type Definition,2005_EML,1,1,0.01,1.45%
+Entity and Attribute Information,2005_EML,1,1,0.01,1.45%
+Instrument,2005_EML,1,1,0.01,1.45%
+Metadata Access Constraints,2005_EML,3,3,0.04,4.35%
+Metadata Contact,2005_EML,3,3,0.04,4.35%
+Metadata Use Constraints,2005_EML,3,3,0.04,4.35%
+Northernmost Latitude,2005_EML,7,2,0.10,2.90%
+Process Step,2005_EML,2,2,0.03,2.90%
+Project Name,2005_EML,3,2,0.04,2.90%
+Publication Date,2005_EML,2,2,0.03,2.90%
+Resource Access Constraints,2005_EML,3,3,0.04,4.35%
+Resource Contact,2005_EML,3,3,0.04,4.35%
+Resource Creation/Revision Date,2005_EML,2,2,0.03,2.90%
+Resource Distribution,2005_EML,1,1,0.01,1.45%
+Resource Format,2005_EML,1,1,0.01,1.45%
+Resource Identifier,2005_EML,3,3,0.04,4.35%
+Resource Identifier Type,2005_EML,3,3,0.04,4.35%
+Resource Language,2005_EML,3,3,0.04,4.35%
+Resource Lineage,2005_EML,2,2,0.03,2.90%
+Resource Long Name,2005_EML,3,3,0.04,4.35%
+Resource Quality Description,2005_EML,20,20,0.29,28.99%
+Resource Status,2005_EML,3,3,0.04,4.35%
+Resource Title,2005_EML,3,3,0.04,4.35%
+Resource Use Constraints,2005_EML,3,3,0.04,4.35%
+Resource on-line Link,2005_EML,1,1,0.01,1.45%
+Rights,2005_EML,3,3,0.04,4.35%
+Security Constraints,2005_EML,3,3,0.04,4.35%
+Southernmost Latitude,2005_EML,7,2,0.10,2.90%
+Spatial Extent,2005_EML,8,2,0.12,2.90%
+Start Time,2005_EML,2,2,0.03,2.90%
+Supplemental Information,2005_EML,2,2,0.03,2.90%
+Temporal Extent,2005_EML,2,2,0.03,2.90%
+Unknown,2005_EML,9149,69,132.59,100.00%
+Vertical Maximum,2005_EML,7,2,0.10,2.90%
+Vertical Minimum,2005_EML,7,2,0.10,2.90%
+Vertical Resolution,2005_EML,2,2,0.03,2.90%
+Westernmost Longitude,2005_EML,8,2,0.12,2.90%

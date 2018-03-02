@@ -1,0 +1,55 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2015_EML,52,52,1.00,100.00%
+Abstract,2015_EML,52,52,1.00,100.00%
+Attribute Definition,2015_EML,898,52,17.27,100.00%
+Attribute List,2015_EML,57,52,1.10,100.00%
+Author,2015_EML,120,52,2.31,100.00%
+Author / Originator,2015_EML,120,52,2.31,100.00%
+Author / Originator World Wide Web Address,2015_EML,2,2,0.04,3.85%
+Bounding Box,2015_EML,311,52,5.98,100.00%
+Contributor Name,2015_EML,124,36,2.38,69.23%
+Contributor Role,2015_EML,52,36,1.00,69.23%
+Distribution Format,2015_EML,53,52,1.02,100.00%
+Easternmost Longitude,2015_EML,299,52,5.75,100.00%
+End Time,2015_EML,52,52,1.00,100.00%
+Entity Type Definition,2015_EML,57,52,1.10,100.00%
+Entity and Attribute Information,2015_EML,57,52,1.10,100.00%
+Keyword,2015_EML,753,52,14.48,100.00%
+Keyword Type,2015_EML,104,52,2.00,100.00%
+Keyword Vocabulary,2015_EML,100,52,1.92,100.00%
+Metadata Access Constraints,2015_EML,52,52,1.00,100.00%
+Metadata Contact,2015_EML,52,52,1.00,100.00%
+Metadata Use Constraints,2015_EML,52,52,1.00,100.00%
+Northernmost Latitude,2015_EML,303,52,5.83,100.00%
+Organization Name,2015_EML,315,52,6.06,100.00%
+Originating Organization,2015_EML,102,52,1.96,100.00%
+Place Keyword,2015_EML,151,52,2.90,100.00%
+Process Step,2015_EML,52,52,1.00,100.00%
+Project Name,2015_EML,2,2,0.04,3.85%
+Publication Date,2015_EML,52,52,1.00,100.00%
+Publisher,2015_EML,52,52,1.00,100.00%
+Resource Access Constraints,2015_EML,52,52,1.00,100.00%
+Resource Contact,2015_EML,104,52,2.00,100.00%
+Resource Creation/Revision Date,2015_EML,52,52,1.00,100.00%
+Resource Distribution,2015_EML,52,52,1.00,100.00%
+Resource Format,2015_EML,53,52,1.02,100.00%
+Resource Identifier,2015_EML,52,52,1.00,100.00%
+Resource Identifier Type,2015_EML,52,52,1.00,100.00%
+Resource Language,2015_EML,1,1,0.02,1.92%
+Resource Lineage,2015_EML,52,52,1.00,100.00%
+Resource Long Name,2015_EML,52,52,1.00,100.00%
+Resource Status,2015_EML,52,52,1.00,100.00%
+Resource Title,2015_EML,52,52,1.00,100.00%
+Resource Use Constraints,2015_EML,52,52,1.00,100.00%
+Resource on-line Link,2015_EML,52,52,1.00,100.00%
+Rights,2015_EML,52,52,1.00,100.00%
+Security Constraints,2015_EML,52,52,1.00,100.00%
+Southernmost Latitude,2015_EML,302,52,5.81,100.00%
+Spatial Extent,2015_EML,314,52,6.04,100.00%
+Start Time,2015_EML,52,52,1.00,100.00%
+Temporal Extent,2015_EML,52,52,1.00,100.00%
+Unknown,2015_EML,13053,52,251.02,100.00%
+Vertical Maximum,2015_EML,226,28,4.35,53.85%
+Vertical Minimum,2015_EML,226,28,4.35,53.85%
+Vertical Resolution,2015_EML,28,28,0.54,53.85%
+Westernmost Longitude,2015_EML,305,52,5.87,100.00%

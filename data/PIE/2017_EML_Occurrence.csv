@@ -1,0 +1,53 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2017_EML,66,66,1.00,100.00%
+Abstract,2017_EML,66,66,1.00,100.00%
+Attribute Definition,2017_EML,787,66,11.92,100.00%
+Attribute List,2017_EML,66,66,1.00,100.00%
+Author,2017_EML,102,66,1.55,100.00%
+Author / Originator,2017_EML,102,66,1.55,100.00%
+Author / Originator Identifier,2017_EML,102,66,1.55,100.00%
+Bounding Box,2017_EML,114,66,1.73,100.00%
+Contributor Name,2017_EML,94,59,1.42,89.39%
+Contributor Role,2017_EML,59,59,0.89,89.39%
+Distribution Format,2017_EML,66,66,1.00,100.00%
+Easternmost Longitude,2017_EML,114,66,1.73,100.00%
+End Time,2017_EML,66,66,1.00,100.00%
+Entity Type Definition,2017_EML,66,66,1.00,100.00%
+Entity and Attribute Information,2017_EML,66,66,1.00,100.00%
+Keyword,2017_EML,780,66,11.82,100.00%
+Maintenance,2017_EML,66,66,1.00,100.00%
+Metadata Access Constraints,2017_EML,66,66,1.00,100.00%
+Metadata Contact,2017_EML,66,66,1.00,100.00%
+Metadata Use Constraints,2017_EML,66,66,1.00,100.00%
+Northernmost Latitude,2017_EML,114,66,1.73,100.00%
+Organization Name,2017_EML,198,66,3.00,100.00%
+Originating Organization,2017_EML,66,66,1.00,100.00%
+Process Step,2017_EML,66,66,1.00,100.00%
+Project Description,2017_EML,66,66,1.00,100.00%
+Publication Date,2017_EML,66,66,1.00,100.00%
+Publisher,2017_EML,66,66,1.00,100.00%
+Publisher E-Mail,2017_EML,66,66,1.00,100.00%
+Publisher URL,2017_EML,66,66,1.00,100.00%
+Related Resource Citation,2017_EML,66,66,1.00,100.00%
+Resource Access Constraints,2017_EML,66,66,1.00,100.00%
+Resource Contact,2017_EML,66,66,1.00,100.00%
+Resource Creation/Revision Date,2017_EML,66,66,1.00,100.00%
+Resource Distribution,2017_EML,66,66,1.00,100.00%
+Resource Format,2017_EML,66,66,1.00,100.00%
+Resource Identifier,2017_EML,66,66,1.00,100.00%
+Resource Identifier Type,2017_EML,66,66,1.00,100.00%
+Resource Lineage,2017_EML,66,66,1.00,100.00%
+Resource Long Name,2017_EML,66,66,1.00,100.00%
+Resource Status,2017_EML,66,66,1.00,100.00%
+Resource Title,2017_EML,66,66,1.00,100.00%
+Resource Use Constraints,2017_EML,66,66,1.00,100.00%
+Resource on-line Link,2017_EML,66,66,1.00,100.00%
+Rights,2017_EML,66,66,1.00,100.00%
+Security Constraints,2017_EML,66,66,1.00,100.00%
+Southernmost Latitude,2017_EML,114,66,1.73,100.00%
+Spatial Extent,2017_EML,116,66,1.76,100.00%
+Start Time,2017_EML,66,66,1.00,100.00%
+Taxonomic Extent,2017_EML,44,44,0.67,66.67%
+Temporal Extent,2017_EML,66,66,1.00,100.00%
+Unknown,2017_EML,12802,66,193.97,100.00%
+Westernmost Longitude,2017_EML,114,66,1.73,100.00%

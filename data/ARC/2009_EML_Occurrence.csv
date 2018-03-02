@@ -1,0 +1,53 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2009_EML,42,42,1.00,100.00%
+Abstract,2009_EML,26,26,0.62,61.90%
+Attribute Definition,2009_EML,636,26,15.14,61.90%
+Attribute List,2009_EML,26,26,0.62,61.90%
+Author,2009_EML,26,26,0.62,61.90%
+Author / Originator,2009_EML,26,26,0.62,61.90%
+Author / Originator Identifier,2009_EML,26,26,0.62,61.90%
+Bounding Box,2009_EML,30,26,0.71,61.90%
+Contributor Name,2009_EML,70,26,1.67,61.90%
+Contributor Role,2009_EML,26,26,0.62,61.90%
+Distribution Format,2009_EML,26,26,0.62,61.90%
+Easternmost Longitude,2009_EML,30,26,0.71,61.90%
+End Time,2009_EML,26,26,0.62,61.90%
+Entity Type Definition,2009_EML,26,26,0.62,61.90%
+Entity and Attribute Information,2009_EML,26,26,0.62,61.90%
+Keyword,2009_EML,183,26,4.36,61.90%
+Maintenance,2009_EML,26,26,0.62,61.90%
+Metadata Access Constraints,2009_EML,26,26,0.62,61.90%
+Metadata Contact,2009_EML,26,26,0.62,61.90%
+Metadata Use Constraints,2009_EML,26,26,0.62,61.90%
+Northernmost Latitude,2009_EML,30,26,0.71,61.90%
+Organization Name,2009_EML,78,26,1.86,61.90%
+Originating Organization,2009_EML,26,26,0.62,61.90%
+Process Step,2009_EML,26,26,0.62,61.90%
+Project Description,2009_EML,26,26,0.62,61.90%
+Publication Date,2009_EML,26,26,0.62,61.90%
+Publisher,2009_EML,26,26,0.62,61.90%
+Publisher E-Mail,2009_EML,26,26,0.62,61.90%
+Publisher URL,2009_EML,26,26,0.62,61.90%
+Related Resource Citation,2009_EML,26,26,0.62,61.90%
+Resource Access Constraints,2009_EML,26,26,0.62,61.90%
+Resource Contact,2009_EML,26,26,0.62,61.90%
+Resource Creation/Revision Date,2009_EML,26,26,0.62,61.90%
+Resource Distribution,2009_EML,26,26,0.62,61.90%
+Resource Format,2009_EML,26,26,0.62,61.90%
+Resource Identifier,2009_EML,26,26,0.62,61.90%
+Resource Identifier Type,2009_EML,26,26,0.62,61.90%
+Resource Lineage,2009_EML,26,26,0.62,61.90%
+Resource Long Name,2009_EML,26,26,0.62,61.90%
+Resource Status,2009_EML,26,26,0.62,61.90%
+Resource Title,2009_EML,26,26,0.62,61.90%
+Resource Use Constraints,2009_EML,26,26,0.62,61.90%
+Resource on-line Link,2009_EML,26,26,0.62,61.90%
+Rights,2009_EML,26,26,0.62,61.90%
+Security Constraints,2009_EML,26,26,0.62,61.90%
+Southernmost Latitude,2009_EML,30,26,0.71,61.90%
+Spatial Extent,2009_EML,30,26,0.71,61.90%
+Start Time,2009_EML,26,26,0.62,61.90%
+Taxonomic Extent,2009_EML,9,9,0.21,21.43%
+Temporal Extent,2009_EML,26,26,0.62,61.90%
+Unknown,2009_EML,10393,42,247.45,100.00%
+Westernmost Longitude,2009_EML,30,26,0.71,61.90%

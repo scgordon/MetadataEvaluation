@@ -1,0 +1,47 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2017_EML,161,161,1.00,100.00%
+Abstract,2017_EML,161,161,1.00,100.00%
+Attribute Definition,2017_EML,252,13,1.57,8.07%
+Attribute List,2017_EML,33,13,0.20,8.07%
+Author,2017_EML,369,161,2.29,100.00%
+Author / Originator,2017_EML,369,161,2.29,100.00%
+Author / Originator Email Address,2017_EML,153,153,0.95,95.03%
+Author / Originator Identifier,2017_EML,369,161,2.29,100.00%
+Author / Originator World Wide Web Address,2017_EML,208,161,1.29,100.00%
+Bounding Box,2017_EML,161,161,1.00,100.00%
+Distribution Format,2017_EML,13,13,0.08,8.07%
+Easternmost Longitude,2017_EML,161,161,1.00,100.00%
+End Time,2017_EML,161,161,1.00,100.00%
+Entity Type Definition,2017_EML,13,13,0.08,8.07%
+Entity and Attribute Information,2017_EML,13,13,0.08,8.07%
+Keyword,2017_EML,822,161,5.11,100.00%
+Keyword Type,2017_EML,161,161,1.00,100.00%
+Metadata Access Constraints,2017_EML,161,161,1.00,100.00%
+Metadata Use Constraints,2017_EML,161,161,1.00,100.00%
+Northernmost Latitude,2017_EML,161,161,1.00,100.00%
+Organization Name,2017_EML,208,161,1.29,100.00%
+Originating Organization,2017_EML,208,161,1.29,100.00%
+Process Step,2017_EML,13,13,0.08,8.07%
+Project Name,2017_EML,208,161,1.29,100.00%
+Publication Date,2017_EML,161,161,1.00,100.00%
+Resource Access Constraints,2017_EML,161,161,1.00,100.00%
+Resource Contact,2017_EML,161,161,1.00,100.00%
+Resource Creation/Revision Date,2017_EML,161,161,1.00,100.00%
+Resource Distribution,2017_EML,161,161,1.00,100.00%
+Resource Format,2017_EML,13,13,0.08,8.07%
+Resource Identifier,2017_EML,161,161,1.00,100.00%
+Resource Identifier Type,2017_EML,161,161,1.00,100.00%
+Resource Lineage,2017_EML,13,13,0.08,8.07%
+Resource Long Name,2017_EML,161,161,1.00,100.00%
+Resource Status,2017_EML,161,161,1.00,100.00%
+Resource Title,2017_EML,161,161,1.00,100.00%
+Resource Use Constraints,2017_EML,161,161,1.00,100.00%
+Resource on-line Link,2017_EML,161,161,1.00,100.00%
+Rights,2017_EML,161,161,1.00,100.00%
+Security Constraints,2017_EML,161,161,1.00,100.00%
+Southernmost Latitude,2017_EML,161,161,1.00,100.00%
+Spatial Extent,2017_EML,161,161,1.00,100.00%
+Start Time,2017_EML,161,161,1.00,100.00%
+Temporal Extent,2017_EML,161,161,1.00,100.00%
+Unknown,2017_EML,12280,161,76.27,100.00%
+Westernmost Longitude,2017_EML,161,161,1.00,100.00%

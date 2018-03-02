@@ -1,0 +1,53 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2012_EML,75,75,1.00,100.00%
+Abstract,2012_EML,75,75,1.00,100.00%
+Attribute Definition,2012_EML,620,75,8.27,100.00%
+Attribute List,2012_EML,75,75,1.00,100.00%
+Author,2012_EML,107,75,1.43,100.00%
+Author / Originator,2012_EML,107,75,1.43,100.00%
+Author / Originator Identifier,2012_EML,107,75,1.43,100.00%
+Bounding Box,2012_EML,153,75,2.04,100.00%
+Contributor Name,2012_EML,144,70,1.92,93.33%
+Contributor Role,2012_EML,70,70,0.93,93.33%
+Distribution Format,2012_EML,75,75,1.00,100.00%
+Easternmost Longitude,2012_EML,153,75,2.04,100.00%
+End Time,2012_EML,75,75,1.00,100.00%
+Entity Type Definition,2012_EML,75,75,1.00,100.00%
+Entity and Attribute Information,2012_EML,75,75,1.00,100.00%
+Keyword,2012_EML,714,75,9.52,100.00%
+Maintenance,2012_EML,75,75,1.00,100.00%
+Metadata Access Constraints,2012_EML,75,75,1.00,100.00%
+Metadata Contact,2012_EML,75,75,1.00,100.00%
+Metadata Use Constraints,2012_EML,75,75,1.00,100.00%
+Northernmost Latitude,2012_EML,153,75,2.04,100.00%
+Organization Name,2012_EML,225,75,3.00,100.00%
+Originating Organization,2012_EML,75,75,1.00,100.00%
+Process Step,2012_EML,75,75,1.00,100.00%
+Project Description,2012_EML,75,75,1.00,100.00%
+Publication Date,2012_EML,75,75,1.00,100.00%
+Publisher,2012_EML,75,75,1.00,100.00%
+Publisher E-Mail,2012_EML,75,75,1.00,100.00%
+Publisher URL,2012_EML,75,75,1.00,100.00%
+Related Resource Citation,2012_EML,75,75,1.00,100.00%
+Resource Access Constraints,2012_EML,75,75,1.00,100.00%
+Resource Contact,2012_EML,75,75,1.00,100.00%
+Resource Creation/Revision Date,2012_EML,75,75,1.00,100.00%
+Resource Distribution,2012_EML,75,75,1.00,100.00%
+Resource Format,2012_EML,75,75,1.00,100.00%
+Resource Identifier,2012_EML,75,75,1.00,100.00%
+Resource Identifier Type,2012_EML,75,75,1.00,100.00%
+Resource Lineage,2012_EML,75,75,1.00,100.00%
+Resource Long Name,2012_EML,75,75,1.00,100.00%
+Resource Status,2012_EML,75,75,1.00,100.00%
+Resource Title,2012_EML,75,75,1.00,100.00%
+Resource Use Constraints,2012_EML,75,75,1.00,100.00%
+Resource on-line Link,2012_EML,75,75,1.00,100.00%
+Rights,2012_EML,75,75,1.00,100.00%
+Security Constraints,2012_EML,75,75,1.00,100.00%
+Southernmost Latitude,2012_EML,153,75,2.04,100.00%
+Spatial Extent,2012_EML,153,75,2.04,100.00%
+Start Time,2012_EML,75,75,1.00,100.00%
+Taxonomic Extent,2012_EML,41,41,0.55,54.67%
+Temporal Extent,2012_EML,75,75,1.00,100.00%
+Unknown,2012_EML,13280,75,177.07,100.00%
+Westernmost Longitude,2012_EML,153,75,2.04,100.00%
