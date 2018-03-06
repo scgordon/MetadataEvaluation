@@ -15,5 +15,5 @@ The Metadata Retrieval Notebook describes the process of discovery, access, and 
 
 The Exploration notebook directly addresses the information needs listed below and shows the location the csv files are for each data product for further visualization in other environments. In this notebook you just hold shift and press return/enter, or make selections from dropdown.
 
-[Exploration Notebook](https://github.com/scgordon/MetadataEvaluation/blob/LTERsitesThroughTime/notebook/Data_Exploration.ipynb)
+[Exploration Notebook](https://github.com/scgordon/MetadataEvaluation/blob/LTERsitesThroughTime/notebook/Data_Exploration.ipynb)(not built yet)
 
