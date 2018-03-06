@@ -13,5 +13,7 @@ The Exploration notebook directly addresses the information needs listed below a
 
 [Exploration Notebook](https://github.com/scgordon/MetadataEvaluation/blob/LTERsitesThroughTime/notebook/Data_Exploration.ipynb)
 
-The Metadata Retrieval Notebook describes the process of discovery, access, and use of data. It contains links to the files referred to in each step of processing and evaluating the metadata to prepare data for analysis and understanding of the question: Do communities that create recommendations, guidance and tools for creating recommendation compliant
+The Metadata Retrieval Notebook describes the process of discovery, access, and use of data. It contains links to the files referred to in each step of processing and evaluating the metadata to prepare data for analysis and understanding of the question: Do communities that create recommendations and support them with guidance and tools for creating recommendation compliant records improve the completeness of their metadata over time.
+
+[MetadataRetrieval Notebook](https://github.com/scgordon/MetadataEvaluation/blob/LTERsitesThroughTime/notebook/MetadataRetrieval.ipynb)
 
