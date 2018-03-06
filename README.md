@@ -9,11 +9,11 @@ The metadataEvaluation module Tutorial notebook should allow the user to gain an
 
 [Module Tutorial Notebook](https://github.com/scgordon/MetadataEvaluation/blob/master/notebook/metadataEvaluation_ModuleTutorial.ipynb)
 
-The Exploration notebook directly addresses the information needs listed below and shows the location the csv files are for each data product for further visualization in other environments. In this notebook you just hold shift and press return/enter, or make selections from dropdown.
-
-[Exploration Notebook](https://github.com/scgordon/MetadataEvaluation/blob/LTERsitesThroughTime/notebook/Data_Exploration.ipynb)
-
 The Metadata Retrieval Notebook describes the process of discovery, access, and use of data. It contains links to the files referred to in each step of processing and evaluating the metadata to prepare data for analysis and understanding of the question: Do communities that create recommendations and support them with guidance and tools for creating recommendation compliant records improve the completeness of their metadata over time.
 
 [Metadata Retrieval Notebook](https://github.com/scgordon/MetadataEvaluation/blob/LTERsitesThroughTime/notebook/MetadataRetrieval.ipynb)
+
+The Exploration notebook directly addresses the information needs listed below and shows the location the csv files are for each data product for further visualization in other environments. In this notebook you just hold shift and press return/enter, or make selections from dropdown.
+
+[Exploration Notebook](https://github.com/scgordon/MetadataEvaluation/blob/LTERsitesThroughTime/notebook/Data_Exploration.ipynb)
 
