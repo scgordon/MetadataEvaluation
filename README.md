@@ -1,33 +1,17 @@
-# Re3data
-A repository branch to explore metadata in Re3data and research the metadata about repositories. Possible research directions include determining recommendations for journals to vet repositories with, study of what is claimed vs what is actually offered, test set of repos to test api layer of vm Metadata Evaluation analytics. Studies of different metadata dialects. EX there are over 200 repositories using ISO 19115 dialect of the documentation language. Do they use the dialect in the same way? Do usage patterns follow communities of practice? Funding agency or country of origin?
+# Collecting and analyzing EML records uploaded to DataONE by individual LTER sites, 2005-2018
+A repository branch to explore metadata in DataONE uploaded to the LTER membernode and created at the various LTER sites around the world. By organizing and analyzing these records by site and by year we can investigate if a community recommendation coupled with guidance and tools help improve the creation of new records for a metadata provider. This repository contains the solr queries and responses used to gather the metadata about the metadata along with the various shell and python scripts, excel files, and xsl transforms I used to collect, organize, and retrieve the metadata collections I wanted to investigate from DataONE. The process to prepare and evaluate the metadata are described as well
 
 If you are new to Jupyter and want to explore the notebooks in this repository, use the wiki to get started.
 
 [Get Started](https://github.com/scgordon/MetadataEvaluation/wiki/Getting-Started)
 
-The Evaluation notebook should allow the user to gain an understanding of metadataEvaluation.py functions used to create data products.
-
-[Evaluation Notebook](https://github.com/scgordon/MetadataEvaluation/blob/re3data/notebook/Re3data_Evaluation.ipynb)
-
-More functions are described in the metadataEvaluation module Tutorial:
+The metadataEvaluation module Tutorial notebook should allow the user to gain an understanding of metadataEvaluation.py functions used to create data products.
 
 [Module Tutorial](https://github.com/scgordon/MetadataEvaluation/blob/master/notebook/metadataEvaluation_ModuleTutorial.ipynb)
 
 The Exploration notebook directly addresses the information needs listed below and shows the location the csv files are for each data product for further visualization in other environments. In this notebook you just hold shift and press return/enter, or make selections from dropdown.
 
-[Exploration Notebook](https://github.com/scgordon/MetadataEvaluation/blob/re3data/notebook/Re3data_Exploration.ipynb)
+[Exploration Notebook](https://github.com/scgordon/MetadataEvaluation/blob/LTERsitesThroughTime/notebook/Data_Exploration.ipynb)
 
-The functions used in both Notebooks attempt to:
 
-* Check the occurrence of metadata elements and compare percentages across timestamped collections of Re3data metadata
-
-* Create lists of records at Re3data that do not contain an element
-
-* Create lists of what content occurs at a selected element 
-
-* count the unique values of content at a selected element to see what variations occurr at selected elements. Useful for identifiying opportunities to ensure consistency. Also useful to see if nonstandard element content has a standardized location
-
-Link below to interactive webbuild of the repository via MyBinder which opens the Exploration Notebook particularly useful for exploration of the third and fourth bullet points:
-
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/scgordon/MetadataEvaluation/re3data?filepath=%2Fnotebook%2FRe3data_Exploration.ipynb)
 
