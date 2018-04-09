@@ -10,26 +10,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../metadata/BNZ.xml</String>
+                                    <String>../../../MetadataEvaluation/scripts/createSiteSH.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>BNZ</String>
+                                        <String>createSiteSH</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
-                                        <String>XSL</String>
+                                        <String>XML</String>
                                     </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>metadata</String>
+                                    <String>../../../MetadataEvaluation/solrMetadata/</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>siteSH</String>
+                                        <String>solrMetadata2retrievalScript</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -48,7 +48,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>siteSH</String>
+                                    <String>solrMetadata2retrievalScript</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -66,7 +66,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/scripts/createSiteSH.xsl</String>
+                                    <String>file:/Users/scgordon/MetadataEvaluation/scripts/createSiteSH.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
@@ -87,10 +87,10 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>../scripts/${cfn}.sh</File>
+                                    <File>/Users/scgordon/MetadataEvaluation/scripts/${cfn}.sh</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>../scripts/${cfn}.sh</String>
+                                    <String>/Users/scgordon/MetadataEvaluation/scripts/${cfn}.sh</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -134,7 +134,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>BNZ</String>
+                                    <String>createSiteSH</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -152,10 +152,10 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/createSiteSH.xsl</String>
+                                    <String>${currentFileURL}</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>${currentFileURL}</String>
+                                    <String>file:/Users/scgordon/MetadataEvaluation/solrMetadata/VCR.xml</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>
@@ -164,7 +164,7 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="type">
-                                    <String>XSL</String>
+                                    <String>XML</String>
                                 </field>
                                 <field name="saveAs">
                                     <Boolean>true</Boolean>
@@ -173,10 +173,10 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>${pd}/BNZ.sh</File>
+                                    <null/>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/BNZ.sh</String>
+                                    <null/>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -209,7 +209,7 @@
                                     <String-array/>
                                 </field>
                                 <field name="xslTransformer">
-                                    <String>Saxon-EE</String>
+                                    <String>Saxon-PE</String>
                                 </field>
                                 <field name="extensionURLs">
                                     <String-array/>
@@ -222,6 +222,6 @@
         </options>
     </meta>
     <projectTree name="SiteSH.xpr">
-        <folder path="../"/>
+        <folder path="../solrMetadata/"/>
     </projectTree>
 </project>

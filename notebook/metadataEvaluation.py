@@ -56,35 +56,56 @@ def XMLeval(MetadataLocation, Organization, Collection, Dialect):
 #def QualitativeRecommendationsAnalysis(dataframe, RecTag)
 #def QuantitativeRecommendationsAnalysis(dataframe, RecTag)
 #creates all data products. Likely useful to break up into different functions in the module
-def fullXPathDataProduct(EvaluatedMetadataDF, Organization, Collection, Dialect):
+def EvaluatedDatatable(EvaluatedMetadataDF, Organization, Collection, Dialect):
+    EvaluatedMetadataDF.to_csv('$MetadataEvaluation/data/$1/$2_$3_Evaluated.csv.gz',
+          index=False,
+          compression='gzip', columns=['Collection', 'Dialect', 'Record', 'Concept', 'Content', 'XPath'])
     
-    Evaluated='../data/'+Organization+'/'+Collection+'_'+Dialect+'_Evaluated.csv.gz'
-    #add a column for declaring the collection and dialect to uniquely identify data in combined data products
-    EvaluatedMetadataDF.insert(3, 'Collection', Collection+'_'+Dialect)
     #save to file
     EvaluatedMetadataDF.to_csv(Evaluated, mode = 'w', compression='gzip', index=False)
     return(EvaluatedMetadataDF)
 
-def simpleXPathDataProduct(EvaluatedMetadataDF, Organization, Collection, Dialect):
+def simpleXPathISO(EvaluatedMetadataDF, Organization, Collection, Dialect):
     #Create a simplified XPath output
        #add a column for declaring the collection and dialect to uniquely identify data in combined data products
-    EvaluatedMetadataDF.insert(3, 'Collection', Collection+'_'+Dialect)
-    SimplifiedEvaluated='../data/'+Organization+'/'+Collection+'_'+Dialect+'_EvaluatedSimplified.csv.gz'
-    EvaluatedSimplifiedMetadataDF = EvaluatedMetadataDF.copy()
-    EvaluatedSimplifiedMetadataDF['XPath']=EvaluatedSimplifiedMetadataDF['XPath'].str.replace('/gco:CharacterString', '')
-    EvaluatedSimplifiedMetadataDF['XPath']=EvaluatedSimplifiedMetadataDF['XPath'].str.replace('/[a-z]+:+?', '/')
-    EvaluatedSimplifiedMetadataDF['XPath']=EvaluatedSimplifiedMetadataDF['XPath'].str.replace('/@[a-z]+:+?', '/@')
-    EvaluatedSimplifiedMetadataDF['XPath']=EvaluatedSimplifiedMetadataDF['XPath'].str.replace('/[A-Z]+_[A-Za-z]+/?', '/')
-    EvaluatedSimplifiedMetadataDF['XPath']=EvaluatedSimplifiedMetadataDF['XPath'].str.replace('//', '/')
-    EvaluatedSimplifiedMetadataDF['XPath']=EvaluatedSimplifiedMetadataDF['XPath'].str.rstrip('//')
-    EvaluatedSimplifiedMetadataDF.to_csv(SimplifiedEvaluated, mode = 'w', compression='gzip', index=False)
-    return(EvaluatedSimplifiedMetadataDF)
+    #EvaluatedMetadataDF.insert(3, 'Collection', Collection+'_'+Dialect)
+    #SimplifiedEvaluated='../data/'+Organization+'/'+Collection+'_'+Dialect+'_EvaluatedSimplified.csv.gz'
+
+    EvaluatedMetadataDF['XPath']=EvaluatedMetadataDF['XPath'].str.replace('/gco:CharacterString', '')
+    EvaluatedMetadataDF['XPath']=EvaluatedMetadataDF['XPath'].str.replace('/[a-z]+:+?', '/')
+    EvaluatedMetadataDF['XPath']=EvaluatedMetadataDF['XPath'].str.replace('/@[a-z]+:+?', '/@')
+    EvaluatedMetadataDF['XPath']=EvaluatedMetadataDF['XPath'].str.replace('/[A-Z]+_[A-Za-z]+/?', '/')
+    EvaluatedMetadataDF['XPath']=EvaluatedMetadataDF['XPath'].str.replace('//', '/')
+    EvaluatedMetadataDF['XPath']=EvaluatedMetadataDF['XPath'].str.rstrip('//')
+    #EvaluatedSimplifiedMetadataDF.to_csv(SimplifiedEvaluated, mode = 'w', compression='gzip', index=False)
+    return(EvaluatedMetadataDF)
+
+def simpleXPathRe3data(EvaluatedMetadataDF):
+#   Create a simplified XPath output for any dataFrame with an XPath column
+#   replacements below used to simplify the re3data xPaths.
+#   Important to consider a test on root so that one simpleXPath function can get #   used on any data table
+#
+#   examples
+#   /r3d:re3data/r3d:repository/r3d:providerType
+#   /r3d:re3data/r3d:repository/r3d:keyword
+#   /r3d:re3data/r3d:repository/r3d:institution/r3d:institutionName
+#
+#   becomes
+#   providerType
+#   keyword
+#   institutionName
+
+    
+    EvaluatedMetadataDF['XPath']=EvaluatedMetadataDF['XPath'].str.replace('/r3d:re3data/r3d:repository/r3d:', '')
+    EvaluatedMetadataDF['XPath']=EvaluatedMetadataDF['XPath'].str.replace('r3d:','')
+    
+    return(EvaluatedMetadataDF)
 
     #Create a Recommendations Analysis data product
 def ConceptCounts(EvaluatedMetadataDF, Organization, Collection, Dialect):
     RAD='../data/'+Organization+'/'+Collection+'_'+Dialect+'_RAD.csv'
-    dialectOccurrenceDF = pd.read_csv('../table/dialectContains.csv')
-    dialectOccurrenceDF=dialectOccurrenceDF['MetadataDialect']=='Dialect'
+    #dialectOccurrenceDF = pd.read_csv('../table/dialectContains.csv')
+    #dialectOccurrenceDF=dialectOccurrenceDF['MetadataDialect']=='Dialect'
     group_name = EvaluatedMetadataDF.groupby(['Collection','Record', 'Concept'], as_index=False)
     occurrenceMatrix=group_name.size().unstack().reset_index()
     occurrenceMatrix=occurrenceMatrix.fillna(0)
@@ -161,6 +182,8 @@ def xpathOccurrence(EvaluatedMetadataDF, Organization, Collection, Dialect):
     result['AverageOccurrencePerRecord'] = pd.Series(["{0:.2f}".format(val) for val in result['AverageOccurrencePerRecord']], index = result.index)
     result.to_csv(XpathOccurrence, mode = 'w', index=False)
     return(result)
+
+
 def contentNotProvidedtest(EvaluatedMetadataDF, Organization, Collection, Dialect):
     # Create dataframe of just the elements that do not have a version of Not Provided for their content
     ContentProvidedDF = EvaluatedMetadataDF[EvaluatedMetadataDF.Content!=("Not provided" or "Not%20provided")]
@@ -371,3 +394,26 @@ def CombineEvaluatedMetadata(CollectionComparisons, DataDestination):
    
     CombinedDF.to_csv(DataDestination, mode = 'w',compression='gzip', index=False)
     return CombinedDF   
+
+#Using concept occurrence data products, combine them and produce a record count table with collections for columns and concepts for rows
+def CombineAverageConceptOccurrencePerRecord(CollectionComparisons, DataDestination):
+    CombinedDF = pd.concat((pd.read_csv(f) for f in CollectionComparisons))
+    RecordCountCombinedPivotDF = CombinedDF.pivot(index='Concept', columns='Collection', values='AverageOccurrencePerRecord')
+    pd.options.display.float_format = '{:,.0f}'.format
+    RecordCountCombinedPivotDF=RecordCountCombinedPivotDF.fillna(0)
+    RecordCountCombinedPivotDF.columns.names = ['']
+    RecordCountCombinedPivotDF=RecordCountCombinedPivotDF.reset_index()
+    RecordCountCombinedPivotDF.to_csv(DataDestination, mode = 'w', index=False)
+    return RecordCountCombinedPivotDF
+def CombineAverageXPathOccurrencePerRecord(CollectionComparisons, DataDestination):
+    
+    CombinedDF = pd.concat((pd.read_csv(f) for f in CollectionComparisons)) 
+    #CombinedDF.to_csv(DataDestination, mode = 'w', index=False)
+    CombinedPivotDF = CombinedDF.pivot(index='XPath', columns='Collection', values='AverageOccurrencePerRecord')
+    pd.options.display.float_format = '{:,.0f}'.format
+    ConceptCountsDF=CombinedPivotDF.fillna(0)
+    ConceptCountsDF.columns.names = ['']
+    ConceptCountsDF=ConceptCountsDF.reset_index()
+
+    ConceptCountsDF.to_csv(DataDestination, mode = 'w', index=False)
+    return ConceptCountsDF     

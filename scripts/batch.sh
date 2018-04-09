@@ -97,7 +97,6 @@
 ./GetData.sh FCE 2016 EML
 ./GetData.sh FCE 2017 EML
 ./GetData.sh FCE 2018 EML
-./GetData.sh GCE 2004 EML
 ./GetData.sh GCE 2005 EML
 ./GetData.sh GCE 2006 EML
 ./GetData.sh GCE 2007 EML
@@ -268,4 +267,4 @@
 ./GetData.sh VCR 2016 EML
 ./GetData.sh VCR 2017 EML
 ./GetData.sh VCR 2018 EML
- 
+ python ./combineSiteYears.py
