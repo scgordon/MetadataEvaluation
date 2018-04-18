@@ -1,0 +1,68 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2005_EML,184,184,1.00,100.00%
+Abstract,2005_EML,184,184,1.00,100.00%
+Attribute Constraints,2005_EML,370,54,2.01,29.35%
+Attribute Definition,2005_EML,10660,170,57.93,92.39%
+Attribute List,2005_EML,727,170,3.95,92.39%
+Author,2005_EML,371,184,2.02,100.00%
+Author / Originator,2005_EML,371,184,2.02,100.00%
+Author / Originator Email Address,2005_EML,121,106,0.66,57.61%
+Author / Originator World Wide Web Address,2005_EML,413,182,2.24,98.91%
+Bounding Box,2005_EML,152,152,0.83,82.61%
+Contributor Name,2005_EML,814,176,4.42,95.65%
+Contributor Role,2005_EML,814,176,4.42,95.65%
+Distribution Format,2005_EML,272,82,1.48,44.57%
+Easternmost Longitude,2005_EML,152,152,0.83,82.61%
+End Time,2005_EML,184,184,1.00,100.00%
+Entity Type Definition,2005_EML,660,146,3.59,79.35%
+Entity and Attribute Information,2005_EML,660,146,3.59,79.35%
+Instrument,2005_EML,316,40,1.72,21.74%
+Keyword,2005_EML,1302,184,7.08,100.00%
+Keyword Type,2005_EML,566,89,3.08,48.37%
+Keyword Vocabulary,2005_EML,109,89,0.59,48.37%
+Maintenance,2005_EML,89,89,0.48,48.37%
+Metadata Access Constraints,2005_EML,89,89,0.48,48.37%
+Metadata Contact,2005_EML,44,44,0.24,23.91%
+Metadata Modified Date,2005_EML,582,89,3.16,48.37%
+Metadata Use Constraints,2005_EML,89,89,0.48,48.37%
+Northernmost Latitude,2005_EML,152,152,0.83,82.61%
+Organization Name,2005_EML,170,89,0.92,48.37%
+Originating Organization,2005_EML,81,81,0.44,44.02%
+Process Step,2005_EML,153,153,0.83,83.15%
+Project Description,2005_EML,155,155,0.84,84.24%
+Project Name,2005_EML,413,182,2.24,98.91%
+Publication Date,2005_EML,174,174,0.95,94.57%
+Publisher,2005_EML,89,89,0.48,48.37%
+Publisher E-Mail,2005_EML,89,89,0.48,48.37%
+Publisher URL,2005_EML,89,89,0.48,48.37%
+Purpose,2005_EML,71,71,0.39,38.59%
+Related Resource Citation,2005_EML,155,155,0.84,84.24%
+Resource Access Constraints,2005_EML,89,89,0.48,48.37%
+Resource Contact,2005_EML,291,184,1.58,100.00%
+Resource Creation/Revision Date,2005_EML,756,174,4.11,94.57%
+Resource Distribution,2005_EML,184,184,1.00,100.00%
+Resource Format,2005_EML,272,82,1.48,44.57%
+Resource Identifier,2005_EML,184,184,1.00,100.00%
+Resource Identifier Type,2005_EML,184,184,1.00,100.00%
+Resource Lineage,2005_EML,153,153,0.83,83.15%
+Resource Long Name,2005_EML,184,184,1.00,100.00%
+Resource Quality Description,2005_EML,5,5,0.03,2.72%
+Resource Revision Date,2005_EML,582,89,3.16,48.37%
+Resource Status,2005_EML,89,89,0.48,48.37%
+Resource Title,2005_EML,184,184,1.00,100.00%
+Resource Update Frequency,2005_EML,89,89,0.48,48.37%
+Resource Use Constraints,2005_EML,179,179,0.97,97.28%
+Resource on-line Link,2005_EML,184,184,1.00,100.00%
+Rights,2005_EML,179,179,0.97,97.28%
+Security Constraints,2005_EML,89,89,0.48,48.37%
+Southernmost Latitude,2005_EML,152,152,0.83,82.61%
+Spatial Extent,2005_EML,152,152,0.83,82.61%
+Start Time,2005_EML,184,184,1.00,100.00%
+Supplemental Information,2005_EML,124,124,0.67,67.39%
+Taxonomic Extent,2005_EML,47,47,0.26,25.54%
+Temporal Extent,2005_EML,184,184,1.00,100.00%
+Temporal Keyword,2005_EML,1,1,0.01,0.54%
+Vertical Maximum,2005_EML,69,69,0.38,37.50%
+Vertical Minimum,2005_EML,69,69,0.38,37.50%
+Vertical Resolution,2005_EML,69,69,0.38,37.50%
+Westernmost Longitude,2005_EML,152,152,0.83,82.61%

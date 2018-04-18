@@ -19,11 +19,13 @@ import requests
 import io
 import subprocess
 import xlsxwriter
-#variables needed to save data 
+from pydrive.auth import GoogleAuth
+from pydrive.drive import GoogleDrive
+#variables needed to save data
 def localAllNodesEval(MetadataLocation, Organization, Collection, Dialect):
     subprocess.call(["./xmlTransform.sh", Organization, Collection, Dialect])
-
-
+def localKnownNodesEval(MetadataLocation, Organization, Collection, Dialect):
+    subprocess.call(["./conceptTransform.sh", Organization, Collection, Dialect])
 def XMLeval(MetadataLocation, Organization, Collection, Dialect):
     #eventually replaced with lxml functions
     MetadataDestination=os.path.join('./zip/',Organization,Collection,Dialect,'xml')
@@ -303,14 +305,14 @@ def CombineAverageXPathOccurrencePerRecord(CollectionComparisons, DataDestinatio
     ConceptCountsDF.to_csv(DataDestination, mode = 'w', index=False)
     return ConceptCountsDF   
 
-def OrganizationSpreadsheet(Organization,xpathOccurrence,AVGxpathOccurrence):
+def OrganizationSpreadsheet(Organization,xpathOccurrence,AVGxpathOccurrence,conceptOccurrence,AVGconceptOccurrence):
     #create spreadsheet for an organization 
     workbook = xlsxwriter.Workbook(Organization+'_Report.xlsx', {'strings_to_numbers': True})
     cell_format11 = workbook.add_format()
     cell_format11.set_num_format('0.00%')
     cell_format04 = workbook.add_format()
     cell_format04.set_num_format('0.00')
-    worksheet = workbook.add_worksheet('OccurrencesAnalysis')
+    worksheet = workbook.add_worksheet('xpathOccurrencesAnalysis')
     worksheet.set_column('A:A', 70)
     worksheet.write('A2', 'Number of Records')
     worksheet.write('A3', 'Number of Elements / Attributes')
@@ -319,7 +321,24 @@ def OrganizationSpreadsheet(Organization,xpathOccurrence,AVGxpathOccurrence):
     worksheet.write('A6', 'Repository Completeness: Number of elements /  number of elements in most complete collection in repository')
     worksheet.write('A7', 'Homogeneity: Number >= 1 / Total Number of elements in the collection')
     worksheet.write('A8', 'Partial Elements: Number < 0 and < 1')
+    worksheet.write('A9', 'Retrieval Date')
+    worksheet.write('A1', 'XPath')
+
+    ws2 = workbook.add_worksheet('conceptOccurrence')
+    ws2.set_column('A:A', 50)
+    Reader = csv.reader(open(conceptOccurrence, 'r'), delimiter=',',quotechar='"')
+    row_count = 0
     
+    for row in Reader:
+        for col in range(len(row)):
+            ws2.write(row_count,col,row[col], cell_format11)
+        row_count +=1
+    
+    ws3 = workbook.add_worksheet('AVGconceptOccurrence')
+    ws3.set_column('A:A', 50)
+    Reader = csv.reader(open(AVGconceptOccurrence, 'r'), delimiter=',',quotechar='"')
+    row_count = 0
+
     ws = workbook.add_worksheet('xpathOccurrence')
     ws.set_column('A:A', 50)
     Reader = csv.reader(open(xpathOccurrence, 'r'), delimiter=',',quotechar='"')
@@ -328,47 +347,50 @@ def OrganizationSpreadsheet(Organization,xpathOccurrence,AVGxpathOccurrence):
     for row in Reader:
         for col in range(len(row)):
             ws.write(row_count,col,row[col], cell_format11)
+            worksheet.write(row_count+10,col+6,row[col], cell_format11)
         row_count +=1
     
-    ws = workbook.add_worksheet('AVGxpathOccurrence')
-    ws.set_column('A:A', 50)
+    ws4 = workbook.add_worksheet('AVGxpathOccurrence')
+    ws4.set_column('A:A', 50)
     Reader = csv.reader(open(AVGxpathOccurrence, 'r'), delimiter=',',quotechar='"')
     row_count = 0
-    
+
+
     for row in Reader:
         for col in range(len(row)):
-            ws.write(row_count,col,row[col],cell_format04)
+            ws3.write(row_count,col,row[col],cell_format04)
+            ws4.write(row_count,col,row[col],cell_format04)
             cell = xlsxwriter.utility.xl_rowcol_to_cell(0, col)
-            #cell2 = xlsxwriter.utility.xl_rowcol_to_cell(2, col)
+            cell2 = xlsxwriter.utility.xl_rowcol_to_cell(0, col+1)
             #colRange = xlsxwriter.utility.xl_range(1,col+1,4500,col+1)
             #colRange2 = xlsxwriter.utility.xl_range(2,1,2,len(row)-1)
-            formula = '=xpathOccurrence!'+'%s' % cell
-            worksheet.write(0,col,formula)
+            formula = '=xpathOccurrence!'+'%s' % cell2
+            worksheet.write(0,col+7,formula)
         for col in range(len(row)-1):  
             cell = xlsxwriter.utility.xl_rowcol_to_cell(0, col)
-            cell2 = xlsxwriter.utility.xl_rowcol_to_cell(2, col+1)
+            cell3 = xlsxwriter.utility.xl_rowcol_to_cell(2, col+1)
             colRange = xlsxwriter.utility.xl_range(1,col+1,4500,col+1)
             colRange2 = xlsxwriter.utility.xl_range(2,1,2,len(row)-1)
             formula2 = '=COUNTIF(xpathOccurrence!'+colRange+',">"&0)'
-            worksheet.write(2,col+1,formula2)
+            worksheet.write(2,col+7,formula2)
 
             formula3 = '='+cell2+'/COUNTA(xpathOccurrence!'+colRange+')'
-            worksheet.write(3,col+1,formula3, cell_format11)
+            worksheet.write(3,col+7,formula3, cell_format11)
 
-            formula4 = '=SUM(xpathOccurrence!'+colRange+')/'+'%s' % cell2
-            worksheet.write(4,col+1,formula4, cell_format11)
+            formula4 = '=SUM(xpathOccurrence!'+colRange+')/'+'%s' % cell3
+            worksheet.write(4,col+7,formula4, cell_format11)
 
             formula5 = '='+'%s' % cell2 +'/MAX('+colRange2+')'
-            worksheet.write(5,col+1,formula5, cell_format11)
+            worksheet.write(5,col+7,formula5, cell_format11)
 
-            formula6 = '=COUNTIF(xpathOccurrence!'+colRange+',">="&1)/'+'%s' % cell2
-            worksheet.write(6,col+1,formula6, cell_format11)
+            formula6 = '=COUNTIF(xpathOccurrence!'+colRange+',">="&1)/'+'%s' % cell3
+            worksheet.write(6,col+7,formula6, cell_format11)
 
-            formula7 = '=COUNTIFS(xpathOccurrence!'+colRange+',">"&0,xpathOccurrence!'+colRange+',"<"&1)/'+'%s' % cell2
-            worksheet.write(7,col+1,formula7, cell_format11)
+            formula7 = '=COUNTIFS(xpathOccurrence!'+colRange+',">"&0,xpathOccurrence!'+colRange+',"<"&1)/'+'%s' % cell3
+            worksheet.write(7,col+7,formula7, cell_format11)
 
             formula1 = '=VLOOKUP("Number of Records",AVGxpathOccurrence!1:1048576,'+str(col+2)+')'
-            worksheet.write(1,col+1,formula1)
+            worksheet.write(1,col+7,formula1)
         row_count +=1
     #######################################################################
     #
@@ -402,4 +424,39 @@ def OrganizationSpreadsheet(Organization,xpathOccurrence,AVGxpathOccurrence):
     ws3.insert_chart('D2', chart1, {'x_offset': 25, 'y_offset': 10})
 
     #######################################################################
-    workbook.close()      
+    workbook.close()
+
+def WriteGoogleSheets(SpreadsheetLocation):
+    gauth = GoogleAuth()
+    # Try to load saved client credentials
+    gauth.LoadCredentialsFile("mycreds.txt")
+    if gauth.credentials is None:
+        # Authenticate if they're not there
+        gauth.LocalWebserverAuth()
+    elif gauth.access_token_expired:
+        # Refresh them if expired
+        gauth.Refresh("mycreds.txt")
+    else:
+        # Initialize the saved creds
+        gauth.Authorize()
+# Save the current credentials to a file
+    gauth.SaveCredentialsFile("mycreds.txt")
+
+    drive = GoogleDrive(gauth)
+    Spreadsheet=SpreadsheetLocation[:SpreadsheetLocation.rfind('.')]
+    
+    SpreadsheetName=SpreadsheetLocation.rsplit('/', 1)[-1]
+
+    test_file = drive.CreateFile({'title': SpreadsheetName})
+    test_file.SetContentFile(SpreadsheetLocation)
+    test_file.Upload({'convert': True})
+
+    # Insert the permission.
+    permission = test_file.InsertPermission({
+                            'type': 'anyone',
+                            'value': 'anyone',
+                            'role': 'reader'})
+
+    print(test_file['alternateLink'])  # Display the sharable link.
+
+
