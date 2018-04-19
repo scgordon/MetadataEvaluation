@@ -314,15 +314,6 @@ def OrganizationSpreadsheet(Organization,xpathOccurrence,AVGxpathOccurrence,conc
     cell_format04.set_num_format('0.00')
     worksheet = workbook.add_worksheet('xpathOccurrencesAnalysis')
     worksheet.set_column('A:A', 70)
-    worksheet.write('A2', 'Number of Records')
-    worksheet.write('A3', 'Number of Elements / Attributes')
-    worksheet.write('A4', 'Coverage w/r to Repository (CR): number of elements / total number of elements')
-    worksheet.write('A5', 'Average Occurrence Rate')
-    worksheet.write('A6', 'Repository Completeness: Number of elements /  number of elements in most complete collection in repository')
-    worksheet.write('A7', 'Homogeneity: Number >= 1 / Total Number of elements in the collection')
-    worksheet.write('A8', 'Partial Elements: Number < 0 and < 1')
-    worksheet.write('A9', 'Retrieval Date')
-    worksheet.write('A1', 'XPath')
 
     ws2 = workbook.add_worksheet('conceptOccurrence')
     ws2.set_column('A:A', 50)
@@ -347,9 +338,15 @@ def OrganizationSpreadsheet(Organization,xpathOccurrence,AVGxpathOccurrence,conc
     for row in Reader:
         for col in range(len(row)):
             ws.write(row_count,col,row[col], cell_format11)
-            worksheet.write(row_count+10,col+6,row[col], cell_format11)
+        for col in range(1,len(row)):
+            worksheet.write(row_count+9,col+4,row[col], cell_format11)
+        for col in range(0,1):
+            worksheet.write(row_count+9,col,row[col], cell_format11)
+
+            Xpathcell = xlsxwriter.utility.xl_rowcol_to_cell(row_count+9, 0)
+            formulaElementSimplifier='=MID('+Xpathcell+',1+FIND("|",SUBSTITUTE('+Xpathcell+',"/","|",LEN('+Xpathcell+')-LEN(SUBSTITUTE('+Xpathcell+',"/","")))),100)'
+            worksheet.write(row_count+9,col+1,formulaElementSimplifier, cell_format11)
         row_count +=1
-    
     ws4 = workbook.add_worksheet('AVGxpathOccurrence')
     ws4.set_column('A:A', 50)
     Reader = csv.reader(open(AVGxpathOccurrence, 'r'), delimiter=',',quotechar='"')
@@ -360,62 +357,97 @@ def OrganizationSpreadsheet(Organization,xpathOccurrence,AVGxpathOccurrence,conc
         for col in range(len(row)):
             ws3.write(row_count,col,row[col],cell_format04)
             ws4.write(row_count,col,row[col],cell_format04)
-            cell = xlsxwriter.utility.xl_rowcol_to_cell(0, col)
-            cell2 = xlsxwriter.utility.xl_rowcol_to_cell(0, col+1)
-            #colRange = xlsxwriter.utility.xl_range(1,col+1,4500,col+1)
-            #colRange2 = xlsxwriter.utility.xl_range(2,1,2,len(row)-1)
-            formula = '=xpathOccurrence!'+'%s' % cell2
-            worksheet.write(0,col+7,formula)
+
         for col in range(len(row)-1):  
             cell = xlsxwriter.utility.xl_rowcol_to_cell(0, col)
-            cell3 = xlsxwriter.utility.xl_rowcol_to_cell(2, col+1)
+            cell2 = xlsxwriter.utility.xl_rowcol_to_cell(0, col+1)
+            cell3 = xlsxwriter.utility.xl_rowcol_to_cell(2, col+5)
             colRange = xlsxwriter.utility.xl_range(1,col+1,4500,col+1)
-            colRange2 = xlsxwriter.utility.xl_range(2,1,2,len(row)-1)
+            colRange2 = xlsxwriter.utility.xl_range(2,5,2,len(row)+3)
+            colRange3 = xlsxwriter.utility.xl_range(row_count,5,row_count,len(row)+3)
             formula2 = '=COUNTIF(xpathOccurrence!'+colRange+',">"&0)'
-            worksheet.write(2,col+7,formula2)
+            worksheet.write(2,col+5,formula2)
 
-            formula3 = '='+cell2+'/COUNTA(xpathOccurrence!'+colRange+')'
-            worksheet.write(3,col+7,formula3, cell_format11)
+            formula3 = '='+cell3+'/COUNTA(xpathOccurrence!'+colRange+')'
+            worksheet.write(3,col+5,formula3, cell_format11)
 
             formula4 = '=SUM(xpathOccurrence!'+colRange+')/'+'%s' % cell3
-            worksheet.write(4,col+7,formula4, cell_format11)
+            worksheet.write(4,col+5,formula4, cell_format11)
 
-            formula5 = '='+'%s' % cell2 +'/MAX('+colRange2+')'
-            worksheet.write(5,col+7,formula5, cell_format11)
+            formula5 = '='+'%s' % cell3 +'/MAX('+colRange2+')'
+            worksheet.write(5,col+5,formula5, cell_format11)
 
             formula6 = '=COUNTIF(xpathOccurrence!'+colRange+',">="&1)/'+'%s' % cell3
-            worksheet.write(6,col+7,formula6, cell_format11)
+            worksheet.write(6,col+5,formula6, cell_format11)
 
             formula7 = '=COUNTIFS(xpathOccurrence!'+colRange+',">"&0,xpathOccurrence!'+colRange+',"<"&1)/'+'%s' % cell3
-            worksheet.write(7,col+7,formula7, cell_format11)
-
+            worksheet.write(7,col+5,formula7, cell_format11)
+        
             formula1 = '=VLOOKUP("Number of Records",AVGxpathOccurrence!1:1048576,'+str(col+2)+')'
-            worksheet.write(1,col+7,formula1)
+            worksheet.write(1,col+5,formula1)
+
+            cell2 = xlsxwriter.utility.xl_rowcol_to_cell(0, col+1)
+
+            formula = '=xpathOccurrence!'+'%s' % cell2
+            worksheet.write(0,col+5,formula)
+            dateFormula = '=LEFT(RIGHT(xpathOccurrence!'+'%s' % cell2 +',LEN(xpathOccurrence!'+'%s' % cell2 +')-FIND("_", xpathOccurrence!'+'%s' % cell2 +')),FIND("_",xpathOccurrence!'+'%s' % cell2 +'))'
+            
+            worksheet.write(8,col+5,dateFormula)
+            collectFormula = '=LEFT(xpathOccurrence!'+'%s' % cell2 +',FIND("_",xpathOccurrence!'+'%s' % cell2 +')-1)'
+            
+            worksheet.write(9,col+5,collectFormula)          
+        
         row_count +=1
     #######################################################################
     #
+    worksheet.write('A2', 'Number of Records')
+    worksheet.write('A3', 'Number of Elements / Attributes')
+    worksheet.write('A4', 'Coverage w/r to Repository (CR): number of elements / total number of elements')
+    worksheet.write('A5', 'Average Occurrence Rate')
+    worksheet.write('A6', 'Repository Completeness: Number of elements /  number of elements in most complete collection in repository')
+    worksheet.write('A7', 'Homogeneity: Number >= 1 / Total Number of elements in the collection')
+    worksheet.write('A8', 'Partial Elements: Number < 0 and < 1')
+    worksheet.write('A9', 'Retrieval Date')
+    worksheet.write('B1', 'Formulas')
+    worksheet.write('C1', 'MIN')
+    worksheet.write('D1', 'MAX')
+    worksheet.write('E1', 'AVG')
+    worksheet.write('B10', 'Element Name')
+    worksheet.write('C10', '#Collections')
+    worksheet.write('D10', '# = 100%')
+    worksheet.write('E10', '# >= 100%')
+    
+    for row in range(1, 8):
+        colRange4 = xlsxwriter.utility.xl_range(row,5,row,500)
+        miniFormula='=MIN('+colRange4+')'
+        worksheet.write(row, 2, miniFormula)
+        maxiFormula='=MAX('+colRange4+')'
+        worksheet.write(row, 3, maxiFormula)
+        avgFormula='=AVERAGE('+colRange4+')'
+        worksheet.write(row, 4, avgFormula)
+    for row in range(10,4500):
+        colRange5 = xlsxwriter.utility.xl_range(row,5,row,500)
+        numbCollectFormula='=COUNTIF('+colRange5+',">"&0)'
+        CompleteCollectFormula='=COUNTIF('+colRange5+',"="&1)'
+        GreatCollectFormula='=COUNTIF('+colRange5+',"<"&1)'
+        worksheet.write(row, 2,numbCollectFormula)
+        worksheet.write(row, 3,CompleteCollectFormula)
+        worksheet.write(row, 4,GreatCollectFormula)
     # Create a new scatter chart.
-    ws3 = workbook.add_worksheet('2005ComparedWith2006')
+    ws3 = workbook.add_worksheet(Organization+' Completeness vs Homogeneity')
     chart1 = workbook.add_chart({'type': 'scatter'})
 
     # Configure the first series.
     chart1.add_series({
-        'name': '=xpathOccurrence!$B$1',
-        'categories': '=xpathOccurrence!$A$2:$A$487',
-        'values': '=xpathOccurrence!$B$2:$B$487',
-    })
-
-    # Configure second series. Note use of alternative syntax to define ranges.
-    chart1.add_series({
-        'name': '=xpathOccurrence!$B$1',
-        'categories': '=xpathOccurrence!$A$2:$A$487',
-        'values': '=xpathOccurrence!$C$2:$C$487',
+        'name': '=Completeness',
+        'categories': '=xpathOccurrencesAnalysis!$F$3:$BP$3',
+        'values': '=xpathOccurrencesAnalysis!$F$6:$BP$6',
     })
 
     # Add a chart title and some axis labels.
-    chart1.set_title ({'name': 'comparison of AND completeness percentage, from 2005, 2006'})
-    chart1.set_x_axis({'name': '2005 Completeness %'})
-    chart1.set_y_axis({'name': '2006 Completeness %'})
+    chart1.set_title ({'name': Organization+' Completeness vs Homogeneity'})
+    chart1.set_x_axis({'name': 'Homogeneity'})
+    chart1.set_y_axis({'name': 'Completeness (Repository)'})
 
     # Set an Excel chart style.
     chart1.set_style(11)
