@@ -1,2 +1,4 @@
 metadata/*/*/EML/xml*.xml
 *.xml
+
+scripts/mycreds.txt

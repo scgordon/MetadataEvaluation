@@ -21,7 +21,38 @@ import subprocess
 import xlsxwriter
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
-#variables needed to save data
+from lxml import etree
+#function to download metadata
+
+def get_records(urls, xml_files, well_formed=True):
+    """Download metadata records.
+
+    Metadata records are download from the supplied ``urls`` and stored in files
+    whose names are found on ``xml_files``. When ``well_formed`` is ``True``
+    downloaded XML will be saved to a file only if well-formed.
+    """
+    if len(urls) != len(xml_files):
+        raise ValueError('Different number of URLs and record file names')
+
+    for url, fname in zip(urls, xml_files):
+        try:
+            r = requests.get(url)
+            r.raise_for_status()
+        except Exception:
+            print('There was an error downloading from {}'.format(url))
+
+        if well_formed:
+            try:
+                etree.fromstring(r.text)
+            except Exception:
+                print('Metadata record from {} not well-formed'.format(url))
+
+        if fname[-4:] != '.xml':
+            fname += '.xml'
+        with open(fname, 'wt') as f:
+            f.write(r.text)
+
+
 def localAllNodesEval(MetadataLocation, Organization, Collection, Dialect):
     subprocess.call(["./xmlTransform.sh", Organization, Collection, Dialect])
 def localKnownNodesEval(MetadataLocation, Organization, Collection, Dialect):
@@ -62,7 +93,7 @@ def XMLeval(MetadataLocation, Organization, Collection, Dialect):
 #def JSONeval(****)
 #def QualitativeRecommendationsAnalysis(dataframe, RecTag)
 #def QuantitativeRecommendationsAnalysis(dataframe, RecTag)
-#creates all data products. Likely useful to break up into different functions in the module
+
 def EvaluatedDatatable(EvaluatedMetadataDF, DataDestination):
     EvaluatedMetadataDF.to_csv(DataDestination,
           index=False,
@@ -107,18 +138,31 @@ def simpleXPathRe3data(EvaluatedMetadataDF):
     return(EvaluatedMetadataDF)
 
     #Create a Recommendations Analysis data product
-def ConceptCounts(EvaluatedMetadataDF, Organization, Collection, Dialect, DataDestination):
+def conceptCounts(EvaluatedMetadataDF, Organization, Collection, Dialect, DataDestination):
     DataDestinationDirectory=DataDestination[:DataDestination.rfind('/')+1]
     os.makedirs(DataDestinationDirectory, exist_ok=True)
-    RAD='../data/'+Organization+'/'+Collection+'_'+Dialect+'_RAD.csv'
-    dialectOccurrenceDF = pd.read_csv('../table/dialectContains.csv')
-    dialectOccurrenceDF=dialectOccurrenceDF['MetadataDialect']=='Dialect'
+
+    dialectOccurrenceDF = pd.read_csv('../scripts/dialectContains.csv')
+    dialectOccurrenceDF = dialectOccurrenceDF[dialectOccurrenceDF['Concept']==Dialect]
     group_name = EvaluatedMetadataDF.groupby(['Collection','Record', 'Concept'], as_index=False)
     occurrenceMatrix=group_name.size().unstack().reset_index()
     occurrenceMatrix=occurrenceMatrix.fillna(0)
     occurrenceMatrix.columns.names = ['']
-    pd.options.display.float_format = '{:,.0f}'.format
-    pd.concat([occurrenceMatrix,dialectOccurrenceDF], axis=0, ignore_index=True)
+    #pd.options.display.float_format = '{:,.0f}'.format
+    occurrenceMatrix=pd.concat([dialectOccurrenceDF,occurrenceMatrix], axis=0, ignore_index=True)
+    mid = occurrenceMatrix['Collection']
+    mid2 = occurrenceMatrix['Record']
+    occurrenceMatrix.drop(labels=['Collection','Record','Concept'], axis=1,inplace = True)
+    occurrenceMatrix.insert(0, 'Collection', mid)
+    occurrenceMatrix.insert(0, 'Record', mid2)
+
+    dialectOccurrenceDF = pd.read_csv('../scripts/dialectContains.csv')
+    dialectOccurrenceDF=dialectOccurrenceDF[dialectOccurrenceDF['Concept']==Dialect]
+    FILLvalues=dialectOccurrenceDF.to_dict('records')
+    FILLvalues=FILLvalues[0]    
+    occurrenceMatrix = occurrenceMatrix.fillna(value=FILLvalues)
+    occurrenceMatrix.reset_index()
+    occurrenceMatrix = occurrenceMatrix.drop(occurrenceMatrix.index[0])
     occurrenceMatrix.to_csv(DataDestination, mode = 'w', index=False)
     return(occurrenceMatrix)
 def XpathCounts(EvaluatedMetadataDF, Organization, Collection, Dialect, DataDestination):
@@ -159,7 +203,7 @@ def conceptOccurrence(EvaluatedMetadataDF, Organization, Collection, Dialect, Da
     result.columns = ['Concept', 'Collection', 'ConceptCount', 'RecordCount', 'AverageOccurrencePerRecord', 'CollectionOccurrence%' ]
     NumberOfRecords = result.at[0, 'ConceptCount'].count('.xml')
     result['CollectionOccurrence%'] = result['RecordCount']/NumberOfRecords
-    result['CollectionOccurrence%'] = pd.Series(["{0:.2f}%".format(val * 100) for val in result['CollectionOccurrence%']], index = result.index)
+    #result['CollectionOccurrence%'] = pd.Series(["{0:.2f}%".format(val * 100) for val in result['CollectionOccurrence%']], index = result.index)
     result.at[0, 'ConceptCount'] = NumberOfRecords
     result.at[0, 'Concept'] = 'Number of Records'
     result['AverageOccurrencePerRecord'] = result['ConceptCount']/NumberOfRecords
@@ -304,19 +348,114 @@ def CombineAverageXPathOccurrencePerRecord(CollectionComparisons, DataDestinatio
 
     ConceptCountsDF.to_csv(DataDestination, mode = 'w', index=False)
     return ConceptCountsDF   
+def collectionSpreadsheet(Organization,Collection,Dialect,xpathOccurrence,conceptOccurrence,conceptCounts,DataDestination):
+    #create spreadsheet for an organization 
+    os.makedirs('../reports/'+Organization, exist_ok=True)
+    workbook = xlsxwriter.Workbook(DataDestination, {'strings_to_numbers': True})
+    cell_format11 = workbook.add_format()
+    cell_format11.set_num_format('0%')
+    cell_format04 = workbook.add_format()
+    cell_format04.set_num_format('0')
+    cell_format05 = workbook.add_format()
+    cell_format05.set_num_format('0.00')
+    
+    formatGreen = workbook.add_format({'bg_color':   '#C6EFCE',
+                               'font_color': '#006100'})
+    formatRed = workbook.add_format({'bg_color':   '#FFC7CE',
+                               'font_color': '#9C0006'})
+    formatYellow = workbook.add_format({'bg_color':   '#FFEB9C',
+                               'font_color': '#9C6500'})
+    XpathOccurrence = workbook.add_worksheet('XpathOccurrence')
+    ConceptOccurrence = workbook.add_worksheet('ConceptOccurrence')
+    ConceptCounts = workbook.add_worksheet('ConceptCounts')
+    
+    XpathOccurrence.set_column('A:A', 70)
+    ConceptOccurrence.set_column('A:A', 15)
+    ConceptCounts.set_column('A:OD', 15)
 
+    #create a worksheet from the concept occurrence csv
+    Reader = csv.reader(open(conceptOccurrence, 'r'), delimiter=',',quotechar='"')
+
+    row_count = 0
+    
+    for row in Reader:
+        for col in range(len(row)):
+            ConceptOccurrence.write(row_count,col,row[col])
+        row_count +=1
+    Reader = csv.reader(open(conceptOccurrence, 'r'), delimiter=',',quotechar='"')
+    absRowCount= sum(1 for row in Reader)
+    absColCount=len(next(csv.reader(open(xpathOccurrence, 'r'), delimiter=',',quotechar='"')))
+
+    ConceptOccurrence.conditional_format(2,5,absRowCount-1,5, {'type': 'cell', 'criteria': '>=', 'value': 1, 'format':formatGreen})
+
+    ConceptOccurrence.conditional_format(2,5,absRowCount-1,5, {'type':     'cell',
+                                'criteria': '=',
+                                'value':    0, 'format':formatRed})
+    #ConceptOccurrence.set_column('F:G',cell_format11)
+    Reader = csv.reader(open(xpathOccurrence, 'r'), delimiter=',',quotechar='"')
+
+    row_count = 0
+
+    for row in Reader:
+        for col in range(len(row)):
+            XpathOccurrence.write(row_count,col,row[col])
+        
+        row_count +=1
+    Reader = csv.reader(open(xpathOccurrence, 'r'), delimiter=',',quotechar='"')
+    absRowCount= sum(1 for row in Reader)
+    absColCount=len(next(csv.reader(open(xpathOccurrence, 'r'), delimiter=',',quotechar='"')))
+    XpathOccurrence.conditional_format(2,5,absRowCount-1,5, {'type': 'cell', 'criteria': '>=', 'value': 1, 'format':formatGreen})
+
+    XpathOccurrence.conditional_format(2,5,absRowCount-1,5, {'type':     'cell',
+                                'criteria': '=',
+                                'value':    0, 'format':formatYellow})    
+
+    Reader = csv.reader(open(conceptCounts, 'r'), delimiter=',',quotechar='"')
+    row_count = 0
+
+    for row in Reader:
+        for col in range(len(row)):
+            ConceptCounts.write(row_count,col,row[col])
+        
+        row_count +=1
+    
+    XpathOccurrence.autofilter(0,0,0,5)
+    ConceptOccurrence.autofilter(0,0,0,5)
+    workbook.close()
 def OrganizationSpreadsheet(Organization,xpathOccurrence,AVGxpathOccurrence,conceptOccurrence,AVGconceptOccurrence):
     #create spreadsheet for an organization 
-    workbook = xlsxwriter.Workbook(Organization+'_Report.xlsx', {'strings_to_numbers': True})
+    os.makedirs('../reports/'+Organization, exist_ok=True)
+    workbook = xlsxwriter.Workbook('../reports/'+Organization+'/'+Organization+'_Report.xlsx', {'strings_to_numbers': True})
     cell_format11 = workbook.add_format()
-    cell_format11.set_num_format('0.00%')
+    cell_format11.set_num_format('0%')
     cell_format04 = workbook.add_format()
-    cell_format04.set_num_format('0.00')
-    worksheet = workbook.add_worksheet('xpathOccurrencesAnalysis')
-    worksheet.set_column('A:A', 70)
+    cell_format04.set_num_format('0')
+    cell_format05 = workbook.add_format()
+    cell_format05.set_num_format('0.00')
+    
+    formatGreen = workbook.add_format({'bg_color':   '#C6EFCE',
+                               'font_color': '#006100'})
+    formatRed = workbook.add_format({'bg_color':   '#FFC7CE',
+                               'font_color': '#9C0006'})
+    formatYellow = workbook.add_format({'bg_color':   '#FFEB9C',
+                               'font_color': '#9C6500'})
+    ws = workbook.add_worksheet('XpathOccurrence')
+    ws4 = workbook.add_worksheet('AVGxpathOccurrence')
+    worksheet = workbook.add_worksheet('XpathOccurrenceAnalysis')
+    ws5 = workbook.add_worksheet('Completeness vs Homogeneity')
 
-    ws2 = workbook.add_worksheet('conceptOccurrence')
+    ws2 = workbook.add_worksheet('ConceptOccurrence')
+    ws3 = workbook.add_worksheet('AVGconceptOccurrence')
+    ConceptAnalysis = workbook.add_worksheet('ConceptOccurrenceAnalysis')
+    
+    worksheet.set_column('A:A', 70)
+    worksheet.set_column('B:B', 20)
+    ConceptAnalysis.set_column('A:A', 70)
+    ConceptAnalysis.set_column('B:B', 20)
+    
     ws2.set_column('A:A', 50)
+
+    #create a worksheet from the cncept occurrence csv
     Reader = csv.reader(open(conceptOccurrence, 'r'), delimiter=',',quotechar='"')
     row_count = 0
     
@@ -325,21 +464,31 @@ def OrganizationSpreadsheet(Organization,xpathOccurrence,AVGxpathOccurrence,conc
             ws2.write(row_count,col,row[col], cell_format11)
         row_count +=1
     
-    ws3 = workbook.add_worksheet('AVGconceptOccurrence')
+    #
     ws3.set_column('A:A', 50)
     Reader = csv.reader(open(AVGconceptOccurrence, 'r'), delimiter=',',quotechar='"')
     row_count = 0
 
-    ws = workbook.add_worksheet('xpathOccurrence')
-    ws.set_column('A:A', 50)
-    Reader = csv.reader(open(xpathOccurrence, 'r'), delimiter=',',quotechar='"')
-    row_count = 0
     
+    ws.set_column('A:A', 50)
+    def skip_last(iterator):
+        prev = next(iterator)
+        for item in iterator:
+            yield prev
+            prev = item
+    Reader = skip_last(csv.reader(open(xpathOccurrence, 'r'), delimiter=',',quotechar='"'))
+
+    row_count = 0
+
     for row in Reader:
         for col in range(len(row)):
             ws.write(row_count,col,row[col], cell_format11)
         for col in range(1,len(row)):
             worksheet.write(row_count+9,col+4,row[col], cell_format11)
+        
+
+
+
         for col in range(0,1):
             worksheet.write(row_count+9,col,row[col], cell_format11)
 
@@ -347,11 +496,10 @@ def OrganizationSpreadsheet(Organization,xpathOccurrence,AVGxpathOccurrence,conc
             formulaElementSimplifier='=MID('+Xpathcell+',1+FIND("|",SUBSTITUTE('+Xpathcell+',"/","|",LEN('+Xpathcell+')-LEN(SUBSTITUTE('+Xpathcell+',"/","")))),100)'
             worksheet.write(row_count+9,col+1,formulaElementSimplifier, cell_format11)
         row_count +=1
-    ws4 = workbook.add_worksheet('AVGxpathOccurrence')
+    
     ws4.set_column('A:A', 50)
     Reader = csv.reader(open(AVGxpathOccurrence, 'r'), delimiter=',',quotechar='"')
     row_count = 0
-
 
     for row in Reader:
         for col in range(len(row)):
@@ -362,7 +510,7 @@ def OrganizationSpreadsheet(Organization,xpathOccurrence,AVGxpathOccurrence,conc
             cell = xlsxwriter.utility.xl_rowcol_to_cell(0, col)
             cell2 = xlsxwriter.utility.xl_rowcol_to_cell(0, col+1)
             cell3 = xlsxwriter.utility.xl_rowcol_to_cell(2, col+5)
-            colRange = xlsxwriter.utility.xl_range(1,col+1,4500,col+1)
+            colRange = xlsxwriter.utility.xl_range(1,col+1,500,col+1)
             colRange2 = xlsxwriter.utility.xl_range(2,5,2,len(row)+3)
             colRange3 = xlsxwriter.utility.xl_range(row_count,5,row_count,len(row)+3)
             formula2 = '=COUNTIF(xpathOccurrence!'+colRange+',">"&0)'
@@ -396,7 +544,7 @@ def OrganizationSpreadsheet(Organization,xpathOccurrence,AVGxpathOccurrence,conc
             collectFormula = '=LEFT(xpathOccurrence!'+'%s' % cell2 +',FIND("_",xpathOccurrence!'+'%s' % cell2 +')-1)'
             
             worksheet.write(9,col+5,collectFormula)          
-        
+            
         row_count +=1
     #######################################################################
     #
@@ -417,57 +565,242 @@ def OrganizationSpreadsheet(Organization,xpathOccurrence,AVGxpathOccurrence,conc
     worksheet.write('D10', '# = 100%')
     worksheet.write('E10', '# >= 100%')
     
-    for row in range(1, 8):
+    for row in range(1, 3):
         colRange4 = xlsxwriter.utility.xl_range(row,5,row,500)
         miniFormula='=MIN('+colRange4+')'
-        worksheet.write(row, 2, miniFormula)
+        worksheet.write(row, 2, miniFormula, cell_format04)
         maxiFormula='=MAX('+colRange4+')'
-        worksheet.write(row, 3, maxiFormula)
+        worksheet.write(row, 3, maxiFormula, cell_format04)
         avgFormula='=AVERAGE('+colRange4+')'
-        worksheet.write(row, 4, avgFormula)
-    for row in range(10,4500):
-        colRange5 = xlsxwriter.utility.xl_range(row,5,row,500)
+        worksheet.write(row, 4, avgFormula, cell_format04)
+
+    for row in range(3, 8):
+        colRange4 = xlsxwriter.utility.xl_range(row,5,row,500)
+        miniFormula='=MIN('+colRange4+')'
+        worksheet.write(row, 2, miniFormula, cell_format11)
+        maxiFormula='=MAX('+colRange4+')'
+        worksheet.write(row, 3, maxiFormula, cell_format11)
+        avgFormula='=AVERAGE('+colRange4+')'
+        worksheet.write(row, 4, avgFormula, cell_format11)
+    
+    
+    Reader = csv.reader(open(xpathOccurrence, 'r'), delimiter=',',quotechar='"')
+    absRowCount= sum(1 for row in Reader)
+    absColCount=len(next(csv.reader(open(xpathOccurrence, 'r'), delimiter=',',quotechar='"')))
+
+    worksheet.conditional_format(10,5,absRowCount+7,absColCount+3, {'type': 'cell', 'criteria': '>=', 'value': 1, 'format':formatGreen})
+
+    worksheet.conditional_format(10,5,absRowCount+7,absColCount+3, {'type':     'cell',
+                                'criteria': '=',
+                                'value':    0, 'format':formatRed})
+    ws.conditional_format(1,1,absRowCount-2,absColCount-1, {'type': 'cell', 'criteria': '>=', 'value': 1, 'format':formatGreen})
+
+    ws.conditional_format(1,1,absRowCount-2,absColCount-1, {'type':     'cell',
+                                'criteria': '=',
+                                'value':    0, 'format':formatYellow})
+    for row in range(10,absRowCount+8):
+        colRange5 = xlsxwriter.utility.xl_range(row,5,row,absRowCount+7)
         numbCollectFormula='=COUNTIF('+colRange5+',">"&0)'
         CompleteCollectFormula='=COUNTIF('+colRange5+',"="&1)'
         GreatCollectFormula='=COUNTIF('+colRange5+',"<"&1)'
         worksheet.write(row, 2,numbCollectFormula)
         worksheet.write(row, 3,CompleteCollectFormula)
         worksheet.write(row, 4,GreatCollectFormula)
-    # Create a new scatter chart.
-    ws3 = workbook.add_worksheet(Organization+' Completeness vs Homogeneity')
+    worksheet.autofilter(9,0,9,absColCount+3)
+# Create a new scatter chart.
     chart1 = workbook.add_chart({'type': 'scatter'})
 
     # Configure the first series.
     chart1.add_series({
         'name': '=Completeness',
-        'categories': '=xpathOccurrencesAnalysis!$F$3:$BP$3',
-        'values': '=xpathOccurrencesAnalysis!$F$6:$BP$6',
+        'categories': '=XpathOccurrenceAnalysis!$F$3:$BP$3',
+        'values': '=XpathOccurrenceAnalysis!$F$6:$BP$6',
     })
 
     # Add a chart title and some axis labels.
-    chart1.set_title ({'name': Organization+' Completeness vs Homogeneity'})
-    chart1.set_x_axis({'name': 'Homogeneity'})
-    chart1.set_y_axis({'name': 'Completeness (Repository)'})
-
+    chart1.set_title ({'name': Organization+' Completeness vs Homogeneity', 'name_font': {'size': 20}})
+    chart1.set_x_axis({'name': 'Homogeneity', 'name_font': {'size': 18, 'bold': False}, 'num_font': {'size': 14, 'bold': False}})
+    chart1.set_y_axis({'name': 'Completeness (Repository)','name_font': {'size': 18, 'bold': False}, 'num_font': {'size': 14, 'bold': False}})
+    #set size
+    chart1.set_size({'width': 1200, 'height': 700})
     # Set an Excel chart style.
     chart1.set_style(11)
-
+    chart1.set_legend({'none': True})
     # Insert the chart into the worksheet (with an offset).
-    ws3.insert_chart('D2', chart1, {'x_offset': 25, 'y_offset': 10})
+
+    ws5.insert_chart('B1', chart1, {'x_offset': 25, 'y_offset': 10})
 
     #######################################################################
+    Reader = skip_last(csv.reader(open(conceptOccurrence, 'r'), delimiter=',',quotechar='"'))
+
+    row_count = 0
+
+    for row in Reader:
+        #for col in range(len(row)):
+         #   w2.write(row_count,col,row[col], cell_format11)
+        for col in range(1,len(row)):
+            ConceptAnalysis.write(row_count+9,col+4,row[col], cell_format11)
+        
+
+
+
+        for col in range(0,1):
+            ConceptAnalysis.write(row_count+9,col,row[col], cell_format11)
+
+            #Xpathcell = xlsxwriter.utility.xl_rowcol_to_cell(row_count+9, 0)
+            #formulaElementSimplifier='=MID('+Xpathcell+',1+FIND("|",SUBSTITUTE('+Xpathcell+',"/","|",LEN('+Xpathcell+')-LEN(SUBSTITUTE('+Xpathcell+',"/","")))),100)'
+            #ConceptAnalysis.write(row_count+9,col+1,formulaElementSimplifier, cell_format11)
+        row_count +=1
+    
+    ws2.set_column('A:A', 50)
+    Reader = csv.reader(open(AVGconceptOccurrence, 'r'), delimiter=',',quotechar='"')
+    row_count = 0
+
+    for row in Reader:
+        
+
+        for col in range(len(row)-1):  
+            cell = xlsxwriter.utility.xl_rowcol_to_cell(0, col)
+            cell2 = xlsxwriter.utility.xl_rowcol_to_cell(0, col+1)
+            cell3 = xlsxwriter.utility.xl_rowcol_to_cell(2, col+5)
+            colRange = xlsxwriter.utility.xl_range(1,col+1,500,col+1)
+            colRange2 = xlsxwriter.utility.xl_range(2,5,2,len(row)+3)
+            colRange3 = xlsxwriter.utility.xl_range(row_count,5,row_count,len(row)+3)
+            formula2 = '=COUNTIF(ConceptOccurrence!'+colRange+',">"&0)'
+            ConceptAnalysis.write(2,col+5,formula2)
+
+            formula3 = '='+cell3+'/COUNTA(ConceptOccurrence!'+colRange+')'
+            ConceptAnalysis.write(3,col+5,formula3, cell_format11)
+
+            formula4 = '=SUM(ConceptOccurrence!'+colRange+')/'+'%s' % cell3
+            ConceptAnalysis.write(4,col+5,formula4, cell_format11)
+
+            formula5 = '='+'%s' % cell3 +'/MAX('+colRange2+')'
+            ConceptAnalysis.write(5,col+5,formula5, cell_format11)
+
+            formula6 = '=COUNTIF(ConceptOccurrence!'+colRange+',">="&1)/'+'%s' % cell3
+            ConceptAnalysis.write(6,col+5,formula6, cell_format11)
+
+            formula7 = '=COUNTIFS(ConceptOccurrence!'+colRange+',">"&0,ConceptOccurrence!'+colRange+',"<"&1)/'+'%s' % cell3
+            ConceptAnalysis.write(7,col+5,formula7, cell_format11)
+        
+            formula1 = '=VLOOKUP("Number of Records",AVGconceptOccurrence!1:1048576,'+str(col+2)+')'
+            ConceptAnalysis.write(1,col+5,formula1)
+
+            cell2 = xlsxwriter.utility.xl_rowcol_to_cell(0, col+1)
+
+            formula = '=ConceptOccurrence!'+'%s' % cell2
+            ConceptAnalysis.write(0,col+5,formula)
+            dateFormula = '=LEFT(RIGHT(ConceptOccurrence!'+'%s' % cell2 +',LEN(ConceptOccurrence!'+'%s' % cell2 +')-FIND("_", ConceptOccurrence!'+'%s' % cell2 +')),FIND("_",ConceptOccurrence!'+'%s' % cell2 +'))'
+            
+            ConceptAnalysis.write(8,col+5,dateFormula)
+            collectFormula = '=LEFT(ConceptOccurrence!'+'%s' % cell2 +',FIND("_",ConceptOccurrence!'+'%s' % cell2 +')-1)'
+            
+            ConceptAnalysis.write(9,col+5,collectFormula)          
+            
+        row_count +=1
+    #######################################################################
+    #
+    ConceptAnalysis.write('A2', 'Number of Records')
+    ConceptAnalysis.write('A3', 'Number of Concepts')
+    ConceptAnalysis.write('A4', 'Coverage w/r to Repository (CR): number of concepts / total number of elements')
+    ConceptAnalysis.write('A5', 'Average Occurrence Rate')
+    ConceptAnalysis.write('A6', 'Repository Completeness: Number of concepts /  number of concepts in most complete collection in repository')
+    ConceptAnalysis.write('A7', 'Homogeneity: Number >= 1 / Total Number of concepts in the collection')
+    ConceptAnalysis.write('A8', 'Partial Concepts: Number < 0 and < 1')
+    ConceptAnalysis.write('A9', 'Retrieval Date')
+    ConceptAnalysis.write('B1', 'Formulas')
+    ConceptAnalysis.write('C1', 'MIN')
+    ConceptAnalysis.write('D1', 'MAX')
+    ConceptAnalysis.write('E1', 'AVG')
+    #ConceptAnalysis.write('B10', 'Concept Name')
+    ConceptAnalysis.write('C10', '#Collections')
+    ConceptAnalysis.write('D10', '# = 100%')
+    ConceptAnalysis.write('E10', '# >= 100%')
+    
+    for row in range(1, 3):
+        colRange4 = xlsxwriter.utility.xl_range(row,5,row,500)
+        miniFormula='=MIN('+colRange4+')'
+        ConceptAnalysis.write(row, 2, miniFormula, cell_format04)
+        maxiFormula='=MAX('+colRange4+')'
+        ConceptAnalysis.write(row, 3, maxiFormula, cell_format04)
+        avgFormula='=AVERAGE('+colRange4+')'
+        ConceptAnalysis.write(row, 4, avgFormula, cell_format04)
+
+    for row in range(3, 8):
+        colRange4 = xlsxwriter.utility.xl_range(row,5,row,500)
+        miniFormula='=MIN('+colRange4+')'
+        ConceptAnalysis.write(row, 2, miniFormula, cell_format11)
+        maxiFormula='=MAX('+colRange4+')'
+        ConceptAnalysis.write(row, 3, maxiFormula, cell_format11)
+        avgFormula='=AVERAGE('+colRange4+')'
+        ConceptAnalysis.write(row, 4, avgFormula, cell_format11)
+    
+    
+    Reader = csv.reader(open(conceptOccurrence, 'r'), delimiter=',',quotechar='"')
+    absRowCount= sum(1 for row in Reader)
+    absColCount=len(next(csv.reader(open(conceptOccurrence, 'r'), delimiter=',',quotechar='"')))
+
+    ConceptAnalysis.conditional_format(10,5,absRowCount+7,absColCount+3, {'type': 'cell', 'criteria': '>=', 'value': 1, 'format':formatGreen})
+
+    ConceptAnalysis.conditional_format(10,5,absRowCount+7,absColCount+3, {'type':     'cell',
+                                'criteria': '=',
+                                'value':    0, 'format':formatRed})
+    ws2.conditional_format(1,1,absRowCount-2,absColCount-1, {'type': 'cell', 'criteria': '>=', 'value': 1, 'format':formatGreen})
+
+    ws2.conditional_format(1,1,absRowCount-2,absColCount-1, {'type':     'cell',
+                                'criteria': '=',
+                                'value':    0, 'format':formatYellow})
+    for row in range(10,absRowCount+8):
+        colRange5 = xlsxwriter.utility.xl_range(row,5,row,absRowCount+7)
+        numbCollectFormula='=COUNTIF('+colRange5+',">"&0)'
+        CompleteCollectFormula='=COUNTIF('+colRange5+',"="&1)'
+        GreatCollectFormula='=COUNTIF('+colRange5+',"<"&1)'
+        ConceptAnalysis.write(row, 2,numbCollectFormula)
+        ConceptAnalysis.write(row, 3,CompleteCollectFormula)
+        ConceptAnalysis.write(row, 4,GreatCollectFormula)
+        ################################################################################
+
     workbook.close()
+def WriteGoogleSheets2(SpreadsheetLocation):
+    from apiclient import discovery
+    from httplib2 import Http
+    from oauth2client import file, client, tools
+    SCOPES = 'https://www.googleapis.com/auth/drive.readonly.metadata'
+    store = file.Storage('storage.json')
+    creds = store.get()
+    if not creds or creds.invalid:
+        flow = client.flow_from_clientsecrets('client_secrets.json', SCOPES)
+        creds = tools.run_flow(flow, store)
+    DRIVE = discovery.build('drive', 'v3', http=creds.authorize(Http()))
+    Spreadsheet=SpreadsheetLocation[:SpreadsheetLocation.rfind('.')]
+    
+    SpreadsheetName=SpreadsheetLocation.rsplit('/', 1)[-1]
+
+    test_file = drive.CreateFile({'title': SpreadsheetName})
+    test_file.SetContentFile(SpreadsheetLocation)
+    test_file.Upload({'convert': True})
+
+    # Insert the permission.
+    permission = test_file.InsertPermission({
+                            'type': 'anyone',
+                            'value': 'anyone',
+                            'role': 'reader'})
+
+    print(test_file['alternateLink'])  # Display the sharable link.
 
 def WriteGoogleSheets(SpreadsheetLocation):
     gauth = GoogleAuth()
     # Try to load saved client credentials
     gauth.LoadCredentialsFile("mycreds.txt")
+    #if not creds or creds.invalid:
+
     if gauth.credentials is None:
         # Authenticate if they're not there
         gauth.LocalWebserverAuth()
-    elif gauth.access_token_expired:
+    elif gauth.credentials.invalid:
         # Refresh them if expired
-        gauth.Refresh("mycreds.txt")
+        gauth.Refresh('mycreds.txt')
     else:
         # Initialize the saved creds
         gauth.Authorize()
@@ -490,5 +823,4 @@ def WriteGoogleSheets(SpreadsheetLocation):
                             'role': 'reader'})
 
     print(test_file['alternateLink'])  # Display the sharable link.
-
 

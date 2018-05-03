@@ -1,0 +1,52 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2011_EML,63,63,1.00,1.0
+Abstract,2011_EML,63,63,1.00,1.0
+Attribute Definition,2011_EML,3021,63,47.95,1.0
+Attribute List,2011_EML,63,63,1.00,1.0
+Author,2011_EML,122,63,1.94,1.0
+Author / Originator,2011_EML,122,63,1.94,1.0
+Author / Originator Identifier,2011_EML,122,63,1.94,1.0
+Bounding Box,2011_EML,83,63,1.32,1.0
+Contributor Name,2011_EML,18,10,0.29,0.15873015873015872
+Contributor Role,2011_EML,18,10,0.29,0.15873015873015872
+Distribution Format,2011_EML,63,63,1.00,1.0
+Easternmost Longitude,2011_EML,83,63,1.32,1.0
+End Time,2011_EML,63,63,1.00,1.0
+Entity Type Definition,2011_EML,63,63,1.00,1.0
+Entity and Attribute Information,2011_EML,63,63,1.00,1.0
+Keyword,2011_EML,371,63,5.89,1.0
+Maintenance,2011_EML,63,63,1.00,1.0
+Metadata Access Constraints,2011_EML,58,58,0.92,0.9206349206349206
+Metadata Contact,2011_EML,63,63,1.00,1.0
+Metadata Use Constraints,2011_EML,58,58,0.92,0.9206349206349206
+Northernmost Latitude,2011_EML,83,63,1.32,1.0
+Organization Name,2011_EML,236,63,3.75,1.0
+Originating Organization,2011_EML,110,58,1.75,0.9206349206349206
+Process Step,2011_EML,63,63,1.00,1.0
+Project Description,2011_EML,63,63,1.00,1.0
+Publication Date,2011_EML,63,63,1.00,1.0
+Publisher,2011_EML,63,63,1.00,1.0
+Publisher E-Mail,2011_EML,63,63,1.00,1.0
+Publisher URL,2011_EML,63,63,1.00,1.0
+Related Resource Citation,2011_EML,63,63,1.00,1.0
+Resource Access Constraints,2011_EML,58,58,0.92,0.9206349206349206
+Resource Contact,2011_EML,63,63,1.00,1.0
+Resource Creation/Revision Date,2011_EML,63,63,1.00,1.0
+Resource Distribution,2011_EML,63,63,1.00,1.0
+Resource Format,2011_EML,63,63,1.00,1.0
+Resource Identifier,2011_EML,63,63,1.00,1.0
+Resource Identifier Type,2011_EML,63,63,1.00,1.0
+Resource Lineage,2011_EML,63,63,1.00,1.0
+Resource Long Name,2011_EML,63,63,1.00,1.0
+Resource Status,2011_EML,58,58,0.92,0.9206349206349206
+Resource Title,2011_EML,63,63,1.00,1.0
+Resource Use Constraints,2011_EML,63,63,1.00,1.0
+Resource on-line Link,2011_EML,63,63,1.00,1.0
+Rights,2011_EML,63,63,1.00,1.0
+Security Constraints,2011_EML,58,58,0.92,0.9206349206349206
+Southernmost Latitude,2011_EML,83,63,1.32,1.0
+Spatial Extent,2011_EML,83,63,1.32,1.0
+Start Time,2011_EML,63,63,1.00,1.0
+Taxonomic Extent,2011_EML,8,8,0.13,0.12698412698412698
+Temporal Extent,2011_EML,63,63,1.00,1.0
+Westernmost Longitude,2011_EML,83,63,1.32,1.0

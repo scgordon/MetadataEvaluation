@@ -27,8 +27,12 @@ def LTERsitesWorkflow(Organization, Collection, Dialect):
 
     EvaluatedMetadataDF2 = pd.read_csv('../data/'+Organization+'/'+Collection+'_'+Dialect+'_ConceptEvaluated.csv.gz')
     DataDestination2='../data/'+Organization+'/'+Collection+'_'+Dialect+'_ConceptOccurrence.csv'
+    DataDestination3='../data/'+Organization+'/'+Collection+'_'+Dialect+'_ConceptCounts.csv'
     metadataEvaluation.conceptOccurrence(EvaluatedMetadataDF2, Organization, Collection, Dialect, DataDestination2)
-
+    metadataEvaluation.conceptCounts(EvaluatedMetadataDF2, Organization, Collection, Dialect, DataDestination3)
+    ReportLocation='../reports/'+Organization+'/'+Organization+'_'+Collection+'_'+Dialect+'_Report.xlsx'
+    metadataEvaluation.collectionSpreadsheet(Organization,Collection,Dialect,DataDestination,DataDestination2,DataDestination3,ReportLocation)
+    metadataEvaluation.WriteGoogleSheets(ReportLocation)
 def CombineOrganizationData(Organization):
 #identify data to combine
     DirectoryChoice='../data/'+Organization+'/'
@@ -66,17 +70,17 @@ def CombineOrganizationData(Organization):
 
         metadataEvaluation.OrganizationSpreadsheet(Organization,DataDestination,DataDestination2,DataDestination3,DataDestination4)
         os.chdir('../../scripts')
-        SpreadsheetLocation='../data/'+Organization+'/'+Organization+'_Report.xlsx'
-        #metadataEvaluation.WriteGoogleSheets(SpreadsheetLocation)
+        SpreadsheetLocation='../reports/'+Organization+'/'+Organization+'_Report.xlsx'
+        metadataEvaluation.WriteGoogleSheets(SpreadsheetLocation)
 #run workflow for a specific set of metadata collections
 #files that drive the script
 ListofCollections='./ListofCollections.csv'
 ListofOrganizations="./ListOfOrganizations.csv"
 
-#with open(ListofCollections, "r") as f:
- #   reader = csv.reader(f, delimiter=",")
-  #  for row in enumerate(reader):
-   #     LTERsitesWorkflow(*row[1])
+with open(ListofCollections, "r") as f:
+    reader = csv.reader(f, delimiter=",")
+    for row in enumerate(reader):
+        LTERsitesWorkflow(*row[1])
 #run combine workflow for a set of organizations
 
 with open(ListofOrganizations, 'r') as f2:
