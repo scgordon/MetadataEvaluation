@@ -22,7 +22,10 @@
             <xsl:value-of select='substring(./date[@name = "dateUploaded"], 0, 5)'/>
             <xsl:text>/EML/xml/</xsl:text>
             <xsl:value-of select="substring(replace(substring-after(./str, lower-case(substring(base-uri(), 54, 3))), '%2F', '.'), 2)"/>
-            <xsl:text>.xml</xsl:text><xsl:if test="not(position()=last())"><xsl:text> &amp;&amp;</xsl:text></xsl:if>
+            <xsl:text>.xml</xsl:text>
+            <xsl:if test="not(position() = last())">
+                <xsl:text> &amp;&amp;</xsl:text>
+            </xsl:if>
             <!--            <xsl:value-of select="substring(base-uri(),60,3)"/>-->
             <!-- <xsl:value-of select="$delimiter"/>
             <xsl:value-of select='substring(./date[@name = "dateUploaded"],0,5)'/>

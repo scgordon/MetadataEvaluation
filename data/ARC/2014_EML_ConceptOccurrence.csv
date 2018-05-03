@@ -1,0 +1,52 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2014_EML,83,83,1.00,1.0
+Abstract,2014_EML,83,83,1.00,1.0
+Attribute Definition,2014_EML,5862,83,70.63,1.0
+Attribute List,2014_EML,83,83,1.00,1.0
+Author,2014_EML,205,83,2.47,1.0
+Author / Originator,2014_EML,205,83,2.47,1.0
+Author / Originator Identifier,2014_EML,205,83,2.47,1.0
+Bounding Box,2014_EML,215,83,2.59,1.0
+Contributor Name,2014_EML,181,71,2.18,0.8554216867469879
+Contributor Role,2014_EML,181,71,2.18,0.8554216867469879
+Distribution Format,2014_EML,83,83,1.00,1.0
+Easternmost Longitude,2014_EML,215,83,2.59,1.0
+End Time,2014_EML,83,83,1.00,1.0
+Entity Type Definition,2014_EML,83,83,1.00,1.0
+Entity and Attribute Information,2014_EML,83,83,1.00,1.0
+Keyword,2014_EML,635,83,7.65,1.0
+Maintenance,2014_EML,83,83,1.00,1.0
+Metadata Access Constraints,2014_EML,83,83,1.00,1.0
+Metadata Contact,2014_EML,83,83,1.00,1.0
+Metadata Use Constraints,2014_EML,83,83,1.00,1.0
+Northernmost Latitude,2014_EML,215,83,2.59,1.0
+Organization Name,2014_EML,371,83,4.47,1.0
+Originating Organization,2014_EML,205,83,2.47,1.0
+Process Step,2014_EML,83,83,1.00,1.0
+Project Description,2014_EML,83,83,1.00,1.0
+Publication Date,2014_EML,83,83,1.00,1.0
+Publisher,2014_EML,83,83,1.00,1.0
+Publisher E-Mail,2014_EML,83,83,1.00,1.0
+Publisher URL,2014_EML,83,83,1.00,1.0
+Related Resource Citation,2014_EML,83,83,1.00,1.0
+Resource Access Constraints,2014_EML,83,83,1.00,1.0
+Resource Contact,2014_EML,83,83,1.00,1.0
+Resource Creation/Revision Date,2014_EML,83,83,1.00,1.0
+Resource Distribution,2014_EML,83,83,1.00,1.0
+Resource Format,2014_EML,83,83,1.00,1.0
+Resource Identifier,2014_EML,83,83,1.00,1.0
+Resource Identifier Type,2014_EML,83,83,1.00,1.0
+Resource Lineage,2014_EML,83,83,1.00,1.0
+Resource Long Name,2014_EML,83,83,1.00,1.0
+Resource Status,2014_EML,83,83,1.00,1.0
+Resource Title,2014_EML,83,83,1.00,1.0
+Resource Use Constraints,2014_EML,83,83,1.00,1.0
+Resource on-line Link,2014_EML,83,83,1.00,1.0
+Rights,2014_EML,83,83,1.00,1.0
+Security Constraints,2014_EML,83,83,1.00,1.0
+Southernmost Latitude,2014_EML,215,83,2.59,1.0
+Spatial Extent,2014_EML,215,83,2.59,1.0
+Start Time,2014_EML,83,83,1.00,1.0
+Taxonomic Extent,2014_EML,23,23,0.28,0.27710843373493976
+Temporal Extent,2014_EML,83,83,1.00,1.0
+Westernmost Longitude,2014_EML,215,83,2.59,1.0

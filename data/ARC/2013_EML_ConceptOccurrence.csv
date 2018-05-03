@@ -1,0 +1,57 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,2013_EML,624,624,1.00,1.0
+Abstract,2013_EML,624,624,1.00,1.0
+Attribute Definition,2013_EML,10695,624,17.14,1.0
+Attribute List,2013_EML,630,624,1.01,1.0
+Author,2013_EML,938,624,1.50,1.0
+Author / Originator,2013_EML,938,624,1.50,1.0
+Author / Originator Identifier,2013_EML,937,623,1.50,0.9983974358974359
+Bounding Box,2013_EML,4404,624,7.06,1.0
+Contributor Name,2013_EML,1437,506,2.30,0.8108974358974359
+Contributor Role,2013_EML,1437,506,2.30,0.8108974358974359
+Distribution Format,2013_EML,630,624,1.01,1.0
+Easternmost Longitude,2013_EML,4404,624,7.06,1.0
+End Time,2013_EML,624,624,1.00,1.0
+Entity Type Definition,2013_EML,630,624,1.01,1.0
+Entity and Attribute Information,2013_EML,630,624,1.01,1.0
+Keyword,2013_EML,4749,624,7.61,1.0
+Keyword Vocabulary,2013_EML,2,1,0.00,0.0016025641025641025
+Maintenance,2013_EML,624,624,1.00,1.0
+Metadata Access Constraints,2013_EML,624,624,1.00,1.0
+Metadata Contact,2013_EML,623,623,1.00,0.9983974358974359
+Metadata Use Constraints,2013_EML,624,624,1.00,1.0
+Northernmost Latitude,2013_EML,4404,624,7.06,1.0
+Organization Name,2013_EML,2186,624,3.50,1.0
+Originating Organization,2013_EML,937,623,1.50,0.9983974358974359
+Process Step,2013_EML,624,624,1.00,1.0
+Project Description,2013_EML,623,623,1.00,0.9983974358974359
+Publication Date,2013_EML,624,624,1.00,1.0
+Publisher,2013_EML,623,623,1.00,0.9983974358974359
+Publisher E-Mail,2013_EML,623,623,1.00,0.9983974358974359
+Publisher URL,2013_EML,623,623,1.00,0.9983974358974359
+Related Resource Citation,2013_EML,623,623,1.00,0.9983974358974359
+Resource Access Constraints,2013_EML,624,624,1.00,1.0
+Resource Contact,2013_EML,627,624,1.00,1.0
+Resource Creation/Revision Date,2013_EML,624,624,1.00,1.0
+Resource Distribution,2013_EML,624,624,1.00,1.0
+Resource Format,2013_EML,630,624,1.01,1.0
+Resource Identifier,2013_EML,624,624,1.00,1.0
+Resource Identifier Type,2013_EML,624,624,1.00,1.0
+Resource Language,2013_EML,1,1,0.00,0.0016025641025641025
+Resource Lineage,2013_EML,624,624,1.00,1.0
+Resource Long Name,2013_EML,624,624,1.00,1.0
+Resource Status,2013_EML,624,624,1.00,1.0
+Resource Title,2013_EML,624,624,1.00,1.0
+Resource Use Constraints,2013_EML,624,624,1.00,1.0
+Resource on-line Link,2013_EML,624,624,1.00,1.0
+Rights,2013_EML,624,624,1.00,1.0
+Security Constraints,2013_EML,624,624,1.00,1.0
+Southernmost Latitude,2013_EML,4404,624,7.06,1.0
+Spatial Extent,2013_EML,4404,624,7.06,1.0
+Start Time,2013_EML,624,624,1.00,1.0
+Taxonomic Extent,2013_EML,87,87,0.14,0.13942307692307693
+Temporal Extent,2013_EML,624,624,1.00,1.0
+Vertical Maximum,2013_EML,1,1,0.00,0.0016025641025641025
+Vertical Minimum,2013_EML,1,1,0.00,0.0016025641025641025
+Vertical Resolution,2013_EML,1,1,0.00,0.0016025641025641025
+Westernmost Longitude,2013_EML,4404,624,7.06,1.0

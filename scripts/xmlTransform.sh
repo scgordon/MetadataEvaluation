@@ -11,7 +11,7 @@ cd ../Crosswalks
 CrosswalkHome=$(pwd) 
 
 java net.sf.saxon.Transform \
--s:$MetadataEvaluation/metadata/dummy.xml \
+-s:$MetadataEvaluation/scripts/dummy.xml \
 -xsl:$CrosswalkHome/Evaluator/AllNodes.xsl \
 -o:$MetadataEvaluation/data/$1/$2_$3_XpathEvaluated.csv \
 recordSetPath=$MetadataEvaluation/metadata/$1/$2/$3/xml \
