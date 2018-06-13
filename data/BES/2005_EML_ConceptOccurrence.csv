@@ -1,43 +1,27 @@
 Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
-Number of Records,2005_EML,52,52,1.00,1.0
-Abstract,2005_EML,52,52,1.00,1.0
-Author,2005_EML,54,52,1.04,1.0
-Author / Originator,2005_EML,54,52,1.04,1.0
-Author / Originator Email Address,2005_EML,2,2,0.04,0.038461538461538464
-Author / Originator Identifier,2005_EML,4,2,0.08,0.038461538461538464
-Author / Originator World Wide Web Address,2005_EML,2,2,0.04,0.038461538461538464
-Bounding Box,2005_EML,48,48,0.92,0.9230769230769231
-Easternmost Longitude,2005_EML,48,48,0.92,0.9230769230769231
-End Time,2005_EML,2,2,0.04,0.038461538461538464
-Keyword,2005_EML,104,52,2.00,1.0
-Keyword Type,2005_EML,104,52,2.00,1.0
-Metadata Access Constraints,2005_EML,2,2,0.04,0.038461538461538464
-Metadata Use Constraints,2005_EML,2,2,0.04,0.038461538461538464
-Northernmost Latitude,2005_EML,48,48,0.92,0.9230769230769231
-Organization Name,2005_EML,102,52,1.96,1.0
-Originating Organization,2005_EML,4,2,0.08,0.038461538461538464
-Place Keyword,2005_EML,50,50,0.96,0.9615384615384616
-Project Name,2005_EML,2,2,0.04,0.038461538461538464
-Publication Date,2005_EML,52,52,1.00,1.0
-Publisher,2005_EML,50,50,0.96,0.9615384615384616
-Resource Access Constraints,2005_EML,2,2,0.04,0.038461538461538464
-Resource Contact,2005_EML,52,52,1.00,1.0
-Resource Creation/Revision Date,2005_EML,52,52,1.00,1.0
-Resource Distribution,2005_EML,52,52,1.00,1.0
-Resource Identifier,2005_EML,52,52,1.00,1.0
-Resource Identifier Type,2005_EML,52,52,1.00,1.0
-Resource Long Name,2005_EML,52,52,1.00,1.0
-Resource Status,2005_EML,2,2,0.04,0.038461538461538464
-Resource Title,2005_EML,52,52,1.00,1.0
-Resource Use Constraints,2005_EML,2,2,0.04,0.038461538461538464
-Resource on-line Link,2005_EML,52,52,1.00,1.0
-Rights,2005_EML,2,2,0.04,0.038461538461538464
-Security Constraints,2005_EML,2,2,0.04,0.038461538461538464
-Southernmost Latitude,2005_EML,48,48,0.92,0.9230769230769231
-Spatial Extent,2005_EML,48,48,0.92,0.9230769230769231
-Start Time,2005_EML,2,2,0.04,0.038461538461538464
-Temporal Extent,2005_EML,2,2,0.04,0.038461538461538464
-Vertical Maximum,2005_EML,46,46,0.88,0.8846153846153846
-Vertical Minimum,2005_EML,46,46,0.88,0.8846153846153846
-Vertical Resolution,2005_EML,46,46,0.88,0.8846153846153846
-Westernmost Longitude,2005_EML,48,48,0.92,0.9230769230769231
+Number of Records,BES_2005_EML,52.0,52.0,1.0,1.0
+Resource Identifier,BES_2005_EML,52.0,52.0,1.0,1.0
+Resource Title,BES_2005_EML,52.0,52.0,1.0,1.0
+Author / Originator,BES_2005_EML,54.0,52.0,1.04,1.0
+Metadata Contact,BES_2005_EML,0.0,0.0,0.0,0.0
+Contributor Name,BES_2005_EML,0.0,0.0,0.0,0.0
+Publisher,BES_2005_EML,50.0,50.0,0.96,0.9615384615384616
+Publication Date,BES_2005_EML,52.0,52.0,1.0,1.0
+Resource Contact,BES_2005_EML,52.0,52.0,1.0,1.0
+Abstract,BES_2005_EML,52.0,52.0,1.0,1.0
+Keyword,BES_2005_EML,104.0,52.0,2.0,1.0
+Resource Distribution,BES_2005_EML,52.0,52.0,1.0,1.0
+Spatial Extent,BES_2005_EML,48.0,48.0,0.92,0.9230769230769232
+Taxonomic Extent,BES_2005_EML,0.0,0.0,0.0,0.0
+Temporal Extent,BES_2005_EML,2.0,2.0,0.04,0.038461538461538464
+Maintenance,BES_2005_EML,0.0,0.0,0.0,0.0
+Resource Use Constraints,BES_2005_EML,2.0,2.0,0.04,0.038461538461538464
+Process Step,BES_2005_EML,0.0,0.0,0.0,0.0
+Project Description,BES_2005_EML,0.0,0.0,0.0,0.0
+Entity Type Definition,BES_2005_EML,0.0,0.0,0.0,0.0
+Attribute Definition,BES_2005_EML,0.0,0.0,0.0,0.0
+Resource Access Constraints,BES_2005_EML,2.0,2.0,0.04,0.038461538461538464
+Resource Format,BES_2005_EML,0.0,0.0,0.0,0.0
+Attribute List,BES_2005_EML,0.0,0.0,0.0,0.0
+Attribute Constraints,BES_2005_EML,0.0,0.0,0.0,0.0
+Resource Quality Description,BES_2005_EML,0.0,0.0,0.0,0.0

@@ -1,52 +1,27 @@
 Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
-Number of Records,2007_EML,183,183,1.00,1.0
-Abstract,2007_EML,183,183,1.00,1.0
-Attribute Definition,2007_EML,2711,183,14.81,1.0
-Attribute List,2007_EML,183,183,1.00,1.0
-Author,2007_EML,442,183,2.42,1.0
-Author / Originator,2007_EML,442,183,2.42,1.0
-Author / Originator Identifier,2007_EML,139,134,0.76,0.73224043715847
-Bounding Box,2007_EML,1088,183,5.95,1.0
-Contributor Name,2007_EML,417,174,2.28,0.9508196721311475
-Contributor Role,2007_EML,417,174,2.28,0.9508196721311475
-Distribution Format,2007_EML,183,183,1.00,1.0
-Easternmost Longitude,2007_EML,1088,183,5.95,1.0
-End Time,2007_EML,183,183,1.00,1.0
-Entity Type Definition,2007_EML,183,183,1.00,1.0
-Entity and Attribute Information,2007_EML,183,183,1.00,1.0
-Keyword,2007_EML,1665,183,9.10,1.0
-Maintenance,2007_EML,183,183,1.00,1.0
-Metadata Access Constraints,2007_EML,84,84,0.46,0.45901639344262296
-Metadata Contact,2007_EML,183,183,1.00,1.0
-Metadata Use Constraints,2007_EML,84,84,0.46,0.45901639344262296
-Northernmost Latitude,2007_EML,1088,183,5.95,1.0
-Organization Name,2007_EML,450,183,2.46,1.0
-Originating Organization,2007_EML,84,84,0.46,0.45901639344262296
-Process Step,2007_EML,183,183,1.00,1.0
-Project Description,2007_EML,183,183,1.00,1.0
-Publication Date,2007_EML,183,183,1.00,1.0
-Publisher,2007_EML,183,183,1.00,1.0
-Publisher E-Mail,2007_EML,183,183,1.00,1.0
-Publisher URL,2007_EML,183,183,1.00,1.0
-Related Resource Citation,2007_EML,183,183,1.00,1.0
-Resource Access Constraints,2007_EML,84,84,0.46,0.45901639344262296
-Resource Contact,2007_EML,183,183,1.00,1.0
-Resource Creation/Revision Date,2007_EML,183,183,1.00,1.0
-Resource Distribution,2007_EML,183,183,1.00,1.0
-Resource Format,2007_EML,183,183,1.00,1.0
-Resource Identifier,2007_EML,183,183,1.00,1.0
-Resource Identifier Type,2007_EML,183,183,1.00,1.0
-Resource Lineage,2007_EML,183,183,1.00,1.0
-Resource Long Name,2007_EML,183,183,1.00,1.0
-Resource Status,2007_EML,84,84,0.46,0.45901639344262296
-Resource Title,2007_EML,183,183,1.00,1.0
-Resource Use Constraints,2007_EML,183,183,1.00,1.0
-Resource on-line Link,2007_EML,183,183,1.00,1.0
-Rights,2007_EML,183,183,1.00,1.0
-Security Constraints,2007_EML,84,84,0.46,0.45901639344262296
-Southernmost Latitude,2007_EML,1088,183,5.95,1.0
-Spatial Extent,2007_EML,1088,183,5.95,1.0
-Start Time,2007_EML,183,183,1.00,1.0
-Taxonomic Extent,2007_EML,12,12,0.07,0.06557377049180328
-Temporal Extent,2007_EML,183,183,1.00,1.0
-Westernmost Longitude,2007_EML,1088,183,5.95,1.0
+Number of Records,ARC_2007_EML,183.0,183.0,1.0,1.0
+Resource Identifier,ARC_2007_EML,183.0,183.0,1.0,1.0
+Resource Title,ARC_2007_EML,183.0,183.0,1.0,1.0
+Author / Originator,ARC_2007_EML,442.0,183.0,2.42,1.0
+Metadata Contact,ARC_2007_EML,183.0,183.0,1.0,1.0
+Contributor Name,ARC_2007_EML,417.0,174.0,2.28,0.9508196721311476
+Publisher,ARC_2007_EML,183.0,183.0,1.0,1.0
+Publication Date,ARC_2007_EML,183.0,183.0,1.0,1.0
+Resource Contact,ARC_2007_EML,183.0,183.0,1.0,1.0
+Abstract,ARC_2007_EML,183.0,183.0,1.0,1.0
+Keyword,ARC_2007_EML,1665.0,183.0,9.1,1.0
+Resource Distribution,ARC_2007_EML,183.0,183.0,1.0,1.0
+Spatial Extent,ARC_2007_EML,1088.0,183.0,5.95,1.0
+Taxonomic Extent,ARC_2007_EML,12.0,12.0,0.07,0.06557377049180327
+Temporal Extent,ARC_2007_EML,183.0,183.0,1.0,1.0
+Maintenance,ARC_2007_EML,183.0,183.0,1.0,1.0
+Resource Use Constraints,ARC_2007_EML,183.0,183.0,1.0,1.0
+Process Step,ARC_2007_EML,183.0,183.0,1.0,1.0
+Project Description,ARC_2007_EML,183.0,183.0,1.0,1.0
+Entity Type Definition,ARC_2007_EML,183.0,183.0,1.0,1.0
+Attribute Definition,ARC_2007_EML,2711.0,183.0,14.81,1.0
+Resource Access Constraints,ARC_2007_EML,84.0,84.0,0.46,0.459016393442623
+Resource Format,ARC_2007_EML,183.0,183.0,1.0,1.0
+Attribute List,ARC_2007_EML,183.0,183.0,1.0,1.0
+Attribute Constraints,ARC_2007_EML,0.0,0.0,0.0,0.0
+Resource Quality Description,ARC_2007_EML,0.0,0.0,0.0,0.0

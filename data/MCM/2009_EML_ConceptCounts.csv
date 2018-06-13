@@ -1,0 +1,9 @@
+Collection,Record,Resource Identifier,Resource Title,Author / Originator,Metadata Contact,Contributor Name,Publisher,Publication Date,Resource Contact,Abstract,Keyword,Resource Distribution,Spatial Extent,Taxonomic Extent,Temporal Extent,Maintenance,Resource Use Constraints,Process Step,Project Description,Entity Type Definition,Attribute Definition,Resource Access Constraints,Resource Format,Attribute List,Attribute Constraints,Resource Quality Description
+2009.0,4012.1.xml,1.0,1.0,2.0,1.0,0.0,1.0,0.0,1.0,1.0,5.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,9.0,0.0,1.0,1.0,0.0,0.0
+2009.0,4012.2.xml,1.0,1.0,2.0,1.0,0.0,1.0,0.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,9.0,0.0,1.0,1.0,0.0,0.0
+2009.0,4012.4.xml,1.0,1.0,2.0,1.0,0.0,1.0,0.0,1.0,1.0,8.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,9.0,1.0,1.0,1.0,0.0,0.0
+2009.0,6004.2.xml,1.0,1.0,2.0,1.0,0.0,1.0,0.0,1.0,1.0,7.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,44.0,0.0,1.0,1.0,0.0,0.0
+2009.0,6004.4.xml,1.0,1.0,2.0,1.0,0.0,1.0,0.0,1.0,1.0,9.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,45.0,1.0,1.0,1.0,0.0,0.0
+2009.0,6004.5.xml,1.0,1.0,2.0,1.0,0.0,1.0,0.0,1.0,1.0,9.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,45.0,1.0,1.0,1.0,0.0,0.0
+2009.0,7030.1.xml,1.0,1.0,1.0,1.0,0.0,1.0,0.0,1.0,1.0,7.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,7.0,0.0,1.0,1.0,0.0,0.0
+2009.0,7030.4.xml,1.0,1.0,1.0,1.0,0.0,1.0,0.0,1.0,1.0,9.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,7.0,1.0,1.0,1.0,0.0,0.0

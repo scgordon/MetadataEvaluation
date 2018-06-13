@@ -1,43 +1,27 @@
 Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
-Number of Records,2009_EML,397,397,1.00,1.0
-Abstract,2009_EML,397,397,1.00,1.0
-Author,2009_EML,424,397,1.07,1.0
-Author / Originator,2009_EML,424,397,1.07,1.0
-Author / Originator Email Address,2009_EML,27,27,0.07,0.06801007556675064
-Author / Originator Identifier,2009_EML,54,27,0.14,0.06801007556675064
-Author / Originator World Wide Web Address,2009_EML,27,27,0.07,0.06801007556675064
-Bounding Box,2009_EML,397,397,1.00,1.0
-Easternmost Longitude,2009_EML,397,397,1.00,1.0
-End Time,2009_EML,27,27,0.07,0.06801007556675064
-Keyword,2009_EML,834,397,2.10,1.0
-Keyword Type,2009_EML,834,397,2.10,1.0
-Metadata Access Constraints,2009_EML,27,27,0.07,0.06801007556675064
-Metadata Use Constraints,2009_EML,27,27,0.07,0.06801007556675064
-Northernmost Latitude,2009_EML,397,397,1.00,1.0
-Organization Name,2009_EML,794,397,2.00,1.0
-Originating Organization,2009_EML,54,27,0.14,0.06801007556675064
-Place Keyword,2009_EML,370,370,0.93,0.9319899244332494
-Project Name,2009_EML,27,27,0.07,0.06801007556675064
-Publication Date,2009_EML,397,397,1.00,1.0
-Publisher,2009_EML,370,370,0.93,0.9319899244332494
-Resource Access Constraints,2009_EML,27,27,0.07,0.06801007556675064
-Resource Contact,2009_EML,397,397,1.00,1.0
-Resource Creation/Revision Date,2009_EML,397,397,1.00,1.0
-Resource Distribution,2009_EML,397,397,1.00,1.0
-Resource Identifier,2009_EML,397,397,1.00,1.0
-Resource Identifier Type,2009_EML,397,397,1.00,1.0
-Resource Long Name,2009_EML,397,397,1.00,1.0
-Resource Status,2009_EML,27,27,0.07,0.06801007556675064
-Resource Title,2009_EML,397,397,1.00,1.0
-Resource Use Constraints,2009_EML,27,27,0.07,0.06801007556675064
-Resource on-line Link,2009_EML,397,397,1.00,1.0
-Rights,2009_EML,27,27,0.07,0.06801007556675064
-Security Constraints,2009_EML,27,27,0.07,0.06801007556675064
-Southernmost Latitude,2009_EML,397,397,1.00,1.0
-Spatial Extent,2009_EML,397,397,1.00,1.0
-Start Time,2009_EML,27,27,0.07,0.06801007556675064
-Temporal Extent,2009_EML,27,27,0.07,0.06801007556675064
-Vertical Maximum,2009_EML,370,370,0.93,0.9319899244332494
-Vertical Minimum,2009_EML,370,370,0.93,0.9319899244332494
-Vertical Resolution,2009_EML,370,370,0.93,0.9319899244332494
-Westernmost Longitude,2009_EML,397,397,1.00,1.0
+Number of Records,BES_2009_EML,397.0,397.0,1.0,1.0
+Resource Identifier,BES_2009_EML,397.0,397.0,1.0,1.0
+Resource Title,BES_2009_EML,397.0,397.0,1.0,1.0
+Author / Originator,BES_2009_EML,424.0,397.0,1.07,1.0
+Metadata Contact,BES_2009_EML,0.0,0.0,0.0,0.0
+Contributor Name,BES_2009_EML,0.0,0.0,0.0,0.0
+Publisher,BES_2009_EML,370.0,370.0,0.93,0.9319899244332494
+Publication Date,BES_2009_EML,397.0,397.0,1.0,1.0
+Resource Contact,BES_2009_EML,397.0,397.0,1.0,1.0
+Abstract,BES_2009_EML,397.0,397.0,1.0,1.0
+Keyword,BES_2009_EML,834.0,397.0,2.1,1.0
+Resource Distribution,BES_2009_EML,397.0,397.0,1.0,1.0
+Spatial Extent,BES_2009_EML,397.0,397.0,1.0,1.0
+Taxonomic Extent,BES_2009_EML,0.0,0.0,0.0,0.0
+Temporal Extent,BES_2009_EML,27.0,27.0,0.07,0.06801007556675064
+Maintenance,BES_2009_EML,0.0,0.0,0.0,0.0
+Resource Use Constraints,BES_2009_EML,27.0,27.0,0.07,0.06801007556675064
+Process Step,BES_2009_EML,0.0,0.0,0.0,0.0
+Project Description,BES_2009_EML,0.0,0.0,0.0,0.0
+Entity Type Definition,BES_2009_EML,0.0,0.0,0.0,0.0
+Attribute Definition,BES_2009_EML,0.0,0.0,0.0,0.0
+Resource Access Constraints,BES_2009_EML,27.0,27.0,0.07,0.06801007556675064
+Resource Format,BES_2009_EML,0.0,0.0,0.0,0.0
+Attribute List,BES_2009_EML,0.0,0.0,0.0,0.0
+Attribute Constraints,BES_2009_EML,0.0,0.0,0.0,0.0
+Resource Quality Description,BES_2009_EML,0.0,0.0,0.0,0.0

@@ -1,0 +1,27 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,HFR_2007_EML,29.0,29.0,1.0,1.0
+Resource Identifier,HFR_2007_EML,29.0,29.0,1.0,1.0
+Resource Title,HFR_2007_EML,29.0,29.0,1.0,1.0
+Author / Originator,HFR_2007_EML,43.0,29.0,1.48,1.0
+Metadata Contact,HFR_2007_EML,0.0,0.0,0.0,0.0
+Contributor Name,HFR_2007_EML,36.0,22.0,1.24,0.7586206896551724
+Publisher,HFR_2007_EML,29.0,29.0,1.0,1.0
+Publication Date,HFR_2007_EML,29.0,29.0,1.0,1.0
+Resource Contact,HFR_2007_EML,29.0,29.0,1.0,1.0
+Abstract,HFR_2007_EML,29.0,29.0,1.0,1.0
+Keyword,HFR_2007_EML,216.0,29.0,7.45,1.0
+Resource Distribution,HFR_2007_EML,29.0,29.0,1.0,1.0
+Spatial Extent,HFR_2007_EML,29.0,29.0,1.0,1.0
+Taxonomic Extent,HFR_2007_EML,21.0,21.0,0.72,0.7241379310344828
+Temporal Extent,HFR_2007_EML,29.0,29.0,1.0,1.0
+Maintenance,HFR_2007_EML,15.0,15.0,0.52,0.5172413793103449
+Resource Use Constraints,HFR_2007_EML,29.0,29.0,1.0,1.0
+Process Step,HFR_2007_EML,26.0,26.0,0.9,0.8965517241379308
+Project Description,HFR_2007_EML,0.0,0.0,0.0,0.0
+Entity Type Definition,HFR_2007_EML,55.0,28.0,1.9,0.9655172413793104
+Attribute Definition,HFR_2007_EML,1205.0,28.0,41.55,0.9655172413793104
+Resource Access Constraints,HFR_2007_EML,22.0,22.0,0.76,0.7586206896551724
+Resource Format,HFR_2007_EML,55.0,28.0,1.9,0.9655172413793104
+Attribute List,HFR_2007_EML,55.0,28.0,1.9,0.9655172413793104
+Attribute Constraints,HFR_2007_EML,0.0,0.0,0.0,0.0
+Resource Quality Description,HFR_2007_EML,0.0,0.0,0.0,0.0

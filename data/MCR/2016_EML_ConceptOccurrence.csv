@@ -1,0 +1,27 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,MCR_2016_EML,48.0,48.0,1.0,1.0
+Resource Identifier,MCR_2016_EML,48.0,48.0,1.0,1.0
+Resource Title,MCR_2016_EML,48.0,48.0,1.0,1.0
+Author / Originator,MCR_2016_EML,102.0,48.0,2.12,1.0
+Metadata Contact,MCR_2016_EML,0.0,0.0,0.0,0.0
+Contributor Name,MCR_2016_EML,94.0,40.0,1.96,0.8333333333333334
+Publisher,MCR_2016_EML,42.0,42.0,0.88,0.875
+Publication Date,MCR_2016_EML,48.0,48.0,1.0,1.0
+Resource Contact,MCR_2016_EML,97.0,48.0,2.02,1.0
+Abstract,MCR_2016_EML,48.0,48.0,1.0,1.0
+Keyword,MCR_2016_EML,1376.0,48.0,28.67,1.0
+Resource Distribution,MCR_2016_EML,32.0,32.0,0.67,0.6666666666666666
+Spatial Extent,MCR_2016_EML,177.0,48.0,3.69,1.0
+Taxonomic Extent,MCR_2016_EML,25.0,24.0,0.52,0.5
+Temporal Extent,MCR_2016_EML,48.0,48.0,1.0,1.0
+Maintenance,MCR_2016_EML,45.0,45.0,0.94,0.9375
+Resource Use Constraints,MCR_2016_EML,48.0,48.0,1.0,1.0
+Process Step,MCR_2016_EML,48.0,48.0,1.0,1.0
+Project Description,MCR_2016_EML,48.0,48.0,1.0,1.0
+Entity Type Definition,MCR_2016_EML,125.0,43.0,2.6,0.8958333333333334
+Attribute Definition,MCR_2016_EML,3700.0,43.0,77.08,0.8958333333333334
+Resource Access Constraints,MCR_2016_EML,48.0,48.0,1.0,1.0
+Resource Format,MCR_2016_EML,125.0,43.0,2.6,0.8958333333333334
+Attribute List,MCR_2016_EML,125.0,43.0,2.6,0.8958333333333334
+Attribute Constraints,MCR_2016_EML,34.0,22.0,0.71,0.4583333333333333
+Resource Quality Description,MCR_2016_EML,11.0,10.0,0.23,0.20833333333333331

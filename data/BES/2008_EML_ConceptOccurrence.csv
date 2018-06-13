@@ -1,38 +1,27 @@
 Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
-Number of Records,2008_EML,73,73,1.00,1.0
-Abstract,2008_EML,73,73,1.00,1.0
-Author,2008_EML,146,73,2.00,1.0
-Author / Originator,2008_EML,146,73,2.00,1.0
-Author / Originator Email Address,2008_EML,73,73,1.00,1.0
-Author / Originator Identifier,2008_EML,146,73,2.00,1.0
-Author / Originator World Wide Web Address,2008_EML,73,73,1.00,1.0
-Bounding Box,2008_EML,73,73,1.00,1.0
-Easternmost Longitude,2008_EML,73,73,1.00,1.0
-End Time,2008_EML,73,73,1.00,1.0
-Keyword,2008_EML,146,73,2.00,1.0
-Keyword Type,2008_EML,146,73,2.00,1.0
-Metadata Access Constraints,2008_EML,73,73,1.00,1.0
-Metadata Use Constraints,2008_EML,73,73,1.00,1.0
-Northernmost Latitude,2008_EML,73,73,1.00,1.0
-Organization Name,2008_EML,146,73,2.00,1.0
-Originating Organization,2008_EML,146,73,2.00,1.0
-Project Name,2008_EML,73,73,1.00,1.0
-Publication Date,2008_EML,73,73,1.00,1.0
-Resource Access Constraints,2008_EML,73,73,1.00,1.0
-Resource Contact,2008_EML,73,73,1.00,1.0
-Resource Creation/Revision Date,2008_EML,73,73,1.00,1.0
-Resource Distribution,2008_EML,73,73,1.00,1.0
-Resource Identifier,2008_EML,73,73,1.00,1.0
-Resource Identifier Type,2008_EML,73,73,1.00,1.0
-Resource Long Name,2008_EML,73,73,1.00,1.0
-Resource Status,2008_EML,73,73,1.00,1.0
-Resource Title,2008_EML,73,73,1.00,1.0
-Resource Use Constraints,2008_EML,73,73,1.00,1.0
-Resource on-line Link,2008_EML,73,73,1.00,1.0
-Rights,2008_EML,73,73,1.00,1.0
-Security Constraints,2008_EML,73,73,1.00,1.0
-Southernmost Latitude,2008_EML,73,73,1.00,1.0
-Spatial Extent,2008_EML,73,73,1.00,1.0
-Start Time,2008_EML,73,73,1.00,1.0
-Temporal Extent,2008_EML,73,73,1.00,1.0
-Westernmost Longitude,2008_EML,73,73,1.00,1.0
+Number of Records,BES_2008_EML,73.0,73.0,1.0,1.0
+Resource Identifier,BES_2008_EML,73.0,73.0,1.0,1.0
+Resource Title,BES_2008_EML,73.0,73.0,1.0,1.0
+Author / Originator,BES_2008_EML,146.0,73.0,2.0,1.0
+Metadata Contact,BES_2008_EML,0.0,0.0,0.0,0.0
+Contributor Name,BES_2008_EML,0.0,0.0,0.0,0.0
+Publisher,BES_2008_EML,0.0,0.0,0.0,0.0
+Publication Date,BES_2008_EML,73.0,73.0,1.0,1.0
+Resource Contact,BES_2008_EML,73.0,73.0,1.0,1.0
+Abstract,BES_2008_EML,73.0,73.0,1.0,1.0
+Keyword,BES_2008_EML,146.0,73.0,2.0,1.0
+Resource Distribution,BES_2008_EML,73.0,73.0,1.0,1.0
+Spatial Extent,BES_2008_EML,73.0,73.0,1.0,1.0
+Taxonomic Extent,BES_2008_EML,0.0,0.0,0.0,0.0
+Temporal Extent,BES_2008_EML,73.0,73.0,1.0,1.0
+Maintenance,BES_2008_EML,0.0,0.0,0.0,0.0
+Resource Use Constraints,BES_2008_EML,73.0,73.0,1.0,1.0
+Process Step,BES_2008_EML,0.0,0.0,0.0,0.0
+Project Description,BES_2008_EML,0.0,0.0,0.0,0.0
+Entity Type Definition,BES_2008_EML,0.0,0.0,0.0,0.0
+Attribute Definition,BES_2008_EML,0.0,0.0,0.0,0.0
+Resource Access Constraints,BES_2008_EML,73.0,73.0,1.0,1.0
+Resource Format,BES_2008_EML,0.0,0.0,0.0,0.0
+Attribute List,BES_2008_EML,0.0,0.0,0.0,0.0
+Attribute Constraints,BES_2008_EML,0.0,0.0,0.0,0.0
+Resource Quality Description,BES_2008_EML,0.0,0.0,0.0,0.0

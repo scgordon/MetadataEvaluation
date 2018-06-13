@@ -1,0 +1,27 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,BNZ_2010_EML,375.0,375.0,1.0,1.0
+Resource Identifier,BNZ_2010_EML,375.0,375.0,1.0,1.0
+Resource Title,BNZ_2010_EML,375.0,375.0,1.0,1.0
+Author / Originator,BNZ_2010_EML,463.0,375.0,1.23,1.0
+Metadata Contact,BNZ_2010_EML,375.0,375.0,1.0,1.0
+Contributor Name,BNZ_2010_EML,577.0,285.0,1.54,0.76
+Publisher,BNZ_2010_EML,375.0,375.0,1.0,1.0
+Publication Date,BNZ_2010_EML,375.0,375.0,1.0,1.0
+Resource Contact,BNZ_2010_EML,375.0,375.0,1.0,1.0
+Abstract,BNZ_2010_EML,374.0,374.0,1.0,0.9973333333333332
+Keyword,BNZ_2010_EML,1280.0,375.0,3.41,1.0
+Resource Distribution,BNZ_2010_EML,373.0,373.0,0.99,0.9946666666666668
+Spatial Extent,BNZ_2010_EML,327.0,327.0,0.87,0.872
+Taxonomic Extent,BNZ_2010_EML,0.0,0.0,0.0,0.0
+Temporal Extent,BNZ_2010_EML,375.0,375.0,1.0,1.0
+Maintenance,BNZ_2010_EML,375.0,375.0,1.0,1.0
+Resource Use Constraints,BNZ_2010_EML,375.0,375.0,1.0,1.0
+Process Step,BNZ_2010_EML,367.0,367.0,0.98,0.9786666666666668
+Project Description,BNZ_2010_EML,0.0,0.0,0.0,0.0
+Entity Type Definition,BNZ_2010_EML,93.0,46.0,0.25,0.12266666666666665
+Attribute Definition,BNZ_2010_EML,6210.0,274.0,16.56,0.7306666666666667
+Resource Access Constraints,BNZ_2010_EML,328.0,328.0,0.87,0.8746666666666667
+Resource Format,BNZ_2010_EML,493.0,274.0,1.31,0.7306666666666667
+Attribute List,BNZ_2010_EML,493.0,274.0,1.31,0.7306666666666667
+Attribute Constraints,BNZ_2010_EML,0.0,0.0,0.0,0.0
+Resource Quality Description,BNZ_2010_EML,0.0,0.0,0.0,0.0

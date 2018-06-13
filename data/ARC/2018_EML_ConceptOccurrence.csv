@@ -1,60 +1,27 @@
 Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
-Number of Records,2018_EML,71,71,1.00,1.0
-Abstract,2018_EML,71,71,1.00,1.0
-Attribute Definition,2018_EML,1609,71,22.66,1.0
-Attribute List,2018_EML,76,71,1.07,1.0
-Author,2018_EML,122,71,1.72,1.0
-Author / Originator,2018_EML,122,71,1.72,1.0
-Author / Originator Email Address,2018_EML,6,6,0.08,0.08450704225352113
-Author / Originator Identifier,2018_EML,100,64,1.41,0.9014084507042254
-Author / Originator World Wide Web Address,2018_EML,14,7,0.20,0.09859154929577464
-Bounding Box,2018_EML,1091,66,15.37,0.9295774647887324
-Contributor Name,2018_EML,139,70,1.96,0.9859154929577465
-Contributor Role,2018_EML,139,70,1.96,0.9859154929577465
-Distribution Format,2018_EML,76,71,1.07,1.0
-Easternmost Longitude,2018_EML,1091,66,15.37,0.9295774647887324
-End Time,2018_EML,71,71,1.00,1.0
-Entity Type Definition,2018_EML,76,71,1.07,1.0
-Entity and Attribute Information,2018_EML,76,71,1.07,1.0
-Keyword,2018_EML,642,70,9.04,0.9859154929577465
-Keyword Vocabulary,2018_EML,18,6,0.25,0.08450704225352113
-Maintenance,2018_EML,71,71,1.00,1.0
-Metadata Access Constraints,2018_EML,71,71,1.00,1.0
-Metadata Contact,2018_EML,65,65,0.92,0.9154929577464789
-Metadata Use Constraints,2018_EML,71,71,1.00,1.0
-Northernmost Latitude,2018_EML,1091,66,15.37,0.9295774647887324
-Organization Name,2018_EML,236,71,3.32,1.0
-Originating Organization,2018_EML,100,64,1.41,0.9014084507042254
-Process Step,2018_EML,71,71,1.00,1.0
-Project Description,2018_EML,70,70,0.99,0.9859154929577465
-Project Name,2018_EML,14,7,0.20,0.09859154929577464
-Publication Date,2018_EML,71,71,1.00,1.0
-Publisher,2018_EML,64,64,0.90,0.9014084507042254
-Publisher E-Mail,2018_EML,64,64,0.90,0.9014084507042254
-Publisher URL,2018_EML,64,64,0.90,0.9014084507042254
-Related Resource Citation,2018_EML,70,70,0.99,0.9859154929577465
-Resource Access Constraints,2018_EML,71,71,1.00,1.0
-Resource Contact,2018_EML,71,71,1.00,1.0
-Resource Creation/Revision Date,2018_EML,71,71,1.00,1.0
-Resource Distribution,2018_EML,71,71,1.00,1.0
-Resource Format,2018_EML,76,71,1.07,1.0
-Resource Identifier,2018_EML,71,71,1.00,1.0
-Resource Identifier Type,2018_EML,71,71,1.00,1.0
-Resource Language,2018_EML,7,7,0.10,0.09859154929577464
-Resource Lineage,2018_EML,71,71,1.00,1.0
-Resource Long Name,2018_EML,71,71,1.00,1.0
-Resource Status,2018_EML,71,71,1.00,1.0
-Resource Title,2018_EML,71,71,1.00,1.0
-Resource Use Constraints,2018_EML,71,71,1.00,1.0
-Resource on-line Link,2018_EML,71,71,1.00,1.0
-Rights,2018_EML,71,71,1.00,1.0
-Security Constraints,2018_EML,71,71,1.00,1.0
-Southernmost Latitude,2018_EML,1091,66,15.37,0.9295774647887324
-Spatial Extent,2018_EML,1091,66,15.37,0.9295774647887324
-Start Time,2018_EML,71,71,1.00,1.0
-Taxonomic Extent,2018_EML,23,23,0.32,0.323943661971831
-Temporal Extent,2018_EML,71,71,1.00,1.0
-Vertical Maximum,2018_EML,7,2,0.10,0.028169014084507043
-Vertical Minimum,2018_EML,7,2,0.10,0.028169014084507043
-Vertical Resolution,2018_EML,7,2,0.10,0.028169014084507043
-Westernmost Longitude,2018_EML,1091,66,15.37,0.9295774647887324
+Number of Records,ARC_2018_EML,71.0,71.0,1.0,1.0
+Resource Identifier,ARC_2018_EML,71.0,71.0,1.0,1.0
+Resource Title,ARC_2018_EML,71.0,71.0,1.0,1.0
+Author / Originator,ARC_2018_EML,122.0,71.0,1.72,1.0
+Metadata Contact,ARC_2018_EML,65.0,65.0,0.92,0.9154929577464788
+Contributor Name,ARC_2018_EML,139.0,70.0,1.96,0.9859154929577464
+Publisher,ARC_2018_EML,64.0,64.0,0.9,0.9014084507042254
+Publication Date,ARC_2018_EML,71.0,71.0,1.0,1.0
+Resource Contact,ARC_2018_EML,71.0,71.0,1.0,1.0
+Abstract,ARC_2018_EML,71.0,71.0,1.0,1.0
+Keyword,ARC_2018_EML,642.0,70.0,9.04,0.9859154929577464
+Resource Distribution,ARC_2018_EML,71.0,71.0,1.0,1.0
+Spatial Extent,ARC_2018_EML,1091.0,66.0,15.37,0.9295774647887324
+Taxonomic Extent,ARC_2018_EML,23.0,23.0,0.32,0.323943661971831
+Temporal Extent,ARC_2018_EML,71.0,71.0,1.0,1.0
+Maintenance,ARC_2018_EML,71.0,71.0,1.0,1.0
+Resource Use Constraints,ARC_2018_EML,71.0,71.0,1.0,1.0
+Process Step,ARC_2018_EML,71.0,71.0,1.0,1.0
+Project Description,ARC_2018_EML,70.0,70.0,0.99,0.9859154929577464
+Entity Type Definition,ARC_2018_EML,76.0,71.0,1.07,1.0
+Attribute Definition,ARC_2018_EML,1609.0,71.0,22.66,1.0
+Resource Access Constraints,ARC_2018_EML,71.0,71.0,1.0,1.0
+Resource Format,ARC_2018_EML,76.0,71.0,1.07,1.0
+Attribute List,ARC_2018_EML,76.0,71.0,1.07,1.0
+Attribute Constraints,ARC_2018_EML,0.0,0.0,0.0,0.0
+Resource Quality Description,ARC_2018_EML,0.0,0.0,0.0,0.0

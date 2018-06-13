@@ -1,43 +1,27 @@
 Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
-Number of Records,2009_EML,1,1,1.00,1.0
-Abstract,2009_EML,1,1,1.00,1.0
-Attribute Definition,2009_EML,43,1,43.00,1.0
-Attribute List,2009_EML,7,1,7.00,1.0
-Author,2009_EML,2,1,2.00,1.0
-Author / Originator,2009_EML,2,1,2.00,1.0
-Author / Originator Email Address,2009_EML,2,1,2.00,1.0
-Author / Originator World Wide Web Address,2009_EML,2,1,2.00,1.0
-Bounding Box,2009_EML,1,1,1.00,1.0
-Contributor Name,2009_EML,4,1,4.00,1.0
-Contributor Role,2009_EML,4,1,4.00,1.0
-Easternmost Longitude,2009_EML,1,1,1.00,1.0
-End Time,2009_EML,1,1,1.00,1.0
-Entity Type Definition,2009_EML,7,1,7.00,1.0
-Entity and Attribute Information,2009_EML,7,1,7.00,1.0
-Keyword,2009_EML,5,1,5.00,1.0
-Metadata Contact,2009_EML,2,1,2.00,1.0
-Northernmost Latitude,2009_EML,1,1,1.00,1.0
-Process Step,2009_EML,1,1,1.00,1.0
-Project Description,2009_EML,1,1,1.00,1.0
-Project Name,2009_EML,2,1,2.00,1.0
-Publication Date,2009_EML,1,1,1.00,1.0
-Related Resource Citation,2009_EML,1,1,1.00,1.0
-Resource Contact,2009_EML,1,1,1.00,1.0
-Resource Creation/Revision Date,2009_EML,1,1,1.00,1.0
-Resource Distribution,2009_EML,1,1,1.00,1.0
-Resource Identifier,2009_EML,1,1,1.00,1.0
-Resource Identifier Type,2009_EML,1,1,1.00,1.0
-Resource Lineage,2009_EML,1,1,1.00,1.0
-Resource Long Name,2009_EML,1,1,1.00,1.0
-Resource Title,2009_EML,1,1,1.00,1.0
-Resource Use Constraints,2009_EML,1,1,1.00,1.0
-Resource on-line Link,2009_EML,1,1,1.00,1.0
-Rights,2009_EML,1,1,1.00,1.0
-Southernmost Latitude,2009_EML,1,1,1.00,1.0
-Spatial Extent,2009_EML,1,1,1.00,1.0
-Start Time,2009_EML,1,1,1.00,1.0
-Temporal Extent,2009_EML,1,1,1.00,1.0
-Vertical Maximum,2009_EML,1,1,1.00,1.0
-Vertical Minimum,2009_EML,1,1,1.00,1.0
-Vertical Resolution,2009_EML,1,1,1.00,1.0
-Westernmost Longitude,2009_EML,1,1,1.00,1.0
+Number of Records,AND_2009_EML,1.0,1.0,1.0,1.0
+Resource Identifier,AND_2009_EML,1.0,1.0,1.0,1.0
+Resource Title,AND_2009_EML,1.0,1.0,1.0,1.0
+Author / Originator,AND_2009_EML,2.0,1.0,2.0,1.0
+Metadata Contact,AND_2009_EML,2.0,1.0,2.0,1.0
+Contributor Name,AND_2009_EML,4.0,1.0,4.0,1.0
+Publisher,AND_2009_EML,0.0,0.0,0.0,0.0
+Publication Date,AND_2009_EML,1.0,1.0,1.0,1.0
+Resource Contact,AND_2009_EML,1.0,1.0,1.0,1.0
+Abstract,AND_2009_EML,1.0,1.0,1.0,1.0
+Keyword,AND_2009_EML,5.0,1.0,5.0,1.0
+Resource Distribution,AND_2009_EML,1.0,1.0,1.0,1.0
+Spatial Extent,AND_2009_EML,1.0,1.0,1.0,1.0
+Taxonomic Extent,AND_2009_EML,0.0,0.0,0.0,0.0
+Temporal Extent,AND_2009_EML,1.0,1.0,1.0,1.0
+Maintenance,AND_2009_EML,0.0,0.0,0.0,0.0
+Resource Use Constraints,AND_2009_EML,1.0,1.0,1.0,1.0
+Process Step,AND_2009_EML,1.0,1.0,1.0,1.0
+Project Description,AND_2009_EML,1.0,1.0,1.0,1.0
+Entity Type Definition,AND_2009_EML,7.0,1.0,7.0,1.0
+Attribute Definition,AND_2009_EML,43.0,1.0,43.0,1.0
+Resource Access Constraints,AND_2009_EML,0.0,0.0,0.0,0.0
+Resource Format,AND_2009_EML,0.0,0.0,0.0,0.0
+Attribute List,AND_2009_EML,7.0,1.0,7.0,1.0
+Attribute Constraints,AND_2009_EML,0.0,0.0,0.0,0.0
+Resource Quality Description,AND_2009_EML,0.0,0.0,0.0,0.0

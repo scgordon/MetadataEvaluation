@@ -1,0 +1,27 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,SEV_2016_EML,156.0,156.0,1.0,1.0
+Resource Identifier,SEV_2016_EML,156.0,156.0,1.0,1.0
+Resource Title,SEV_2016_EML,156.0,156.0,1.0,1.0
+Author / Originator,SEV_2016_EML,257.0,156.0,1.65,1.0
+Metadata Contact,SEV_2016_EML,146.0,146.0,0.94,0.935897435897436
+Contributor Name,SEV_2016_EML,377.0,107.0,2.42,0.6858974358974359
+Publisher,SEV_2016_EML,150.0,150.0,0.96,0.9615384615384616
+Publication Date,SEV_2016_EML,156.0,156.0,1.0,1.0
+Resource Contact,SEV_2016_EML,323.0,156.0,2.07,1.0
+Abstract,SEV_2016_EML,156.0,156.0,1.0,1.0
+Keyword,SEV_2016_EML,1754.0,156.0,11.24,1.0
+Resource Distribution,SEV_2016_EML,154.0,154.0,0.99,0.9871794871794872
+Spatial Extent,SEV_2016_EML,451.0,147.0,2.89,0.9423076923076924
+Taxonomic Extent,SEV_2016_EML,1.0,1.0,0.01,0.00641025641025641
+Temporal Extent,SEV_2016_EML,156.0,156.0,1.0,1.0
+Maintenance,SEV_2016_EML,86.0,86.0,0.55,0.5512820512820513
+Resource Use Constraints,SEV_2016_EML,156.0,156.0,1.0,1.0
+Process Step,SEV_2016_EML,152.0,152.0,0.97,0.9743589743589745
+Project Description,SEV_2016_EML,2.0,2.0,0.01,0.01282051282051282
+Entity Type Definition,SEV_2016_EML,168.0,148.0,1.08,0.9487179487179488
+Attribute Definition,SEV_2016_EML,2365.0,156.0,15.16,1.0
+Resource Access Constraints,SEV_2016_EML,156.0,156.0,1.0,1.0
+Resource Format,SEV_2016_EML,184.0,156.0,1.18,1.0
+Attribute List,SEV_2016_EML,184.0,156.0,1.18,1.0
+Attribute Constraints,SEV_2016_EML,0.0,0.0,0.0,0.0
+Resource Quality Description,SEV_2016_EML,42.0,42.0,0.27,0.2692307692307692

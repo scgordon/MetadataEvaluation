@@ -1,65 +1,27 @@
 Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
-Number of Records,2008_EML,6,6,1.00,1.0
-Abstract,2008_EML,6,6,1.00,1.0
-Attribute Constraints,2008_EML,6,2,1.00,0.3333333333333333
-Attribute Definition,2008_EML,205,6,34.17,1.0
-Attribute List,2008_EML,21,6,3.50,1.0
-Author,2008_EML,12,6,2.00,1.0
-Author / Originator,2008_EML,12,6,2.00,1.0
-Author / Originator Email Address,2008_EML,10,6,1.67,1.0
-Author / Originator World Wide Web Address,2008_EML,10,6,1.67,1.0
-Bounding Box,2008_EML,6,6,1.00,1.0
-Contributor Name,2008_EML,59,6,9.83,1.0
-Contributor Role,2008_EML,59,6,9.83,1.0
-Distribution Format,2008_EML,3,2,0.50,0.3333333333333333
-Easternmost Longitude,2008_EML,6,6,1.00,1.0
-End Time,2008_EML,6,6,1.00,1.0
-Entity Type Definition,2008_EML,21,6,3.50,1.0
-Entity and Attribute Information,2008_EML,21,6,3.50,1.0
-Instrument,2008_EML,10,2,1.67,0.3333333333333333
-Keyword,2008_EML,81,6,13.50,1.0
-Keyword Type,2008_EML,24,2,4.00,0.3333333333333333
-Keyword Vocabulary,2008_EML,2,2,0.33,0.3333333333333333
-Maintenance,2008_EML,2,2,0.33,0.3333333333333333
-Metadata Access Constraints,2008_EML,2,2,0.33,0.3333333333333333
-Metadata Contact,2008_EML,12,6,2.00,1.0
-Metadata Modified Date,2008_EML,17,2,2.83,0.3333333333333333
-Metadata Use Constraints,2008_EML,2,2,0.33,0.3333333333333333
-Northernmost Latitude,2008_EML,6,6,1.00,1.0
-Organization Name,2008_EML,4,2,0.67,0.3333333333333333
-Originating Organization,2008_EML,2,2,0.33,0.3333333333333333
-Process Step,2008_EML,6,6,1.00,1.0
-Project Description,2008_EML,6,6,1.00,1.0
-Project Name,2008_EML,10,6,1.67,1.0
-Publication Date,2008_EML,6,6,1.00,1.0
-Publisher,2008_EML,2,2,0.33,0.3333333333333333
-Publisher E-Mail,2008_EML,2,2,0.33,0.3333333333333333
-Publisher URL,2008_EML,2,2,0.33,0.3333333333333333
-Purpose,2008_EML,2,2,0.33,0.3333333333333333
-Related Resource Citation,2008_EML,6,6,1.00,1.0
-Resource Access Constraints,2008_EML,2,2,0.33,0.3333333333333333
-Resource Contact,2008_EML,6,6,1.00,1.0
-Resource Creation/Revision Date,2008_EML,23,6,3.83,1.0
-Resource Distribution,2008_EML,6,6,1.00,1.0
-Resource Format,2008_EML,3,2,0.50,0.3333333333333333
-Resource Identifier,2008_EML,6,6,1.00,1.0
-Resource Identifier Type,2008_EML,6,6,1.00,1.0
-Resource Lineage,2008_EML,6,6,1.00,1.0
-Resource Long Name,2008_EML,6,6,1.00,1.0
-Resource Revision Date,2008_EML,17,2,2.83,0.3333333333333333
-Resource Status,2008_EML,2,2,0.33,0.3333333333333333
-Resource Title,2008_EML,6,6,1.00,1.0
-Resource Update Frequency,2008_EML,2,2,0.33,0.3333333333333333
-Resource Use Constraints,2008_EML,6,6,1.00,1.0
-Resource on-line Link,2008_EML,6,6,1.00,1.0
-Rights,2008_EML,6,6,1.00,1.0
-Security Constraints,2008_EML,2,2,0.33,0.3333333333333333
-Southernmost Latitude,2008_EML,6,6,1.00,1.0
-Spatial Extent,2008_EML,6,6,1.00,1.0
-Start Time,2008_EML,6,6,1.00,1.0
-Taxonomic Extent,2008_EML,2,2,0.33,0.3333333333333333
-Temporal Extent,2008_EML,6,6,1.00,1.0
-Vertical Maximum,2008_EML,6,6,1.00,1.0
-Vertical Minimum,2008_EML,6,6,1.00,1.0
-Vertical Resolution,2008_EML,6,6,1.00,1.0
-Westernmost Longitude,2008_EML,6,6,1.00,1.0
+Number of Records,AND_2008_EML,6.0,6.0,1.0,1.0
+Resource Identifier,AND_2008_EML,6.0,6.0,1.0,1.0
+Resource Title,AND_2008_EML,6.0,6.0,1.0,1.0
+Author / Originator,AND_2008_EML,12.0,6.0,2.0,1.0
+Metadata Contact,AND_2008_EML,12.0,6.0,2.0,1.0
+Contributor Name,AND_2008_EML,59.0,6.0,9.83,1.0
+Publisher,AND_2008_EML,2.0,2.0,0.33,0.3333333333333333
+Publication Date,AND_2008_EML,6.0,6.0,1.0,1.0
+Resource Contact,AND_2008_EML,6.0,6.0,1.0,1.0
+Abstract,AND_2008_EML,6.0,6.0,1.0,1.0
+Keyword,AND_2008_EML,81.0,6.0,13.5,1.0
+Resource Distribution,AND_2008_EML,6.0,6.0,1.0,1.0
+Spatial Extent,AND_2008_EML,6.0,6.0,1.0,1.0
+Taxonomic Extent,AND_2008_EML,2.0,2.0,0.33,0.3333333333333333
+Temporal Extent,AND_2008_EML,6.0,6.0,1.0,1.0
+Maintenance,AND_2008_EML,2.0,2.0,0.33,0.3333333333333333
+Resource Use Constraints,AND_2008_EML,6.0,6.0,1.0,1.0
+Process Step,AND_2008_EML,6.0,6.0,1.0,1.0
+Project Description,AND_2008_EML,6.0,6.0,1.0,1.0
+Entity Type Definition,AND_2008_EML,21.0,6.0,3.5,1.0
+Attribute Definition,AND_2008_EML,205.0,6.0,34.17,1.0
+Resource Access Constraints,AND_2008_EML,2.0,2.0,0.33,0.3333333333333333
+Resource Format,AND_2008_EML,3.0,2.0,0.5,0.3333333333333333
+Attribute List,AND_2008_EML,21.0,6.0,3.5,1.0
+Attribute Constraints,AND_2008_EML,6.0,2.0,1.0,0.3333333333333333
+Resource Quality Description,AND_2008_EML,0.0,0.0,0.0,0.0

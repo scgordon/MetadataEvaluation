@@ -1,52 +1,27 @@
 Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
-Number of Records,2015_EML,1115,1115,1.00,1.0
-Abstract,2015_EML,1115,1115,1.00,1.0
-Attribute Definition,2015_EML,27838,1115,24.97,1.0
-Attribute List,2015_EML,1123,1115,1.01,1.0
-Author,2015_EML,1662,1115,1.49,1.0
-Author / Originator,2015_EML,1662,1115,1.49,1.0
-Author / Originator Identifier,2015_EML,1662,1115,1.49,1.0
-Bounding Box,2015_EML,7712,1115,6.92,1.0
-Contributor Name,2015_EML,2597,946,2.33,0.8484304932735426
-Contributor Role,2015_EML,2597,946,2.33,0.8484304932735426
-Distribution Format,2015_EML,1123,1115,1.01,1.0
-Easternmost Longitude,2015_EML,7712,1115,6.92,1.0
-End Time,2015_EML,1115,1115,1.00,1.0
-Entity Type Definition,2015_EML,1123,1115,1.01,1.0
-Entity and Attribute Information,2015_EML,1123,1115,1.01,1.0
-Keyword,2015_EML,9626,1115,8.63,1.0
-Maintenance,2015_EML,1115,1115,1.00,1.0
-Metadata Access Constraints,2015_EML,1115,1115,1.00,1.0
-Metadata Contact,2015_EML,1115,1115,1.00,1.0
-Metadata Use Constraints,2015_EML,1115,1115,1.00,1.0
-Northernmost Latitude,2015_EML,7712,1115,6.92,1.0
-Organization Name,2015_EML,5005,1115,4.49,1.0
-Originating Organization,2015_EML,1662,1115,1.49,1.0
-Process Step,2015_EML,1115,1115,1.00,1.0
-Project Description,2015_EML,1115,1115,1.00,1.0
-Publication Date,2015_EML,1115,1115,1.00,1.0
-Publisher,2015_EML,1115,1115,1.00,1.0
-Publisher E-Mail,2015_EML,1115,1115,1.00,1.0
-Publisher URL,2015_EML,1115,1115,1.00,1.0
-Related Resource Citation,2015_EML,1115,1115,1.00,1.0
-Resource Access Constraints,2015_EML,1115,1115,1.00,1.0
-Resource Contact,2015_EML,2228,1115,2.00,1.0
-Resource Creation/Revision Date,2015_EML,1115,1115,1.00,1.0
-Resource Distribution,2015_EML,1115,1115,1.00,1.0
-Resource Format,2015_EML,1123,1115,1.01,1.0
-Resource Identifier,2015_EML,1115,1115,1.00,1.0
-Resource Identifier Type,2015_EML,1115,1115,1.00,1.0
-Resource Lineage,2015_EML,1115,1115,1.00,1.0
-Resource Long Name,2015_EML,1115,1115,1.00,1.0
-Resource Status,2015_EML,1115,1115,1.00,1.0
-Resource Title,2015_EML,1115,1115,1.00,1.0
-Resource Use Constraints,2015_EML,1115,1115,1.00,1.0
-Resource on-line Link,2015_EML,1115,1115,1.00,1.0
-Rights,2015_EML,1115,1115,1.00,1.0
-Security Constraints,2015_EML,1115,1115,1.00,1.0
-Southernmost Latitude,2015_EML,7712,1115,6.92,1.0
-Spatial Extent,2015_EML,7712,1115,6.92,1.0
-Start Time,2015_EML,1115,1115,1.00,1.0
-Taxonomic Extent,2015_EML,228,228,0.20,0.20448430493273542
-Temporal Extent,2015_EML,1115,1115,1.00,1.0
-Westernmost Longitude,2015_EML,7712,1115,6.92,1.0
+Number of Records,ARC_2015_EML,1115.0,1115.0,1.0,1.0
+Resource Identifier,ARC_2015_EML,1115.0,1115.0,1.0,1.0
+Resource Title,ARC_2015_EML,1115.0,1115.0,1.0,1.0
+Author / Originator,ARC_2015_EML,1662.0,1115.0,1.49,1.0
+Metadata Contact,ARC_2015_EML,1115.0,1115.0,1.0,1.0
+Contributor Name,ARC_2015_EML,2597.0,946.0,2.33,0.8484304932735426
+Publisher,ARC_2015_EML,1115.0,1115.0,1.0,1.0
+Publication Date,ARC_2015_EML,1115.0,1115.0,1.0,1.0
+Resource Contact,ARC_2015_EML,2228.0,1115.0,2.0,1.0
+Abstract,ARC_2015_EML,1115.0,1115.0,1.0,1.0
+Keyword,ARC_2015_EML,9626.0,1115.0,8.63,1.0
+Resource Distribution,ARC_2015_EML,1115.0,1115.0,1.0,1.0
+Spatial Extent,ARC_2015_EML,7712.0,1115.0,6.92,1.0
+Taxonomic Extent,ARC_2015_EML,228.0,228.0,0.2,0.20448430493273545
+Temporal Extent,ARC_2015_EML,1115.0,1115.0,1.0,1.0
+Maintenance,ARC_2015_EML,1115.0,1115.0,1.0,1.0
+Resource Use Constraints,ARC_2015_EML,1115.0,1115.0,1.0,1.0
+Process Step,ARC_2015_EML,1115.0,1115.0,1.0,1.0
+Project Description,ARC_2015_EML,1115.0,1115.0,1.0,1.0
+Entity Type Definition,ARC_2015_EML,1123.0,1115.0,1.01,1.0
+Attribute Definition,ARC_2015_EML,27838.0,1115.0,24.97,1.0
+Resource Access Constraints,ARC_2015_EML,1115.0,1115.0,1.0,1.0
+Resource Format,ARC_2015_EML,1123.0,1115.0,1.01,1.0
+Attribute List,ARC_2015_EML,1123.0,1115.0,1.01,1.0
+Attribute Constraints,ARC_2015_EML,0.0,0.0,0.0,0.0
+Resource Quality Description,ARC_2015_EML,0.0,0.0,0.0,0.0

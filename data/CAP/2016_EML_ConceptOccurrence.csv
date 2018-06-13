@@ -1,0 +1,27 @@
+Concept,Collection,ConceptCount,RecordCount,AverageOccurrencePerRecord,CollectionOccurrence%
+Number of Records,CAP_2016_EML,25.0,25.0,1.0,1.0
+Resource Identifier,CAP_2016_EML,25.0,25.0,1.0,1.0
+Resource Title,CAP_2016_EML,25.0,25.0,1.0,1.0
+Author / Originator,CAP_2016_EML,93.0,25.0,3.72,1.0
+Metadata Contact,CAP_2016_EML,42.0,21.0,1.68,0.84
+Contributor Name,CAP_2016_EML,24.0,1.0,0.96,0.04
+Publisher,CAP_2016_EML,15.0,15.0,0.6,0.6
+Publication Date,CAP_2016_EML,25.0,25.0,1.0,1.0
+Resource Contact,CAP_2016_EML,43.0,25.0,1.72,1.0
+Abstract,CAP_2016_EML,25.0,25.0,1.0,1.0
+Keyword,CAP_2016_EML,607.0,25.0,24.28,1.0
+Resource Distribution,CAP_2016_EML,23.0,23.0,0.92,0.92
+Spatial Extent,CAP_2016_EML,27.0,25.0,1.08,1.0
+Taxonomic Extent,CAP_2016_EML,6.0,6.0,0.24,0.24
+Temporal Extent,CAP_2016_EML,25.0,25.0,1.0,1.0
+Maintenance,CAP_2016_EML,5.0,5.0,0.2,0.2
+Resource Use Constraints,CAP_2016_EML,25.0,25.0,1.0,1.0
+Process Step,CAP_2016_EML,24.0,24.0,0.96,0.96
+Project Description,CAP_2016_EML,2.0,2.0,0.08,0.08
+Entity Type Definition,CAP_2016_EML,86.0,22.0,3.44,0.88
+Attribute Definition,CAP_2016_EML,3254.0,22.0,130.16,0.88
+Resource Access Constraints,CAP_2016_EML,25.0,25.0,1.0,1.0
+Resource Format,CAP_2016_EML,86.0,22.0,3.44,0.88
+Attribute List,CAP_2016_EML,86.0,22.0,3.44,0.88
+Attribute Constraints,CAP_2016_EML,3.0,2.0,0.12,0.08
+Resource Quality Description,CAP_2016_EML,0.0,0.0,0.0,0.0
